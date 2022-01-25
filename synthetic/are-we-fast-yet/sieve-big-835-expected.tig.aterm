@@ -1,0 +1,1 @@
+[While(Leq(LValue2Exp(Var2LValue(Var("k"))),LValue2Exp(Var2LValue(Var("size")))),Seq([Assign(Subscript(Var2LValue(Var("flags")),Minus(LValue2Exp(Var2LValue(Var("k"))),Int("1"))),Int("0")),Assign(Var2LValue(Var("k")),Plus(LValue2Exp(Var2LValue(Var("k"))),LValue2Exp(Var2LValue(Var("i")))))]))]

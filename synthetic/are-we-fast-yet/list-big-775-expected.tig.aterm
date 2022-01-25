@@ -1,0 +1,1 @@
+If(Eq(LValue2Exp(FieldVar(Var2LValue(Var("l")),"next")),NilExp()),Int("1"),Plus(Int("1"),Call("length",[LValue2Exp(FieldVar(Var2LValue(Var("l")),"next"))])))

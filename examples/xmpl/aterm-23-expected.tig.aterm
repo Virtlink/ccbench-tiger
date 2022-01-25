@@ -1,0 +1,1 @@
+FunDec("app",[FArg("fun",Tid("string")),FArg("args",Tid("alist"))],Tid("aterm"),Record("aterm",[InitField("fun",LValue2Exp(Var2LValue(Var("fun")))),InitField("args",LValue2Exp(Var2LValue(Var("args"))))]))

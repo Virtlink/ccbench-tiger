@@ -1,0 +1,1 @@
+TypeDec("list",RecordTy([Field("hd","int"),Field("tl","list")]))

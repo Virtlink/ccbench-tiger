@@ -1,0 +1,1 @@
+TypeDec("rectype2",RecordTy([Field("name","string"),Field("dates","arrtype1")]))

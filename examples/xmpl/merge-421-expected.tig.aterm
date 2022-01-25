@@ -1,0 +1,1 @@
+ProcDec("printlist",[FArg("l",Tid("list"))],If(Eq(LValue2Exp(Var2LValue(Var("l"))),NilExp()),Call("print",[String("\"\\n\"")]),Seq([Call("printint",[LValue2Exp(FieldVar(Var2LValue(Var("l")),"first"))]),Call("print",[String("\" \"")]),Call("printlist",[LValue2Exp(FieldVar(Var2LValue(Var("l")),"rest"))])])))

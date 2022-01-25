@@ -1,0 +1,1 @@
+[Call("write",[String("\"\\n\"")]),For(Var("i"),Int("1"),LValue2Exp(Var2LValue(Var("n"))),Call("write",[String("\" \"")])),Assign(Var2LValue(Var("output")),Call("concat",[LValue2Exp(Var2LValue(Var("output"))),LValue2Exp(Var2LValue(Var("s")))]))]

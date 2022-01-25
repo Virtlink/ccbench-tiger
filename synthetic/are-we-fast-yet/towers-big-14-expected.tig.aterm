@@ -1,0 +1,1 @@
+RecordTy([Field("size","int"),Field("next","TowersDisk")])

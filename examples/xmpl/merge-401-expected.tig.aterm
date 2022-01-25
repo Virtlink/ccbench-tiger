@@ -1,0 +1,1 @@
+If(Gt(LValue2Exp(Var2LValue(Var("i"))),Int("0")),Call("f",[LValue2Exp(Var2LValue(Var("i")))]),Call("print",[String("\"0\"")]))

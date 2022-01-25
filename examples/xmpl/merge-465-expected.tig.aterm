@@ -1,0 +1,1 @@
+VarDecNoType("list1",Call("readlist",[]))

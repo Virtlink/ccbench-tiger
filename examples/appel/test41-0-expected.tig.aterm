@@ -1,0 +1,1 @@
+Mod(Let([TypeDec("a",Tid("int"))],[Let([TypeDec("a",Tid("string"))],[Int("0")])]))

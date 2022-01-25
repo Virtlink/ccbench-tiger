@@ -1,0 +1,1 @@
+[Plus(Minus(LValue2Exp(Var2LValue(Var("i"))),Times(Divide(LValue2Exp(Var2LValue(Var("i"))),Int("10")),Int("10"))),Call("ord",[String("\"0\"")]))]

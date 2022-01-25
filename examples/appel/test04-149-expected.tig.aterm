@@ -1,0 +1,1 @@
+Call("printnl",[Call("inttostring",[Call("nfactor",[Int("10")])])])

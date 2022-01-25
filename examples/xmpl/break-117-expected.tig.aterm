@@ -1,0 +1,1 @@
+Call("print",[Call("inttostring",[LValue2Exp(Var2LValue(Var("x")))])])

@@ -1,0 +1,1 @@
+VarDecNoType("r2",Call("fact",[Int("10")]))

@@ -1,0 +1,1 @@
+Record("point",[InitField("x",Int("1")),InitField("y",Int("2"))])

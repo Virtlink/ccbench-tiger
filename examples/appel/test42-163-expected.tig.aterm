@@ -1,0 +1,1 @@
+Assign(Subscript(Var2LValue(Var("arr3")),Int("34")),String("\"sfd\""))

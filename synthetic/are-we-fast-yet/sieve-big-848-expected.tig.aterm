@@ -1,0 +1,1 @@
+Assign(Subscript(Var2LValue(Var("flags")),Minus(LValue2Exp(Var2LValue(Var("k"))),Int("1"))),Int("0"))

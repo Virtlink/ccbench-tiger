@@ -1,0 +1,1 @@
+[FunDec("f",[FArg("x",Tid("int"))],Tid("int"),Int("0"))]

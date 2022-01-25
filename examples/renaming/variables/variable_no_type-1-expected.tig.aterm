@@ -1,0 +1,1 @@
+Let([VarDecNoType("msg",String("\"Hello World\""))],[Call("print",[LValue2Exp(Var2LValue(Var("msg")))])])

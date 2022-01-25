@@ -1,0 +1,1 @@
+VarDec("top3",Tid("TowersDisk"),LValue2Exp(Subscript(Var2LValue(Var("piles")),LValue2Exp(Var2LValue(Var("pile"))))))

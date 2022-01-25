@@ -1,0 +1,1 @@
+If(Eq(LValue2Exp(Subscript(Var2LValue(Var("col")),LValue2Exp(Var2LValue(Var("i"))))),LValue2Exp(Var2LValue(Var("j")))),String("\" O\""),String("\" .\""))

@@ -1,0 +1,1 @@
+[Assign(Var2LValue(Var("xTail")),LValue2Exp(FieldVar(Var2LValue(Var("xTail")),"next"))),Assign(Var2LValue(Var("yTail")),LValue2Exp(FieldVar(Var2LValue(Var("yTail")),"next")))]

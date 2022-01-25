@@ -1,0 +1,1 @@
+[FArg("disk",Tid("TowersDisk")),FArg("pile",Tid("int")),FArg("disk2",Tid("TowersDisk")),FArg("pile2",Tid("int")),FArg("disk3",Tid("TowersDisk")),FArg("pile3",Tid("int")),FArg("disk4",Tid("TowersDisk")),FArg("pile4",Tid("int"))]

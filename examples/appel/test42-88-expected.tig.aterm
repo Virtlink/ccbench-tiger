@@ -1,0 +1,1 @@
+[InitField("name",String("\"Kapoios\"")),InitField("address",String("\"Kapou\"")),InitField("id",Int("02432")),InitField("age",Int("44"))]

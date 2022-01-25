@@ -1,0 +1,1 @@
+InitField("val",LValue2Exp(Var2LValue(Var("length"))))

@@ -1,0 +1,1 @@
+[VarDecNoType("i",Int("1")),VarDecNoType("j",LValue2Exp(Var2LValue(Var("i")))),TypeDec("vec",ArrayTy("int")),VarDec("v",Tid("vec"),Array("vec",Int("5"),Int("0")))]

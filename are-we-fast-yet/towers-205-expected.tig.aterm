@@ -1,0 +1,1 @@
+[InitField("size",LValue2Exp(Var2LValue(Var("i")))),InitField("next",NilExp())]

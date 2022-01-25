@@ -1,0 +1,1 @@
+Assign(Var2LValue(Var("l")),Record("intlist",[InitField("hd",Int("3")),InitField("tl",LValue2Exp(Var2LValue(Var("l"))))]))

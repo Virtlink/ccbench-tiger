@@ -1,0 +1,1 @@
+[InitField("fun",LValue2Exp(Var2LValue(Var("fun")))),InitField("args",LValue2Exp(Var2LValue(Var("args"))))]

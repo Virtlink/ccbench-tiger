@@ -1,0 +1,1 @@
+Record("student",[InitField("name",String("\"Alan Turing\"")),InitField("age",Int("107"))])

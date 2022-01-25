@@ -1,0 +1,1 @@
+RecordTy([Field("hd","int"),Field("tl","intlist"),Field("hd2","int"),Field("tl2","intlist"),Field("hd3","int"),Field("tl3","intlist"),Field("hd4","int"),Field("tl4","intlist"),Field("hd5","int"),Field("tl5","intlist")])

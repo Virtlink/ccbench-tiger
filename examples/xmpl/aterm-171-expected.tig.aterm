@@ -1,0 +1,1 @@
+If(And(Eq(LValue2Exp(Var2LValue(Var("xs"))),NilExp()),Eq(LValue2Exp(Var2LValue(Var("ys"))),NilExp())),Int("1"),Int("0"))

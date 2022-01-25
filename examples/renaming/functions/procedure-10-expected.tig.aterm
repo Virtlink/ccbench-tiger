@@ -1,0 +1,1 @@
+Seq([Call("print",[LValue2Exp(Var2LValue(Var("x")))]),Call("print",[String("\"\\n\"")])])

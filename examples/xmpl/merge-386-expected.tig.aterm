@@ -1,0 +1,1 @@
+Seq([Call("print",[String("\"-\"")]),Call("f",[Uminus(LValue2Exp(Var2LValue(Var("i"))))])])

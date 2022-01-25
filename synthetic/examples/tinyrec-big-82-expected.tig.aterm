@@ -1,0 +1,1 @@
+VarDec("rec14",Tid("myrec"),Record("myrec",[InitField("x",Int("1"))]))

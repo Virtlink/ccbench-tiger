@@ -1,0 +1,1 @@
+FunDec("f5",[FArg("y",Tid("int")),FArg("y2",Tid("int")),FArg("y3",Tid("int")),FArg("y4",Tid("int")),FArg("y5",Tid("int"))],Tid("foo"),Plus(Plus(Int("3"),LValue2Exp(Var2LValue(Var("x")))),LValue2Exp(Var2LValue(Var("y")))))

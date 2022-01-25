@@ -1,0 +1,1 @@
+[InitField("first",LValue2Exp(FieldVar(Var2LValue(Var("b")),"first"))),InitField("rest",Call("merge",[LValue2Exp(Var2LValue(Var("a"))),LValue2Exp(FieldVar(Var2LValue(Var("b")),"rest"))]))]

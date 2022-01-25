@@ -1,0 +1,1 @@
+ProcDec("moveTopDisk2",[FArg("fromPile",Tid("int")),FArg("toPile",Tid("int")),FArg("fromPile2",Tid("int")),FArg("toPile2",Tid("int"))],Seq([Call("pushDisk",[Call("popDiskFrom",[LValue2Exp(Var2LValue(Var("fromPile")))]),LValue2Exp(Var2LValue(Var("toPile")))]),Assign(Var2LValue(Var("movesDone")),Plus(LValue2Exp(Var2LValue(Var("movesDone"))),Int("1")))]))

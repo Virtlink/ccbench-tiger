@@ -1,0 +1,1 @@
+VarDecNoType("buffer",Call("getchar",[]))

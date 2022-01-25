@@ -1,0 +1,1 @@
+Call("tail",[Call("makeList",[Int("15")]),Call("makeList",[Int("10")]),Call("makeList",[Int("6")])])

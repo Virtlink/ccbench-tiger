@@ -1,0 +1,1 @@
+VarDec("xTail",Tid("Cons"),LValue2Exp(Var2LValue(Var("x"))))

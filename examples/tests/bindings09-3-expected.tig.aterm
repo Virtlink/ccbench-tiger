@@ -1,0 +1,1 @@
+TypeDec("x",RecordTy([Field("x","int")]))

@@ -1,0 +1,1 @@
+Leq(LValue2Exp(Var2LValue(Var("k"))),LValue2Exp(Var2LValue(Var("size"))))
