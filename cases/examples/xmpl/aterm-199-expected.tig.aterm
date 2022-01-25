@@ -1,0 +1,1 @@
+Record("alist",[InitField("hd",Call("app",[String("\"Zero\""),NilExp()])),InitField("tl",NilExp())])

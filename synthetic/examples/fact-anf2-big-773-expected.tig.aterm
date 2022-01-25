@@ -1,1 +1,0 @@
-VarDec("l2",Tid("int"),LValue2Exp(Var2LValue(Var("n"))))

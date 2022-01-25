@@ -1,0 +1,1 @@
+Record("rectype",[InitField("name",String("\"Nobody\"")),InitField("age",Int("1000"))])

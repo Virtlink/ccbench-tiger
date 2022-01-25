@@ -1,1 +1,0 @@
-Assign(Subscript(Var2LValue(Var("v")),LValue2Exp(Var2LValue(Var("i")))),LValue2Exp(Subscript(Var2LValue(Var("v")),LValue2Exp(Var2LValue(Var("j"))))))

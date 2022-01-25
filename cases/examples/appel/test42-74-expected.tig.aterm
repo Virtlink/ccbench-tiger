@@ -1,0 +1,1 @@
+VarDec("arr3",Tid("arrtype3"),Array("arrtype3",Int("100"),String("\"\"")))

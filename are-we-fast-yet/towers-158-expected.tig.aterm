@@ -1,1 +1,0 @@
-Call("popDiskFrom",[LValue2Exp(Var2LValue(Var("fromPile")))])

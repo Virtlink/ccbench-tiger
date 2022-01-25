@@ -1,1 +1,0 @@
-[InitField("key",LValue2Exp(Var2LValue(Var("x")))),InitField("left",LValue2Exp(Var2LValue(Var("l")))),InitField("right",LValue2Exp(Var2LValue(Var("r"))))]

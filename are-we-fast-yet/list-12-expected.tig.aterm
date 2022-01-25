@@ -1,1 +1,0 @@
-TypeDec("Cons",RecordTy([Field("val","int"),Field("next","Cons")]))

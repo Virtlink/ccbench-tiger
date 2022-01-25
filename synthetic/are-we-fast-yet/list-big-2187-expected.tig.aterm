@@ -1,1 +1,0 @@
-Call("length",[LValue2Exp(Var2LValue(Var("result")))])

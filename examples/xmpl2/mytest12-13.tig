@@ -1,6 +1,0 @@
-let
-  function f(x : int) : int =
-    [[IntConst]]
- in
-  f(f(0))
-end

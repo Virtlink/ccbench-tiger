@@ -1,0 +1,1 @@
+[VarDec("l",Tid("int"),LValue2Exp(Var2LValue(Var("n")))),VarDec("r",Tid("int"),Int("1"))]

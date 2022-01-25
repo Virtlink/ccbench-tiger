@@ -1,1 +1,0 @@
-VarDec("tmp",Tid("int"),LValue2Exp(Subscript(Var2LValue(Var("v")),LValue2Exp(Var2LValue(Var("i"))))))

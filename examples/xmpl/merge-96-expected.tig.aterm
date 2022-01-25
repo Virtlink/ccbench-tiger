@@ -1,1 +1,0 @@
-Assign(FieldVar(Var2LValue(Var("any")),"any"),Call("isdigit",[LValue2Exp(Var2LValue(Var("buffer")))]))

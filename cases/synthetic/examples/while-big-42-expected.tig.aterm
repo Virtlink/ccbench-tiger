@@ -1,0 +1,1 @@
+Seq([Call("print",[Call("chr",[LValue2Exp(Var2LValue(Var("i")))])]),Assign(Var2LValue(Var("i")),Plus(LValue2Exp(Var2LValue(Var("i"))),Int("1")))])

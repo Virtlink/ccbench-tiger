@@ -1,0 +1,1 @@
+FunDec("makeList",[FArg("length",Tid("int"))],Tid("Cons"),If(Eq(LValue2Exp(Var2LValue(Var("length"))),Int("0")),NilExp(),Record("Cons",[InitField("val",LValue2Exp(Var2LValue(Var("length")))),InitField("next",Call("makeList",[Minus(LValue2Exp(Var2LValue(Var("length"))),Int("1"))]))])))

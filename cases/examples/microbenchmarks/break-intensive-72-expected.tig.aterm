@@ -1,0 +1,1 @@
+Assign(Var2LValue(Var("counter2")),Int("0"))

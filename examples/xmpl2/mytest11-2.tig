@@ -1,5 +1,0 @@
-let
- in
-  print(z);
-  exit(0)
-end

@@ -1,1 +1,0 @@
-Mod(Let([TypeDec("student",RecordTy([Field("name","string"),Field("age","int")])),VarDec("student1",Tid("student"),Record("student",[InitField("name",String("\"Alan Turing\"")),InitField("age",Int("107"))]))],[LValue2Exp(FieldVar(Var2LValue(Var("student1")),"name"))]))

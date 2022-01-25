@@ -1,1 +1,0 @@
-VarDec("otherPile3",Tid("int"),Minus(Seq([Minus(Int("3"),LValue2Exp(Var2LValue(Var("fromPile"))))]),LValue2Exp(Var2LValue(Var("toPile")))))

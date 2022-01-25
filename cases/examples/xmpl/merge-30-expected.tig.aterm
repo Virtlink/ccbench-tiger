@@ -1,0 +1,1 @@
+FunDec("isdigit",[FArg("s",Tid("string"))],Tid("int"),And(Geq(Call("ord",[LValue2Exp(Var2LValue(Var("buffer")))]),Call("ord",[String("\"0\"")])),Leq(Call("ord",[LValue2Exp(Var2LValue(Var("buffer")))]),Call("ord",[String("\"9\"")]))))

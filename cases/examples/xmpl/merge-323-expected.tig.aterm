@@ -1,0 +1,1 @@
+ProcDec("f",[FArg("i",Tid("int"))],IfThen(Gt(LValue2Exp(Var2LValue(Var("i"))),Int("0")),Seq([Call("f",[Divide(LValue2Exp(Var2LValue(Var("i"))),Int("10"))]),Call("print",[Call("chr",[Plus(Minus(LValue2Exp(Var2LValue(Var("i"))),Times(Divide(LValue2Exp(Var2LValue(Var("i"))),Int("10")),Int("10"))),Call("ord",[String("\"0\"")]))])])])))

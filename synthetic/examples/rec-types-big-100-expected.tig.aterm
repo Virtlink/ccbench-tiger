@@ -1,1 +1,0 @@
-TypeDec("treelist2",RecordTy([Field("hd","tree"),Field("tl","treelist"),Field("hd2","tree"),Field("tl2","treelist")]))

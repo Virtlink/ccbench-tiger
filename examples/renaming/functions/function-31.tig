@@ -1,8 +1,0 @@
-let
-  function plus(a : int, b : int) : int =
-    (
-      a + b
-    )
- in
-  plus([[Exp]], 1)
-end

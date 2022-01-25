@@ -1,0 +1,1 @@
+Let([VarDecNoType("foo",Int("100"))],[Plus(LValue2Exp(Var2LValue(Var("bar"))),LValue2Exp(Var2LValue(Var("foo"))))])

@@ -1,1 +1,0 @@
-Call("printlist",[Call("merge",[LValue2Exp(Var2LValue(Var("list1"))),LValue2Exp(Var2LValue(Var("list2")))])])

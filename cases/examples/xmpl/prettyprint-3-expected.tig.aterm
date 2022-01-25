@@ -1,0 +1,1 @@
+TypeDec("tree",RecordTy([Field("key","string"),Field("left","tree"),Field("right","tree")]))

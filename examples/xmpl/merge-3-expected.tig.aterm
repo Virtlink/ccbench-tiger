@@ -1,1 +1,0 @@
-TypeDec("any",RecordTy([Field("any","int")]))

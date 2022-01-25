@@ -1,1 +1,0 @@
-VarDecNoType("list2",Seq([Assign(Var2LValue(Var("buffer")),Call("getchar",[])),Call("readlist",[])]))

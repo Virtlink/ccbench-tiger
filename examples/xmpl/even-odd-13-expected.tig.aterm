@@ -1,1 +1,0 @@
-Leq(LValue2Exp(Var2LValue(Var("n"))),Int("0"))

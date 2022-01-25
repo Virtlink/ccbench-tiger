@@ -1,1 +1,0 @@
-Or(Eq(LValue2Exp(Var2LValue(Var("buffer"))),String("\" \"")),Eq(LValue2Exp(Var2LValue(Var("buffer"))),String("\"\\n\"")))

@@ -1,1 +1,0 @@
-[TypeDec("a",ArrayTy("int")),TypeDec("b",Tid("a")),VarDec("arr1",Tid("a"),Array("b",Int("10"),Int("0")))]

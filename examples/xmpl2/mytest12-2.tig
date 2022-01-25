@@ -1,4 +1,0 @@
-let
- in
-  f(f(0))
-end

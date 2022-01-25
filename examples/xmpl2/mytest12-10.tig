@@ -1,6 +1,0 @@
-let
-  function f(x : int) : [[Type]] =
-    0
- in
-  f(f(0))
-end

@@ -1,0 +1,1 @@
+FunDec("pred",[FArg("x",Tid("int"))],Tid("int"),Int("1"))

@@ -1,9 +1,0 @@
-let
-  var i : int := 1
- in
-  while i < 10 do
-    (
-      [[ID]](chr(i));
-      i := i + 1
-    )
-end

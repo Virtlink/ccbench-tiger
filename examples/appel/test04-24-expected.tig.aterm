@@ -1,1 +1,0 @@
-FunDec("mod",[FArg("i",Tid("int")),FArg("j",Tid("int"))],Tid("int"),Minus(LValue2Exp(Var2LValue(Var("i"))),Seq([Times(Seq([Divide(LValue2Exp(Var2LValue(Var("i"))),LValue2Exp(Var2LValue(Var("j"))))]),LValue2Exp(Var2LValue(Var("j"))))])))

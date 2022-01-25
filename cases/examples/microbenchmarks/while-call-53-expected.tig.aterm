@@ -1,0 +1,1 @@
+FunDec("plus",[],Tid("int"),Plus(Int("1"),Int("2")))

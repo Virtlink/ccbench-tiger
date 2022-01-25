@@ -1,5 +1,0 @@
-let
-  var x := [[Exp]]
- in
-  x
-end

@@ -1,1 +1,0 @@
-If(Gt(LValue2Exp(Var2LValue(Var("x"))),Int("0")),Call("even",[Minus(LValue2Exp(Var2LValue(Var("x"))),Int("1"))]),Int("0"))

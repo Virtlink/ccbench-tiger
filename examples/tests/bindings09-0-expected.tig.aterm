@@ -1,1 +1,0 @@
-Mod(Let([TypeDec("x",RecordTy([Field("x","int")])),VarDec("x",Tid("x"),Record("x",[InitField("x",Int("1"))]))],[Plus(LValue2Exp(FieldVar(Var2LValue(Var("x")),"x")),Int("1"))]))

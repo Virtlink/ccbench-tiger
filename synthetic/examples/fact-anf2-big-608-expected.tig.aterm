@@ -1,1 +1,0 @@
-VarDec("c",Tid("int"),Times(LValue2Exp(Var2LValue(Var("n"))),LValue2Exp(Var2LValue(Var("b")))))

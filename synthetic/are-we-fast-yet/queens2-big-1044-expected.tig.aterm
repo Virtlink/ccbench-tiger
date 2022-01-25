@@ -1,1 +1,0 @@
-VarDec("queenRows4",Tid("intArray"),Array("intArray",Int("8"),Uminus(Int("1"))))

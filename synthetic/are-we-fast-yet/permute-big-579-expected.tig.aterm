@@ -1,1 +1,0 @@
-[VarDec("i",Tid("int"),LValue2Exp(Var2LValue(Var("n1")))),VarDec("i2",Tid("int"),LValue2Exp(Var2LValue(Var("n1")))),VarDec("i3",Tid("int"),LValue2Exp(Var2LValue(Var("n1")))),VarDec("i4",Tid("int"),LValue2Exp(Var2LValue(Var("n1")))),VarDec("i5",Tid("int"),LValue2Exp(Var2LValue(Var("n1"))))]

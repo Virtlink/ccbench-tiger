@@ -1,8 +1,0 @@
-let
-  type a = int
- in
-  let
-    type a = string
-   in
-  end
-end

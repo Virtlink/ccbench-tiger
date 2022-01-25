@@ -1,1 +1,0 @@
-TypeDec("aterm",RecordTy([Field("fun","string"),Field("args","alist")]))

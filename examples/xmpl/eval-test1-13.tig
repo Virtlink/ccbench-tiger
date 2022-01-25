@@ -1,5 +1,0 @@
-let
-  var x : int := 1
- in
-  [[Var]] + 2
-end

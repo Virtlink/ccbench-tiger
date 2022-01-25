@@ -1,1 +1,0 @@
-TypeDec("list",RecordTy([Field("first","int"),Field("rest","list")]))

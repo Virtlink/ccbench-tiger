@@ -1,0 +1,1 @@
+[Call("permute",[Int("6")]),LValue2Exp(Var2LValue(Var("count"))),Seq([])]

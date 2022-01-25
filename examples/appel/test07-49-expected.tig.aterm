@@ -1,1 +1,0 @@
-Seq([Call("do_nothing1",[LValue2Exp(Var2LValue(Var("d"))),String("\"str\"")]),Int("0")])

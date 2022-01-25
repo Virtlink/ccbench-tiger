@@ -1,5 +1,0 @@
-let
-  var [[ID]] := 3
- in
-  x
-end

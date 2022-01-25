@@ -1,1 +1,0 @@
-Let([TypeDec("foo",RecordTy([Field("foo","string")])),ProcDec("foo",[FArg("foo",Tid("foo"))],Seq([Let([VarDecNoType("foo",LValue2Exp(FieldVar(Var2LValue(Var("foo")),"foo")))],[Call("print",[LValue2Exp(Var2LValue(Var("foo")))])])]))],[Call("foo",[Record("foo",[InitField("foo",String("\"foo\""))])])])

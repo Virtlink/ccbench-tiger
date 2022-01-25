@@ -1,9 +1,0 @@
-let
-  var a := 1
- in
-  let
-    var [[ID]] := 1
-   in
-    a + b
-  end
-end

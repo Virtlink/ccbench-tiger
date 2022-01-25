@@ -1,1 +1,0 @@
-Assign(Subscript(Var2LValue(Var("v")),LValue2Exp(Var2LValue(Var("j")))),LValue2Exp(Var2LValue(Var("tmp"))))

@@ -1,0 +1,1 @@
+VarDec("i4",Tid("int"),LValue2Exp(Var2LValue(Var("n1"))))

@@ -1,0 +1,1 @@
+FunDec("even2",[FArg("x",Tid("int")),FArg("x2",Tid("int"))],Tid("int"),If(Gt(LValue2Exp(Var2LValue(Var("x"))),Int("0")),Call("odd",[Minus(LValue2Exp(Var2LValue(Var("x"))),Int("1"))]),Int("1")))

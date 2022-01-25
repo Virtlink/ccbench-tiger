@@ -1,0 +1,1 @@
+VarDec("b",Tid("int"),Call("fact",[LValue2Exp(Var2LValue(Var("a")))]))

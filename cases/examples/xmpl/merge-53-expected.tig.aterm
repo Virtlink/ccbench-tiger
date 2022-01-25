@@ -1,0 +1,1 @@
+Leq(Call("ord",[LValue2Exp(Var2LValue(Var("buffer")))]),Call("ord",[String("\"9\"")]))

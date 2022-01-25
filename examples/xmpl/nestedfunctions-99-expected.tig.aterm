@@ -1,1 +1,0 @@
-Plus(Seq([Plus(LValue2Exp(Var2LValue(Var("x"))),Int("6"))]),LValue2Exp(Var2LValue(Var("y"))))

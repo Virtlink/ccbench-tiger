@@ -1,9 +1,0 @@
-let
-  var bar := [[IntConst]]
- in
-  let
-    var foo := 100
-   in
-    bar + foo
-  end
-end

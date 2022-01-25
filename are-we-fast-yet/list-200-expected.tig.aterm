@@ -1,1 +1,0 @@
-Call("isShorterThan",[LValue2Exp(Var2LValue(Var("y"))),LValue2Exp(Var2LValue(Var("x")))])

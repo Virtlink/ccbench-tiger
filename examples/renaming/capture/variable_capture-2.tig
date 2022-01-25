@@ -1,8 +1,0 @@
-let
- in
-  let
-    var foo := 100
-   in
-    bar + foo
-  end
-end

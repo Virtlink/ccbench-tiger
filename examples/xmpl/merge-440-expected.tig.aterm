@@ -1,1 +1,0 @@
-Seq([Call("printint",[LValue2Exp(FieldVar(Var2LValue(Var("l")),"first"))]),Call("print",[String("\" \"")]),Call("printlist",[LValue2Exp(FieldVar(Var2LValue(Var("l")),"rest"))])])

@@ -1,1 +1,0 @@
-Record("Cons",[InitField("val",LValue2Exp(Var2LValue(Var("length")))),InitField("next",Call("makeList",[Minus(LValue2Exp(Var2LValue(Var("length"))),Int("1"))]))])

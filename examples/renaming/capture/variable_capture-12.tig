@@ -1,9 +1,0 @@
-let
-  var bar := 10
- in
-  let
-    var foo := [[Exp]]
-   in
-    bar + foo
-  end
-end

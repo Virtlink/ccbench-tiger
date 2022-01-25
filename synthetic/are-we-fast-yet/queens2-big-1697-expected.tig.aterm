@@ -1,1 +1,0 @@
-Subscript(Var2LValue(Var("queenRows")),LValue2Exp(Var2LValue(Var("r"))))

@@ -1,5 +1,0 @@
-let
-  var x : [[ID]] := "abc"
- in
-  x
-end

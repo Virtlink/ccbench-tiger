@@ -1,4 +1,0 @@
-let
-  var bar := 10
- in
-end

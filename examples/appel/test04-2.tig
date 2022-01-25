@@ -1,4 +1,0 @@
-let
- in
-  printnl(inttostring(nfactor(10)))
-end

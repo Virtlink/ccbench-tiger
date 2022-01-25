@@ -1,1 +1,0 @@
-FunDec("length5",[FArg("l",Tid("Cons")),FArg("l2",Tid("Cons")),FArg("l3",Tid("Cons")),FArg("l4",Tid("Cons")),FArg("l5",Tid("Cons"))],Tid("int"),If(Eq(LValue2Exp(FieldVar(Var2LValue(Var("l")),"next")),NilExp()),Int("1"),Plus(Int("1"),Call("length",[LValue2Exp(FieldVar(Var2LValue(Var("l")),"next"))]))))

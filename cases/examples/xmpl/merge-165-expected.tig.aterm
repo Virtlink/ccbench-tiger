@@ -1,0 +1,1 @@
+FunDec("readlist",[],Tid("list"),Let([VarDecNoType("any",Record("any",[InitField("any",Int("0"))])),VarDecNoType("i",Call("readint",[LValue2Exp(Var2LValue(Var("any")))]))],[If(LValue2Exp(FieldVar(Var2LValue(Var("any")),"any")),Record("list",[InitField("first",LValue2Exp(Var2LValue(Var("i")))),InitField("rest",Call("readlist",[]))]),NilExp())]))

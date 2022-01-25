@@ -1,1 +1,0 @@
-Times(LValue2Exp(Var2LValue(Var("f"))),LValue2Exp(Var2LValue(Var("y"))))

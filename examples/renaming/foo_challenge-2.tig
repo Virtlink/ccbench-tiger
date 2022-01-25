@@ -1,4 +1,0 @@
-let
- in
-  foo(foo{ foo = "foo" })
-end

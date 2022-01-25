@@ -1,8 +1,0 @@
-let
-  type foo = {
-                foo : string
-             }
-  [[Dec]]
- in
-  foo(foo{ foo = "foo" })
-end

@@ -1,1 +1,0 @@
-RecordTy([Field("hd","int"),Field("tl","intlist"),Field("hd2","int"),Field("tl2","intlist")])

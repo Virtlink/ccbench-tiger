@@ -1,1 +1,0 @@
-VarDec("tl2",Tid("treelist"),Record("treelist",[InitField("hd",NilExp()),InitField("tl",NilExp())]))

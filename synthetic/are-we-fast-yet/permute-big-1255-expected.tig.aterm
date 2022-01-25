@@ -1,1 +1,0 @@
-Call("permute",[LValue2Exp(Var2LValue(Var("n1")))])

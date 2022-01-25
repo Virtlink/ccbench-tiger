@@ -1,5 +1,0 @@
-let
-  var msg : [[Type]] := "Hello World"
- in
-  print(msg)
-end

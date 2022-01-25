@@ -1,7 +1,0 @@
-let
-  function fact(n : int) : int =
-    [[Exp]]
-  var r := fact(10)
- in
-  r
-end

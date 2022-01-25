@@ -1,0 +1,1 @@
+[If(Eq(LValue2Exp(Var2LValue(Var("xTail"))),NilExp()),Seq([Assign(Var2LValue(Var("isShorter")),Int("1")),Break()]),Seq([Assign(Var2LValue(Var("xTail")),LValue2Exp(FieldVar(Var2LValue(Var("xTail")),"next"))),Assign(Var2LValue(Var("yTail")),LValue2Exp(FieldVar(Var2LValue(Var("yTail")),"next")))]))]

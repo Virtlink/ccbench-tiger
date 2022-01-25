@@ -1,1 +1,0 @@
-Call("size",[LValue2Exp(FieldVar(Var2LValue(Var("xs")),"tl"))])

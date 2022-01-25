@@ -1,0 +1,1 @@
+[TypeDec("vector",ArrayTy("int")),TypeDec("vector2",ArrayTy("int")),TypeDec("vector3",ArrayTy("int")),TypeDec("vector4",ArrayTy("int")),TypeDec("vector5",ArrayTy("int"))]

@@ -1,4 +1,0 @@
-let
-  var msg := "Hello World"
- in
-end

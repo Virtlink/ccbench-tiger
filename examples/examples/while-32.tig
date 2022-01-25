@@ -1,9 +1,0 @@
-let
-  var i : int := 1
- in
-  while i < 10 do
-    (
-      print(chr(i));
-      [[Var]] := i + 1
-    )
-end

@@ -1,1 +1,0 @@
-FunDec("g",[FArg("i",Tid("int"))],Tid("int"),LValue2Exp(Var2LValue(Var("i"))))

@@ -1,1 +1,0 @@
-Assign(Var2LValue(Var("xTail")),LValue2Exp(FieldVar(Var2LValue(Var("xTail")),"next")))

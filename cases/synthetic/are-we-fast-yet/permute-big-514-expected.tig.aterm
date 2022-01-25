@@ -1,0 +1,1 @@
+[VarDec("n1",Tid("int"),Minus(LValue2Exp(Var2LValue(Var("n"))),Int("1"))),VarDec("n12",Tid("int"),Minus(LValue2Exp(Var2LValue(Var("n"))),Int("1"))),VarDec("n13",Tid("int"),Minus(LValue2Exp(Var2LValue(Var("n"))),Int("1"))),VarDec("n14",Tid("int"),Minus(LValue2Exp(Var2LValue(Var("n"))),Int("1"))),VarDec("n15",Tid("int"),Minus(LValue2Exp(Var2LValue(Var("n"))),Int("1")))]

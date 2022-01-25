@@ -1,1 +1,0 @@
-VarDecNoType("diag15",Array("intArray",Minus(Plus(LValue2Exp(Var2LValue(Var("N"))),LValue2Exp(Var2LValue(Var("N")))),Int("1")),Int("0")))

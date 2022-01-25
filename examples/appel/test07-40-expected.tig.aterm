@@ -1,1 +1,0 @@
-FunDec("do_nothing2",[FArg("d",Tid("int"))],Tid("int"),Seq([Call("do_nothing1",[LValue2Exp(Var2LValue(Var("d"))),String("\"str\"")]),Int("0")]))

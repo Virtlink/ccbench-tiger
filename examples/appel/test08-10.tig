@@ -1,6 +1,0 @@
-if (
-     10 > 20
-   ) then
-  [[IntConst]]
-else
-  40

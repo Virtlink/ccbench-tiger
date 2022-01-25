@@ -1,1 +1,0 @@
-Eq(LValue2Exp(FieldVar(Var2LValue(Var("l")),"next")),NilExp())

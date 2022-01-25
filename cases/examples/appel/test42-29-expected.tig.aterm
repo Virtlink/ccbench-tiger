@@ -1,0 +1,1 @@
+RecordTy([Field("name","string"),Field("dates","arrtype1")])

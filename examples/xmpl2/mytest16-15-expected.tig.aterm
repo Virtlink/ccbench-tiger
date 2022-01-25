@@ -1,1 +1,0 @@
-If(Call("pred",[Int("1")]),Int("1"),Int("2"))

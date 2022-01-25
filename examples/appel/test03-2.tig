@@ -1,5 +1,0 @@
-let
- in
-  rec1.name := "Somebody";
-  rec1.age
-end

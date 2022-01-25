@@ -1,8 +1,0 @@
-let
-  var sum := 0
-  var n := 5
- in
-  for x := [[Exp]] to n do
-    sum := sum + x  ;
-  sum
-end

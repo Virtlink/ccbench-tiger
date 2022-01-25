@@ -1,4 +1,0 @@
-let
- in
-  printlist(merge(list1, list2))
-end

@@ -1,1 +1,0 @@
-VarDec("a2",Tid("int"),Minus(LValue2Exp(Var2LValue(Var("n"))),Int("1")))

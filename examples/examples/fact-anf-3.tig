@@ -1,6 +1,0 @@
-let
-  [[Dec]]
-  var r := fact(10)
- in
-  r
-end

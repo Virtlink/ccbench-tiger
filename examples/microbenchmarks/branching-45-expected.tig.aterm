@@ -1,1 +1,0 @@
-Assign(Var2LValue(Var("cumsum")),Minus(LValue2Exp(Var2LValue(Var("cumsum"))),Int("1")))

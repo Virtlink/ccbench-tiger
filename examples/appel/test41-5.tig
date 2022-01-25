@@ -1,9 +1,0 @@
-let
-  type a = [[Type]]
- in
-  let
-    type a = string
-   in
-    0
-  end
-end

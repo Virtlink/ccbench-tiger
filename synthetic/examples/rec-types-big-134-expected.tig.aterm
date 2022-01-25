@@ -1,1 +1,0 @@
-VarDec("t2",Tid("tree"),Record("tree",[InitField("key",Int("1")),InitField("children",LValue2Exp(Var2LValue(Var("tl"))))]))

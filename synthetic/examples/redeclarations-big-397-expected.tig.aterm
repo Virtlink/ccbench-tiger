@@ -1,1 +1,0 @@
-Let([VarDecNoType("v",String("\"7\"")),VarDecNoType("v2",String("\"7\"")),VarDecNoType("v3",String("\"7\"")),VarDecNoType("v4",String("\"7\"")),VarDecNoType("v5",String("\"7\""))],[Call("print",[LValue2Exp(Var2LValue(Var("v")))])])

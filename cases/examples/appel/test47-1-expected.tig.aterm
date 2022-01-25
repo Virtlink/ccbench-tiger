@@ -1,0 +1,1 @@
+Let([TypeDec("a",Tid("int")),VarDecNoType("b",Int("4")),TypeDec("a",Tid("string"))],[Int("0")])

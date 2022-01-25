@@ -1,0 +1,1 @@
+[Assign(Subscript(Var2LValue(Var("piles")),LValue2Exp(Var2LValue(Var("pile")))),LValue2Exp(FieldVar(Var2LValue(Var("top")),"next"))),Assign(FieldVar(Var2LValue(Var("top")),"next"),NilExp()),LValue2Exp(Var2LValue(Var("top")))]

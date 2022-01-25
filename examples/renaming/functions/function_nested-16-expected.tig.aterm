@@ -1,1 +1,0 @@
-Seq([Plus(LValue2Exp(Var2LValue(Var("a"))),LValue2Exp(Var2LValue(Var("b")))),Let([FunDec("plus",[FArg("a",Tid("int")),FArg("b",Tid("int"))],Tid("int"),Plus(LValue2Exp(Var2LValue(Var("a"))),LValue2Exp(Var2LValue(Var("b")))))],[Call("plus",[Int("1"),Int("1")])])])

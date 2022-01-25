@@ -1,1 +1,0 @@
-[TypeDec("rectype",RecordTy([Field("name","string"),Field("id","int")])),VarDec("b",Tid("rectype"),NilExp())]

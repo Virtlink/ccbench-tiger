@@ -1,1 +1,0 @@
-Record("rectype1",[InitField("name",String("\"aname\"")),InitField("address",String("\"somewhere\"")),InitField("id",Int("0")),InitField("age",Int("0"))])

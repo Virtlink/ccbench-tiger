@@ -1,6 +1,0 @@
-let
-  function f(x : int) : int =
-    x + [[Exp]]
- in
-  f(f(3))
-end

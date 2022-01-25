@@ -1,6 +1,0 @@
-let
-  var x := "1"
-  [[Dec]]
- in
-  x + x
-end

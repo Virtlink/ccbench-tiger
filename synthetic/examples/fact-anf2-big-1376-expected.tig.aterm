@@ -1,1 +1,0 @@
-VarDecNoType("r4",Call("fact",[Int("10")]))

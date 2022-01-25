@@ -1,8 +1,0 @@
-let
-  type rectype = {
-                    name : string, 
-                    id : int
-                 }
-  var b : rectype := nil
- in
-end

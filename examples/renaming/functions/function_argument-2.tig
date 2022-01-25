@@ -1,4 +1,0 @@
-let
- in
-  printnl("Hello World")
-end

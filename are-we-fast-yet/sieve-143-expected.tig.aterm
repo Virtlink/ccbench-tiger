@@ -1,1 +1,0 @@
-Let([VarDecNoType("flags",Array("intArray",Int("5000"),Int("1")))],[Call("sieve",[LValue2Exp(Var2LValue(Var("flags"))),Int("5000")]),Seq([])])

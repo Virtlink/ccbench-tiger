@@ -1,1 +1,0 @@
-If(Eq(LValue2Exp(Var2LValue(Var("x"))),NilExp()),Int("0"),If(Eq(LValue2Exp(Var2LValue(Var("y"))),NilExp()),Int("0"),If(Eq(LValue2Exp(FieldVar(Var2LValue(Var("x")),"fun")),LValue2Exp(FieldVar(Var2LValue(Var("y")),"fun"))),Call("match_args",[LValue2Exp(FieldVar(Var2LValue(Var("x")),"args")),LValue2Exp(FieldVar(Var2LValue(Var("y")),"args"))]),Int("0"))))
