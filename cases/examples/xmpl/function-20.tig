@@ -1,6 +1,5 @@
 let
-  function f(x : int) : int =
-    x + 1
- in
+  function f(x : int) : int = x + 1
+in
   [[Exp]]
 end

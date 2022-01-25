@@ -1,5 +1,10 @@
+/* 
+test file to rename avariable 
+msg -> message
+*/
+
 let
-  var [[ID]] : string := "Hello World"
- in
-  print(msg)
+	var [[ID]] : string := "Hello World"
+in 
+	print(msg)
 end

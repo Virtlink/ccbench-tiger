@@ -1,15 +1,18 @@
+/* 
+test file challenge
+*/
+
 let
-  type foo = {
-                foo : string
-             }
-  function foo([[FArg]]) =
-    (
-      let
-        var foo := foo.foo
-       in
-        print(foo)
-      end
-    )
- in
-  foo(foo{ foo = "foo" })
+	type foo = {
+		foo : string
+  }
+  function foo ([[FArg]]) = (
+  	let
+  		var foo := foo.foo
+  	in
+  		print(foo)
+  	end
+  )
+in
+  	foo(foo{foo = "foo"})
 end

@@ -1,8 +1,5 @@
-let
-  var x := 3
- in
-  while x < 5 do
-    (
+let var x := 3
+ in while x < 5 do (
       x := [[Exp]]
     )
 end

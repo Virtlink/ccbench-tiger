@@ -1,6 +1,7 @@
+/* an array type and an array variable */ 
 let
-  type arrtype = array of int
-  [[Dec]]
- in
-  arr1[2]
+	type  arrtype = array of int
+	[[Dec]]
+in
+	arr1[2]
 end

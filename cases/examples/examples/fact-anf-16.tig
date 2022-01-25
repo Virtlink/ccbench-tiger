@@ -2,19 +2,19 @@ let
   function fact(n : int) : int =
     let
       var c := [[Exp]]
-     in
+    in
       if c then
-        1
+         1
       else
         let
-          var a : int := n - 1
-          var b : int := fact(a)
-          var c : int := n * b
-         in
-          c
+           var a : int := n - 1
+           var b : int := fact(a)
+           var c : int := n * b
+        in
+           c
         end
     end
   var r := fact(10)
- in
+in
   r
 end

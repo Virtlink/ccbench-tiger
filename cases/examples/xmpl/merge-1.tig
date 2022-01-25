@@ -1,1 +1,12 @@
+/* merge: 
+	
+   Reads in two lists of integers from standard input, merges
+   them, and prints the resulting list.
+ 
+   If the initial lists are sorted the result list is sorted
+   as well.
+
+*/
+
 [[Exp]]
+

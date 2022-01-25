@@ -1,9 +1,13 @@
-let
-  function printnl([[FArg]]) =
-    (
-      print(x);
-      print("\n")
-    )
- in
-  printnl("Hello World")
+/* 
+test file to rename a function argument 
+x -> text
+*/
+
+let 
+	function printnl([[FArg]]) = (
+		print(x); 
+		print("\n")
+	)
+in
+   	printnl("Hello World")
 end

@@ -1,4 +1,5 @@
 let
- in
-  list{ hd = 1, tl = list{ hd = 0, tl = nil } }
+  
+in 
+  list{hd = 1, tl = list{hd = 0, tl = nil}}
 end

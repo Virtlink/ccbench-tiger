@@ -1,5 +1,9 @@
+/* define a recursive function */
 let
-  [[Dec]]
- in
-  f(f(0))
+
+[[Dec]]
+
+in
+   f(f(0)) 
 end
+

@@ -1,4 +1,3 @@
-let
- in
-  f(10)
+let 
+ in f(10)
 end

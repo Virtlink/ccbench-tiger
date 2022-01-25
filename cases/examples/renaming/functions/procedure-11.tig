@@ -1,7 +1,12 @@
-let
-  function printnl(x : string) =
-    (
-    )
- in
-  printnl("Hello World")
+/* 
+test file to rename a procedure (function with no return type) 
+printnl -> printNewLine
+*/
+
+let 
+	function printnl(x : string) = (
+		
+	)
+in
+   	printnl("Hello World")
 end

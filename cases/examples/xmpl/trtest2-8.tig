@@ -1,6 +1,4 @@
-let
-  function f( ) : int =
+let function f() : int =
     [[Exp]]
- in
-  f( )
+in f()
 end

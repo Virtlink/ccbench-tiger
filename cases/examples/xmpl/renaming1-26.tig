@@ -1,13 +1,5 @@
-let
-  var i := 1
- in
-  (
-    let
-      var i := (
-                 i + 2
-               )
-     in
-      [[LValue]]
-    end + i
-  )
+let var i := 1
+ in (let var i := (i + 2)
+      in [[LValue]]
+     end + i)
 end

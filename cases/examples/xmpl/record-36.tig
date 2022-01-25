@@ -1,11 +1,9 @@
-let
+let 
   type i = int
   var y : i := 4
-  type r = {
-              x : i, 
-              y : i
-           }
+  type r = {x : i, y : i}
   var x : int := 1
-  var a : r := r{ [[InitField]], y = 1 }
- in
-end
+  var a : r := r{ [[InitField]], y = 1 } 
+in
+  
+end    

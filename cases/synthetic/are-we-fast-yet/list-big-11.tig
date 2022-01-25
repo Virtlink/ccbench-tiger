@@ -1,17 +1,17 @@
-for i := 0 to 30 do
-  (
+//https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/List.java
+for i := 0 to 30 do (
+  let
+    
+  in
     let
-     in
-      let
-        var result : Cons := tail(makeList(15), makeList(10), makeList(6))
-        var result2 : Cons := tail(makeList(15), makeList(10), makeList(6))
-        var result3 : Cons := tail(makeList(15), makeList(10), makeList(6))
-        var result4 : Cons := tail(makeList(15), makeList(10), makeList(6))
-        var result5 : Cons := tail(makeList(15), makeList(10), makeList(6))
-       in
-        length(result);
-        (
-        )
-      end
+      var result : Cons := tail(makeList(15), makeList(10), makeList(6))
+      var result2 : Cons := tail(makeList(15), makeList(10), makeList(6))
+      var result3 : Cons := tail(makeList(15), makeList(10), makeList(6))
+      var result4 : Cons := tail(makeList(15), makeList(10), makeList(6))
+      var result5 : Cons := tail(makeList(15), makeList(10), makeList(6))
+    in
+      length(result); // 10
+      ()
     end
-  )
+  end
+)

@@ -1,5 +1,3 @@
-let
-  var x : [[Type]] := "abc"
- in
-  x
+let var x : [[Type]] := "abc"
+ in x
 end

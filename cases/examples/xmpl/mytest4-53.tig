@@ -1,13 +1,8 @@
-let
-  function f(x : int, z : int) : int =
-    let
-      function g(y : int) : int =
-        (
-          x + y
-        ) - z
-     in
-      g(x)
+let function f(x : int, z : int) : int = 
+    let function g(y : int) : int = 
+          (x + y) - z
+     in g(x)
     end
- in
-  [[ID]](4, 6)
+ in [[ID]](4, 6)
 end
+ 

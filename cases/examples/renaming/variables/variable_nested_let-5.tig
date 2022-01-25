@@ -1,9 +1,9 @@
 let
   var a := [[Exp]]
- in
+in
   let
     var b := 1
-   in
+  in
     a + b
   end
 end

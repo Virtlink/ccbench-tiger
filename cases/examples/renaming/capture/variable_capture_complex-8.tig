@@ -1,5 +1,10 @@
+/* 
+test file for a complex case of capture
+var b -> x (line 10)
+*/
+
 let
-  var a := 1
- in
-  [[Exp]]
+	var a := 1
+in
+	[[Exp]]
 end

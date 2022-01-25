@@ -1,7 +1,8 @@
 let
   var i : int := 1
- in
-  while i < 10 do
-    (
-    )
+in
+  while i < 10 do (
+    
+  )
 end
+

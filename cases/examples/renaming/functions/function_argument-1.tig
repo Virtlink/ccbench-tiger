@@ -1,1 +1,6 @@
+/* 
+test file to rename a function argument 
+x -> text
+*/
+
 [[Exp]]

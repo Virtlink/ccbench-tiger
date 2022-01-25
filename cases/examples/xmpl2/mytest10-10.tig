@@ -1,4 +1,3 @@
-(
-  print("a\n");
-  exit( )
-)
+(print("a\n");
+exit())
+  

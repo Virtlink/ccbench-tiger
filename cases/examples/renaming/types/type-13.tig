@@ -1,9 +1,14 @@
+/* 
+test file to rename a type 
+student -> person
+*/
+
 let
-  type student = {
-                    name : string, 
-                    age : int
-                 }
-  [[Dec]]
- in
-  student1.name
+	type student = {
+		name : string, 
+    	age : int
+  	}
+  	[[Dec]]
+in
+  	student1.name
 end

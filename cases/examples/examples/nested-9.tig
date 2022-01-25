@@ -1,6 +1,7 @@
 let
   var x : int := 1
   [[Dec]]
- in
+in
   x
 end
+

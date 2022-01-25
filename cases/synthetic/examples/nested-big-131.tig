@@ -12,8 +12,9 @@ let
   function f4(y : int, y2 : int, y3 : int, y4 : int) : int =
     x + y
   var x5 : int := 1
-  function f5( ) : int =
+  function f5() : int =
     x + y
- in
+in
   x
 end
+

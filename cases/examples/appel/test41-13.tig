@@ -1,9 +1,10 @@
+/* local types hide global */
 let
-  type a = int
- in
-  let
-    type a = [[ID]]
-   in
-    0
-  end
+	type a = int
+in
+	let
+		type a = [[ID]]
+	in
+		0
+	end
 end

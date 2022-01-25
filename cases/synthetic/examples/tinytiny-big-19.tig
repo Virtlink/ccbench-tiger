@@ -4,6 +4,6 @@ let
   var x3 := 3
   var x4 := 3
   [[Dec]]
- in
+in
   x
 end

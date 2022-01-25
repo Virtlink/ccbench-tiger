@@ -1,4 +1,3 @@
-let
- in
-  fac(5)
+let 
+ in fac(5)
 end

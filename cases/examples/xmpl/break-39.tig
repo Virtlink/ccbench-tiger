@@ -1,10 +1,10 @@
 let
-  function mod(i : int, j : int) : int =
+  function mod(i : int, j : int): int =
     i - (
-          (
-            i / j
-          ) * j
-        )
+      (
+        i / j
+      ) * j
+    )
   [[Dec]]
   var x := 1
  in
@@ -13,6 +13,6 @@ let
       x := x + 1;
       print(inttostring(x));
       break
-    )  ;
+    );
   print(inttostring(x))
 end

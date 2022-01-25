@@ -1,4 +1,3 @@
-(
-  print([[StrConst]]);
-  exit(0)
-)
+(print([[StrConst]]);
+exit(0))
+  

@@ -1,4 +1,10 @@
+/* 
+test file to rename a field withn a type 
+name -> fullName
+*/
+
 let
- in
-  student1.name
+	
+in
+  	student1.name
 end

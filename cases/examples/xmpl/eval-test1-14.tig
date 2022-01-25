@@ -1,5 +1,3 @@
-let
-  var x : int := 1
- in
-  [[ID]] + 2
+let var x : int := 1
+ in [[ID]] + 2
 end

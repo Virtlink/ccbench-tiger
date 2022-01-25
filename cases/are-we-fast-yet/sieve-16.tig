@@ -1,7 +1,8 @@
-for i := 0 to 30 do
-  (
-    let
-      type intArray = array of int
-     in
-    end
-  )
+//https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/Sieve.java
+for i := 0 to 30 do (
+  let
+    type intArray = array of int
+  in
+    
+  end
+)

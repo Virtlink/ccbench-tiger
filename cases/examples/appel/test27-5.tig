@@ -1,7 +1,8 @@
+/* locals hide globals */
 let
-  var a := [[Exp]]
-  function g(a : int) : int =
-    a
- in
-  g(2)
+	var a := [[Exp]]
+
+	function g(a:int):int = a 
+in
+ g(2)
 end

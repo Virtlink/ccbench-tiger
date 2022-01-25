@@ -1,15 +1,18 @@
+/* 
+test file challenge
+*/
+
 let
-  type foo = {
-                foo : string
-             }
-  function foo(foo : foo) =
-    (
-      let
-        [[Dec]]
-       in
-        print(foo)
-      end
-    )
- in
-  foo(foo{ foo = "foo" })
+	type foo = {
+		foo : string
+  }
+  function foo (foo: foo) = (
+  	let
+  		[[Dec]]
+  	in
+  		print(foo)
+  	end
+  )
+in
+  	foo(foo{foo = "foo"})
 end

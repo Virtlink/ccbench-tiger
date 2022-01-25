@@ -1,4 +1,3 @@
-let
-  var x : string := "abc"
- in
+let var x : string := "abc"
+ in 
 end

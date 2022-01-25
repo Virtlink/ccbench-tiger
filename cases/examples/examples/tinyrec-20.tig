@@ -1,9 +1,7 @@
 let
-  type myrec = {
-                  x : int
-               }
-  var rec1 : myrec := myrec{ x = [[IntConst]] }
- in
+  type myrec = { x : int }
+  var rec1 : myrec := myrec { x = [[IntConst]] }
+in
   rec1.x := 99;
-  rec1.x
+  rec1.x //  33
 end

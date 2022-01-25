@@ -4,6 +4,6 @@ let
   var x3 := 3
   var x4 := [[IntConst]]
   var x5 := 3
- in
+in
   x
 end

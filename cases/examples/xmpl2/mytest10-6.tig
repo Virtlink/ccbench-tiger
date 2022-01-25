@@ -1,4 +1,3 @@
-(
-  print([[Exp]]);
-  exit(0)
-)
+(print([[Exp]]);
+exit(0))
+  

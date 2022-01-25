@@ -13,6 +13,7 @@ let
     x + y
   var x5 : int := 1
   [[Dec]]
- in
+in
   x
 end
+

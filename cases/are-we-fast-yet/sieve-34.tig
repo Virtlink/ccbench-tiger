@@ -1,21 +1,18 @@
-for i := 0 to 30 do
-  (
+//https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/Sieve.java
+for i := 0 to 30 do (
+  let
+    type intArray = array of int
+  in
     let
-      type intArray = array of int
-     in
+      function sieve(flags : intArray, size : int): int = (
+        [[Exp]]
+      )
+    in
       let
-        function sieve(flags : intArray, size : int) : int =
-          (
-            [[Exp]]
-          )
-       in
-        let
-          var flags := intArray[5000] of 1
-         in
-          sieve(flags, 5000);
-          (
-          )
-        end
+        var flags := intArray[5000] of 1
+      in
+        sieve(flags, 5000); () // 669
       end
     end
-  )
+  end
+)

@@ -1,4 +1,3 @@
-let
- in
-  x + 2
+let 
+ in x + 2
 end

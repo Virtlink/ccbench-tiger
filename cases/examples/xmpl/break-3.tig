@@ -1,6 +1,6 @@
 let
   [[Dec]]
-  function inttostring(n : int) : string =
+  function inttostring(n : int): string =
     if n < 10 then
       chr(48 + n)
     else
@@ -12,6 +12,6 @@ let
       x := x + 1;
       print(inttostring(x));
       break
-    )  ;
+    );
   print(inttostring(x))
 end

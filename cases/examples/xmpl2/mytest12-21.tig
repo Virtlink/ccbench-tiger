@@ -1,6 +1,9 @@
+/* define a recursive function */
 let
-  function f(x : int) : int =
-    0
- in
-  f(f([[Exp]]))
+
+function f(x : int) : int = 0
+
+in
+   f(f([[Exp]])) 
 end
+

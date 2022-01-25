@@ -1,6 +1,11 @@
-let
- in
+let 
+  
+
+in 
+
   for i := 0 to 4 do
-    v[i] := i * 2  ;
+    v[i] := i * 2;
+
   v[3]
+  
 end

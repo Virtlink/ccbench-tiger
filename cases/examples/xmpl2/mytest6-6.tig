@@ -1,11 +1,7 @@
-let
-  function f([[FArg]]) : int =
-    let
-      function g(i : int) : int =
-        i
-     in
-      i + g(i)
+let function f([[FArg]]) : int =
+    let function g(i : int) : int = 
+          i
+     in i + g(i)
     end
- in
-  f(10)
+ in f(10)
 end

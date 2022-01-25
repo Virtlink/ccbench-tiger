@@ -1,4 +1,7 @@
-let
- in
-  arr1[2]
+/* synonyms are fine */
+
+let 
+		
+in
+		arr1[2]
 end

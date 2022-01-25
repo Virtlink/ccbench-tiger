@@ -1,17 +1,14 @@
+/* define valid recursive types */
 let
-  type intlist = {
-                    hd : int, 
-                    [[ID]] : intlist
-                 }
-  type tree = {
-                 key : int, 
-                 children : treelist
-              }
-  type treelist = {
-                     hd : tree, 
-                     tl : treelist
-                  }
-  var lis : intlist := intlist{ hd = 0, tl = nil }
- in
+  /* define a list */
+  type intlist = { hd: int, [[ID]]: intlist }
+
+  /* define a tree */
+  type tree = { key: int, children: treelist }
+  type treelist = { hd: tree, tl: treelist }
+
+  var lis:intlist := intlist { hd = 0, tl = nil } 
+
+in
   lis
 end

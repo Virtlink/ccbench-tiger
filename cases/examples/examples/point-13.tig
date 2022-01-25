@@ -1,10 +1,7 @@
 let
-  type point = {
-                  x : int, 
-                  y : int
-               }
+  type point = { x : int, y : int }
   [[Dec]]
- in
+in
   origin.x;
   origin := nil
 end

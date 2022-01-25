@@ -4,7 +4,8 @@ let
   var count3 := 0
   var count4 := 0
   var count5 := 0
- in
-  while [[Exp]] > - 1 do
+in
+  while [[Exp]] > -1 do
     break
 end
+

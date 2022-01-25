@@ -1,5 +1,5 @@
 let
   var x := [[IntConst]]
- in
+in
   x
 end

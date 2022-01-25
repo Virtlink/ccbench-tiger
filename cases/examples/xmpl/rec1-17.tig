@@ -1,10 +1,11 @@
 let
   type R = {
-              f : int
-           }
-  var r : R := nil
-  var q := [[Exp]]
- in
+    f : int
+  } 
+  var r : R := nil 
+  var q     := [[Exp]]
+  
+in
   r.f;
   q.f
 end

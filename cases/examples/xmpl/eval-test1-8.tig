@@ -1,5 +1,3 @@
-let
-  var x : int := [[IntConst]]
- in
-  x + 2
+let var x : int := [[IntConst]]
+ in x + 2
 end

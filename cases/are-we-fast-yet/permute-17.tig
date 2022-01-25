@@ -1,8 +1,8 @@
-for i := 0 to 30 do
-  (
-    let
-      type vector = array of int
-     in
-      [[Exp]]
-    end
-  )
+//https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/Permute.java
+for i := 0 to 30 do (
+  let
+    type vector = array of int
+  in
+    [[Exp]]
+  end
+)

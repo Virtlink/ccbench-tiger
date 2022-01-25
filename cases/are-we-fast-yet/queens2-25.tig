@@ -1,18 +1,18 @@
-for i := 0 to 30 do
-  (
+//https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/Queens.java
+for i := 0 to 30 do (
+  let
+    type intArray = array of int
+  in
     let
-      type intArray = array of int
+      function queens(): int =
+        let
+          
+              
+        in
+          placeQueen(0)
+        end
      in
-      let
-        function queens( ) : int =
-          let
-           in
-            placeQueen(0)
-          end
-       in
-        queens( );
-        (
-        )
-      end
-    end
-  )
+      queens(); ()
+     end
+  end
+)

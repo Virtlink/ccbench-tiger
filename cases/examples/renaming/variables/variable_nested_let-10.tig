@@ -1,9 +1,9 @@
 let
   var a := 1
- in
+in
   let
     [[Dec]]
-   in
+  in
     a + b
   end
 end

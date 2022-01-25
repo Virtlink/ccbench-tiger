@@ -1,6 +1,6 @@
 let
   var x : int := 1
-  function f( ) : int =
+  function f() : int =
     x + y
   var x2 : int := 1
   function f2(y : int, y2 : int) : int =
@@ -14,6 +14,7 @@ let
   var x5 : int := 1
   function f5(y : int, y2 : int, y3 : int, y4 : int, y5 : int) : int =
     x + y
- in
+in
   x
 end
+

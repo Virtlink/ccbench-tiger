@@ -1,5 +1,3 @@
-let
-  var x : string := [[Exp]]
- in
-  x
+let var x : string := [[Exp]]
+ in x
 end

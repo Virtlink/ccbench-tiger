@@ -1,5 +1,10 @@
+/* 
+test file to rename avariable 
+msg -> message
+*/
+
 let
-  var msg := [[StrConst]]
- in
-  print(msg)
+	var msg := [[StrConst]]
+in 
+	print(msg)
 end

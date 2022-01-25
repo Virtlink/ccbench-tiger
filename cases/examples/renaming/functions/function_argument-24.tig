@@ -1,8 +1,13 @@
-let
-  function printnl(x : string) =
-    (
-      print(x);
-      print("\n")
-    )
- in
+/* 
+test file to rename a function argument 
+x -> text
+*/
+
+let 
+	function printnl(x : string) = (
+		print(x); 
+		print("\n")
+	)
+in
+   	
 end

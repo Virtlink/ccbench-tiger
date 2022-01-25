@@ -1,8 +1,6 @@
-let
-  type x = {
-              x : int
-           }
-  var x : x := [[Exp]]
- in
-  x.x + 1
-end
+  let
+    type x = {x : int}
+    var x : x := [[Exp]]
+  in 
+    x.x + 1
+  end

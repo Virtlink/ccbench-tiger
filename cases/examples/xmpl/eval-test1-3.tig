@@ -1,5 +1,3 @@
-let
-  [[Dec]]
- in
-  x + 2
+let [[Dec]]
+ in x + 2
 end

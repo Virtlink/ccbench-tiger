@@ -1,7 +1,6 @@
 let
-  type myrec = {
-                  x : int
-               }
-  var rec1 : myrec := myrec{ x = 1 }
- in
+  type myrec = { x : int }
+  var rec1 : myrec := myrec { x = 1 }
+in
+   //  33
 end

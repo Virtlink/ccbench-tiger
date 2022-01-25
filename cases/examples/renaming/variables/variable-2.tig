@@ -1,4 +1,10 @@
+/* 
+test file to rename avariable 
+msg -> message
+*/
+
 let
- in
-  print(msg)
+	
+in 
+	print(msg)
 end

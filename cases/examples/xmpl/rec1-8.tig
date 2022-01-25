@@ -1,10 +1,11 @@
 let
   type R = {
-              [[ID]] : int
-           }
-  var r : R := nil
-  var q := R{ f = 1 }
- in
+    [[ID]] : int
+  } 
+  var r : R := nil 
+  var q     := R{f = 1}
+  
+in
   r.f;
   q.f
 end

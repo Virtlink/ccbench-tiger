@@ -1,10 +1,12 @@
+/* a record type and a record variable */
 let
   type rectype = {
-                    name : string, 
-                    age : int
-                 }
+     name : string, 
+     age : int
+  }
   [[Dec]]
  in
   rec1.name := "Somebody";
   rec1.age
 end
+ 

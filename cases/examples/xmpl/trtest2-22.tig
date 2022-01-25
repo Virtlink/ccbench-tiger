@@ -1,10 +1,6 @@
-let
-  function f( ) : int =
-    let
-      var x : int := 1
-     in
-      x + [[Exp]]
+let function f() : int =
+    let var x : int := 1
+     in x + [[Exp]]
     end
- in
-  f( )
+in f()
 end

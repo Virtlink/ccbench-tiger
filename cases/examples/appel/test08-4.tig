@@ -1,6 +1,2 @@
-if (
-     [[Exp]]
-   ) then
-  30
-else
-  40
+/* correct if */
+if ([[Exp]]) then 30 else 40	

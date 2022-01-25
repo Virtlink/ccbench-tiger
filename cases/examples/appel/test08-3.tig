@@ -1,5 +1,2 @@
-if (
-   ) then
-  30
-else
-  40
+/* correct if */
+if () then 30 else 40	

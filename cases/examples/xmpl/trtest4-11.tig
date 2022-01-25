@@ -1,5 +1,3 @@
-let
-  var x : string := "abc"
- in
-  [[LValue]]
+let var x : string := "abc"
+ in [[LValue]]
 end

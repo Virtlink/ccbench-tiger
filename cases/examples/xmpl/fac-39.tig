@@ -1,10 +1,7 @@
-let
-  function fact(n : int) : int =
-    if n < 1 then
-      1
-    else
-      (
-        n * fact(n - 1)
-      )
- in
+/* factorial function; example from SPIM manual */
+
+let function fact(n : int) : int = 
+      if n < 1 then 1 else (n * fact(n - 1))
+ in 
 end
+   

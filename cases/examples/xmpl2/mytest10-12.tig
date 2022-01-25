@@ -1,4 +1,3 @@
-(
-  print("a\n");
-  exit([[IntConst]])
-)
+(print("a\n");
+exit([[IntConst]]))
+  

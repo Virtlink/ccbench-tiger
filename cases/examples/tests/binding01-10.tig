@@ -1,6 +1,6 @@
-let
+let 
   var x := "1"
-  var x := [[IntConst]]
- in
+  var x := [[IntConst]] // shadows previous x
+in 
   x + x
 end

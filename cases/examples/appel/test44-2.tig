@@ -1,4 +1,10 @@
-let
- in
-  b := nil
+/* valid nil initialization and assignment */
+let 
+
+	
+
+in
+
+	b := nil
+
 end

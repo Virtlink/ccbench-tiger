@@ -1,5 +1,10 @@
+/* 
+test file to rename avariable 
+msg -> message
+*/
+
 let
-  [[Dec]]
- in
-  print(msg)
+	[[Dec]]
+in 
+	print(msg)
 end

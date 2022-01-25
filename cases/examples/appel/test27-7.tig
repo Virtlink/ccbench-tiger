@@ -1,6 +1,8 @@
+/* locals hide globals */
 let
-  var a := 0
-  [[Dec]]
- in
-  g(2)
+	var a := 0
+
+	[[Dec]] 
+in
+ g(2)
 end

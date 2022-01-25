@@ -4,10 +4,10 @@ let
   var i3 : int := [[Exp]]
   var i4 : int := 1
   var i5 : int := 1
- in
-  while i < 10 do
-    (
-      print(chr(i));
-      i := i + 1
-    )
+in
+  while i < 10 do (
+    print(chr(i));
+    i := i + 1
+  )
 end
+

@@ -2,16 +2,17 @@ let
   function fact(n : int) : int =
     let
       var c := n < 1
-     in
+    in
       if c then
-        1
+         1
       else
         let
-         in
-          c
+           
+        in
+           c
         end
     end
   var r := fact(10)
- in
+in
   r
 end

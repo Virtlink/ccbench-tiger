@@ -1,8 +1,10 @@
+/* local types hide global */
 let
-  type a = int
- in
-  let
-   in
-    0
-  end
+	type a = int
+in
+	let
+		
+	in
+		0
+	end
 end

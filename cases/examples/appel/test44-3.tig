@@ -1,6 +1,11 @@
-let
-  [[Dec]]
-  var b : rectype := nil
- in
-  b := nil
+/* valid nil initialization and assignment */
+let 
+
+	[[Dec]]
+	var b:rectype := nil
+
+in
+
+	b := nil
+
 end

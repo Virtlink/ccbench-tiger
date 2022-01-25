@@ -1,11 +1,7 @@
-let
-  function f(i : int) : int =
-    let
-      function g(i : int) : int =
-        i
-     in
-      i + g(i)
+let function f(i : int) : int =
+    let function g(i : int) : int = 
+          i
+     in i + g(i)
     end
- in
-  f([[IntConst]])
+ in f([[IntConst]])
 end

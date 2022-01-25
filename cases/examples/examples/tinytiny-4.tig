@@ -1,5 +1,5 @@
 let
   var [[ID]] := 3
- in
+in
   x
 end

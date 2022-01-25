@@ -1,5 +1,3 @@
-let
-  var x : string := [[StrConst]]
- in
-  x
+let var x : string := [[StrConst]]
+ in x
 end

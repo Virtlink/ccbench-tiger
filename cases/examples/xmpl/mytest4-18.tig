@@ -1,10 +1,7 @@
-let
-  function f(x : int, z : int) : int =
-    let
-      [[Dec]]
-     in
-      g(x)
+let function f(x : int, z : int) : int = 
+    let [[Dec]]
+     in g(x)
     end
- in
-  f(4, 6)
+ in f(4, 6)
 end
+ 

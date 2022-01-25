@@ -1,6 +1,6 @@
-let
+let 
   var x := "1"
-  var x := 2
- in
+  var x := 2 // shadows previous x
+in 
   [[Exp]] + x
 end

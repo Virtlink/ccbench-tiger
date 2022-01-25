@@ -1,10 +1,11 @@
 let
   type R = {
-              [[Field]]
-           }
-  var r : R := nil
-  var q := R{ f = 1 }
- in
+    [[Field]]
+  } 
+  var r : R := nil 
+  var q     := R{f = 1}
+  
+in
   r.f;
   q.f
 end

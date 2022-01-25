@@ -1,10 +1,7 @@
 let
-  type point = {
-                  x : int, 
-                  y : int
-               }
-  var origin : point := point{ x = 1, y = [[IntConst]] }
- in
+  type point = { x : int, y : int }
+  var origin : point := point { x = 1, y = [[IntConst]] }
+in
   origin.x;
   origin := nil
 end

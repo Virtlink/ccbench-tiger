@@ -1,9 +1,6 @@
-let
-  type point = {
-                  x : int, 
-                  y : int
-               }
-  var p := [[Exp]]
- in
-  p.y
-end
+  let
+    type point = {x : int, y: int}
+    var p := [[Exp]]
+  in 
+    p.y
+  end 

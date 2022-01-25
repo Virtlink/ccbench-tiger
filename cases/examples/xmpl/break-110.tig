@@ -1,11 +1,11 @@
 let
-  function mod(i : int, j : int) : int =
+  function mod(i : int, j : int): int =
     i - (
-          (
-            i / j
-          ) * j
-        )
-  function inttostring(n : int) : string =
+      (
+        i / j
+      ) * j
+    )
+  function inttostring(n : int): string =
     if n < 10 then
       chr(48 + n)
     else
@@ -17,6 +17,6 @@ let
       x := [[Exp]];
       print(inttostring(x));
       break
-    )  ;
+    );
   print(inttostring(x))
 end

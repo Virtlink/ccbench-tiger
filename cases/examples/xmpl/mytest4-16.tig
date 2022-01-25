@@ -1,6 +1,5 @@
-let
-  function f(x : int, z : int) : int =
+let function f(x : int, z : int) : int = 
     [[Exp]]
- in
-  f(4, 6)
+ in f(4, 6)
 end
+ 

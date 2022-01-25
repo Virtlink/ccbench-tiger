@@ -1,7 +1,3 @@
-let
-  var i := 1
- in
-  (
-    [[Exp]] + i
-  )
+let var i := 1
+ in ([[Exp]] + i)
 end

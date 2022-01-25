@@ -1,7 +1,8 @@
 let
   var x : int := 1
-  function f( ) : int =
+  function f() : int =
     x + y
- in
+in
   x
 end
+

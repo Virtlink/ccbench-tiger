@@ -1,7 +1,3 @@
-let
- in
-  b := (
-         a := 2;
-         a
-       )
+let 
+ in b := (a := 2; a)
 end

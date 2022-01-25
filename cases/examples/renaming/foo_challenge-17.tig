@@ -1,9 +1,12 @@
+/* 
+test file challenge
+*/
+
 let
-  type foo = {
-                foo : string
-             }
-  function foo(foo : foo) =
-    [[Exp]]
- in
-  foo(foo{ foo = "foo" })
+	type foo = {
+		foo : string
+  }
+  function foo (foo: foo) = [[Exp]]
+in
+  	foo(foo{foo = "foo"})
 end

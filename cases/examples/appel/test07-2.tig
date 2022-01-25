@@ -1,4 +1,9 @@
+/* define valid mutually recursive functions */
 let
- in
-  do_nothing1(0, "str2")
+
+
+
+in
+    do_nothing1(0, "str2")
 end
+

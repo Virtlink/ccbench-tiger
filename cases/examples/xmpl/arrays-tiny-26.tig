@@ -1,10 +1,11 @@
 let
   type vector = array of int
- in
+in
   let
     var v1 : vector := vector[10] of 1
-   in
-    for i := 0 to [[Exp]] do
+  in
+    for i:=0 to [[Exp]]
+    do
       printi(v1[i])
   end
 end

@@ -4,7 +4,8 @@ let
   var count3 := 0
   var count4 := 0
   [[Dec]]
- in
-  while count > - 1 do
+in
+  while count > -1 do
     break
 end
+

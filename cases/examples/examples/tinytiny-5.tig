@@ -1,5 +1,5 @@
 let
   var x := [[Exp]]
- in
+in
   x
 end

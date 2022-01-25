@@ -1,6 +1,6 @@
-let
+let 
   [[Dec]]
-  var x := 2
- in
+  var x := 2 // shadows previous x
+in 
   x + x
 end

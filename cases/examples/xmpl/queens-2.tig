@@ -1,4 +1,7 @@
+/* A program to solve the 8-queens problem */
+
 let
- in
-  try(0)
+    
+ in try(0)
 end
+	

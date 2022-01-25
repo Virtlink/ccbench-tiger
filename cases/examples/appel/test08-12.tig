@@ -1,6 +1,2 @@
-if (
-     10 > 20
-   ) then
-  30
-else
-  [[IntConst]]
+/* correct if */
+if (10 > 20) then 30 else [[IntConst]]	

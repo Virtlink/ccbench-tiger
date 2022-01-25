@@ -1,8 +1,7 @@
-let
-  [[Dec]]
-  var y := "b\n"
-  var z := concat(x, y)
- in
-  print(z);
-  exit(0)
+let [[Dec]]
+    var y := "b\n"
+    var z := concat(x,y)
+ in print(z);
+    exit(0) 
 end
+  

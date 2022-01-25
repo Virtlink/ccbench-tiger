@@ -1,8 +1,6 @@
-let
-  type x = {
-              x : int
-           }
-  var x : x := x{ }
- in
-  x.x + 1
-end
+  let
+    type x = {x : int}
+    var x : x := x{}
+  in 
+    x.x + 1
+  end

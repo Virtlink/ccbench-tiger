@@ -1,5 +1,6 @@
+/* local types hide global */
 let
-  type a = int
- in
-  [[Exp]]
+	type a = int
+in
+	[[Exp]]
 end

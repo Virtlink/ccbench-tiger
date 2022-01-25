@@ -1,5 +1,6 @@
 let
- in
+  
+in
   rec1.x := 99;
-  rec1.x
+  rec1.x //  33
 end

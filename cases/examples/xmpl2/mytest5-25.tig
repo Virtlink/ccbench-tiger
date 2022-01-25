@@ -1,12 +1,4 @@
-let
-  var a := 1
-  var b := (
-             a := 2;
-             a
-           )
- in
-  [[ID]] := (
-              a := 2;
-              a
-            )
+let var a := 1
+    var b := (a := 2; a)
+ in [[ID]] := (a := 2; a)
 end

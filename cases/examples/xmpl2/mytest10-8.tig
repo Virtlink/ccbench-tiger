@@ -1,4 +1,3 @@
-(
-  print("a\n");
-  [[Exp]]
-)
+(print("a\n");
+[[Exp]])
+  

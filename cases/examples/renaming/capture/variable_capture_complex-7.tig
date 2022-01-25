@@ -1,4 +1,10 @@
+/* 
+test file for a complex case of capture
+var b -> x (line 10)
+*/
+
 let
-  var a := 1
- in
+	var a := 1
+in
+	
 end

@@ -1,5 +1,10 @@
+/* 
+test file to rename avariable 
+msg -> message
+*/
+
 let
-  var msg := "Hello World"
- in
-  [[Exp]]
+	var msg := "Hello World"
+in 
+	[[Exp]]
 end

@@ -1,6 +1,3 @@
-let
-  var i := 1
- in
-  (
-  )
+let var i := 1
+ in ()
 end

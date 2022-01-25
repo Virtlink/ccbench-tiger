@@ -6,7 +6,7 @@ let
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1
-     in
+    in
       if c then
         1
       else
@@ -21,7 +21,7 @@ let
           var r4 : int := 1
           var l5 : int := n
           var r5 : int := 1
-         in
+        in
           let
             var a : int := l - r
             var b : int := fact(a)
@@ -33,20 +33,21 @@ let
             var b4 : int := fact(a)
             var a5 : int := l - r
             var b5 : int := fact(a)
-           in
+          in
             let
               var c : int := n * b
               var c2 : int := n * b
               var c3 : int := n * b
               var c4 : int := n * b
               var c5 : int := n * b
-             in
+            in
               c
             end
           end
         end
     end
   var r := fact(10)
+
   function fact2(n : int, n2 : int) : int =
     let
       var c := n < 1
@@ -54,12 +55,13 @@ let
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1
-     in
+    in
       if c then
         1
       else
         let
-         in
+          
+        in
           let
             var a : int := l - r
             var b : int := fact(a)
@@ -71,20 +73,21 @@ let
             var b4 : int := fact(a)
             var a5 : int := l - r
             var b5 : int := fact(a)
-           in
+          in
             let
               var c : int := n * b
               var c2 : int := n * b
               var c3 : int := n * b
               var c4 : int := n * b
               var c5 : int := n * b
-             in
+            in
               c
             end
           end
         end
     end
   var r2 := fact(10)
+  
   function fact3(n : int, n2 : int, n3 : int) : int =
     let
       var c := n < 1
@@ -92,7 +95,7 @@ let
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1
-     in
+    in
       if c then
         1
       else
@@ -107,7 +110,7 @@ let
           var r4 : int := 1
           var l5 : int := n
           var r5 : int := 1
-         in
+        in
           let
             var a : int := l - r
             var b : int := fact(a)
@@ -119,20 +122,21 @@ let
             var b4 : int := fact(a)
             var a5 : int := l - r
             var b5 : int := fact(a)
-           in
+          in
             let
               var c : int := n * b
               var c2 : int := n * b
               var c3 : int := n * b
               var c4 : int := n * b
               var c5 : int := n * b
-             in
+            in
               c
             end
           end
         end
     end
   var r3 := fact(10)
+  
   function fact4(n : int, n2 : int, n3 : int, n4 : int) : int =
     let
       var c := n < 1
@@ -140,7 +144,7 @@ let
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1
-     in
+    in
       if c then
         1
       else
@@ -155,7 +159,7 @@ let
           var r4 : int := 1
           var l5 : int := n
           var r5 : int := 1
-         in
+        in
           let
             var a : int := l - r
             var b : int := fact(a)
@@ -167,20 +171,21 @@ let
             var b4 : int := fact(a)
             var a5 : int := l - r
             var b5 : int := fact(a)
-           in
+          in
             let
               var c : int := n * b
               var c2 : int := n * b
               var c3 : int := n * b
               var c4 : int := n * b
               var c5 : int := n * b
-             in
+            in
               c
             end
           end
         end
     end
   var r4 := fact(10)
+  
   function fact5(n : int, n2 : int, n3 : int, n4 : int, n5 : int) : int =
     let
       var c := n < 1
@@ -188,7 +193,7 @@ let
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1
-     in
+    in
       if c then
         1
       else
@@ -203,7 +208,7 @@ let
           var r4 : int := 1
           var l5 : int := n
           var r5 : int := 1
-         in
+        in
           let
             var a : int := l - r
             var b : int := fact(a)
@@ -215,20 +220,20 @@ let
             var b4 : int := fact(a)
             var a5 : int := l - r
             var b5 : int := fact(a)
-           in
+          in
             let
               var c : int := n * b
               var c2 : int := n * b
               var c3 : int := n * b
               var c4 : int := n * b
               var c5 : int := n * b
-             in
+            in
               c
             end
           end
         end
     end
   var r5 := fact(10)
- in
+in
   r
 end

@@ -1,8 +1,5 @@
-let
-  [[Dec]]
- in
-  while x < 5 do
-    (
+let [[Dec]]
+ in while x < 5 do (
       x := x + 1
     )
 end

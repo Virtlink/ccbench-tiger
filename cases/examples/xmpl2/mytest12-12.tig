@@ -1,6 +1,9 @@
+/* define a recursive function */
 let
-  function f(x : int) : int =
-    [[Exp]]
- in
-  f(f(0))
+
+function f(x : int) : int = [[Exp]]
+
+in
+   f(f(0)) 
 end
+

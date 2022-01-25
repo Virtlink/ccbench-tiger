@@ -1,11 +1,12 @@
-for i := 0 to 30 do
-  (
-    let
-      type intArray = array of int
-      type intArray2 = array of int
-      type intArray3 = array of int
-      type intArray4 = array of int
-      type intArray5 = array of int
-     in
-    end
-  )
+//https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/Queens.java
+for i := 0 to 30 do (
+  let
+    type intArray = array of int
+    type intArray2 = array of int
+    type intArray3 = array of int
+    type intArray4 = array of int
+    type intArray5 = array of int
+  in
+    
+  end
+)

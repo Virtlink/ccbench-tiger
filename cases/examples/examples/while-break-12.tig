@@ -1,6 +1,7 @@
 let
   var count := 0
- in
-  while [[Var]] > - 1 do
+in
+  while [[Var]] > -1 do
     break
 end
+

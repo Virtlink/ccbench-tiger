@@ -4,6 +4,6 @@ let
   var x3 := 3
   var x4 := 3
   var [[ID]] := 3
- in
+in
   x
 end

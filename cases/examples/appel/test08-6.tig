@@ -1,6 +1,2 @@
-if (
-     [[IntConst]] > 20
-   ) then
-  30
-else
-  40
+/* correct if */
+if ([[IntConst]] > 20) then 30 else 40	

@@ -1,8 +1,10 @@
+/* local types hide global */
 let
- in
-  let
-    type a = string
-   in
-    0
-  end
+	
+in
+	let
+		type a = string
+	in
+		0
+	end
 end

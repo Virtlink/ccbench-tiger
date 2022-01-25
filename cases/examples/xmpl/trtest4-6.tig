@@ -1,5 +1,3 @@
-let
-  var x : [[ID]] := "abc"
- in
-  x
+let var x : [[ID]] := "abc"
+ in x
 end

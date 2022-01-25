@@ -1,8 +1,12 @@
+/* 
+test file challenge
+*/
+
 let
-  type foo = {
-                foo : string
-             }
+	type foo = {
+		foo : string
+  }
   [[Dec]]
- in
-  foo(foo{ foo = "foo" })
+in
+  	foo(foo{foo = "foo"})
 end
