@@ -4,7 +4,7 @@ let
   type treelist = { hd : tree, tl : treelist }
   var l : intlist   := nil
   var tl : treelist := treelist { hd = nil, tl = nil }
-  var t : tree      := tree { key = [[Exp]], children = tl }
+  var t : tree      := tree { key = $Exp, children = tl }
 in
   l := intlist { hd = 3, tl = l };
   t := tree {

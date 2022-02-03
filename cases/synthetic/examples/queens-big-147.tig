@@ -20,7 +20,7 @@ let
   )
 
   function try(c : int) = (
-    if c = [[Var]] then
+    if c = $Var then
       printboard()
     else
       for r := 0 to N-1 do

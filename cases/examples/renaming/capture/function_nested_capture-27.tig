@@ -6,7 +6,7 @@ d -> a
 let 
 	function plus(a : int, b:int) : int = (
 		a + b;
-	  [[Exp]]
+	  $Exp
 	)
 in
    	plus(1,1)

@@ -1,1 +1,1 @@
-concat([[Exp]], "b")
+concat($Exp, "b")

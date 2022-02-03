@@ -1,6 +1,6 @@
 let
   function mod(i : int, j : int): int =
-    [[Var]] - (
+    $Var - (
       (
         i / j
       ) * j

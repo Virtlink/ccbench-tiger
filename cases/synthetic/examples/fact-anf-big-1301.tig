@@ -148,7 +148,7 @@ let
            in c
           end
     end
-  [[Dec]]
+  $Dec
 in
   r
 end

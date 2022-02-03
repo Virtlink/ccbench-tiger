@@ -1,5 +1,5 @@
 let
-  function fact(n : [[Type]]) : int = 
+  function fact(n : $Type) : int = 
     if n < 1 then 1 else (n * fact(n - 1))
   
   function bar() : int = 42

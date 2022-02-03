@@ -84,7 +84,7 @@ for i := 0 to 30 do (
                 var k4 : int := i + i
                 var k5 : int := i + i
               in
-                while k <= [[Exp]] do (
+                while k <= $Exp do (
                   flags[k-1] := 0;
                   k := k + i
                 )

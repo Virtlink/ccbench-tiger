@@ -3,7 +3,7 @@ let
   var n : int := 5
  in 
    while n > 0 do (
-     sum := sum + [[Var]];
+     sum := sum + $Var;
      n := n - 1
    );
    sum

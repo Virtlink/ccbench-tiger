@@ -10,7 +10,7 @@ let
   function write(s: string) =
     output := concat(output, s)
 
-  function show(n: int, [[FArg]]) =
+  function show(n: int, $FArg) =
   let function indent(s: string) =
         (write("\n");
          for i := 1 to n

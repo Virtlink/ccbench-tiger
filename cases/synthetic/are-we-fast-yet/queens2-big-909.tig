@@ -106,7 +106,7 @@ for i := 0 to 30 do (
             let
               var placed : int := 0
             in
-              for r := 0 to 7 do [[Exp]];
+              for r := 0 to 7 do $Exp;
               placed
             end
             

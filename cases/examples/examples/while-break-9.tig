@@ -1,7 +1,7 @@
 let
   var count := 0
 in
-  while [[Exp]] do
+  while $Exp do
     break
 end
 

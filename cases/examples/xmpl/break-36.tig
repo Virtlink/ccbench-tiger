@@ -3,7 +3,7 @@ let
     i - (
       (
         i / j
-      ) * [[LValue]]
+      ) * $LValue
     )
   function inttostring(n : int): string =
     if n < 10 then

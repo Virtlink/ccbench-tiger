@@ -74,7 +74,7 @@ for i := 0 to 30 do (
         Cons{ val = length, next = makeList(length - 1) }
     
     function isShorterThan2(x : Cons, y : Cons, x2 : Cons, y2 : Cons): int =
-      [[Exp]]
+      $Exp
     
     function tail2(x : Cons, y : Cons, z : Cons, x2 : Cons, y2 : Cons, z2 : Cons) : Cons =
       if isShorterThan(y, x) then

@@ -4,7 +4,7 @@
    See also test38 */
 let
 	type a = int
-	var b := [[IntConst]]
+	var b := $IntConst
 	type a = string
 in
 	0

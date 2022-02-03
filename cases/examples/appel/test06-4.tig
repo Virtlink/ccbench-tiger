@@ -1,7 +1,7 @@
 /* define valid mutually recursive procedures */
 let
 
-function [[ID]](a: int, b: string)=
+function $ID(a: int, b: string)=
 	   if a < 25 then
 		do_nothing2(a+1)
 

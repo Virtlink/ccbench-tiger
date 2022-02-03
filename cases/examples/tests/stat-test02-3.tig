@@ -1,5 +1,5 @@
 let
-  [[Dec]]
+  $Dec
   var n : int := 5
  in 
    while n > 0 do (

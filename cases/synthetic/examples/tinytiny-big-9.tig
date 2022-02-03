@@ -1,6 +1,6 @@
 let
   var x := 3
-  var x2 := [[Exp]]
+  var x2 := $Exp
   var x3 := 3
   var x4 := 3
   var x5 := 3

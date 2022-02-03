@@ -133,7 +133,7 @@ let
     in
       print(v);
       let
-        var [[ID]] := "7"
+        var $ID := "7"
         var v2 := "7"
         var v3 := "7"
         var v4 := "7"

@@ -9,7 +9,7 @@ let
 
 in 
 
-  for i := 1 to [[IntConst]] do 
+  for i := 1 to $IntConst do 
     x := x + fact(i)
 
 end

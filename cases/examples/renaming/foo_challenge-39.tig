@@ -14,5 +14,5 @@ let
   	end
   )
 in
-  	[[ID]](foo{foo = "foo"})
+  	$ID(foo{foo = "foo"})
 end

@@ -223,7 +223,7 @@ for i := 0 to 30 do (
         isShorter
       end
     
-    function tail4(x : Cons, y : Cons, z : Cons, x2 : Cons, y2 : Cons, z2 : Cons, x3 : Cons, y3 : Cons, z3 : [[ID]], x4 : Cons, y4 : Cons, z4 : Cons) : Cons =
+    function tail4(x : Cons, y : Cons, z : Cons, x2 : Cons, y2 : Cons, z2 : Cons, x3 : Cons, y3 : Cons, z3 : $ID, x4 : Cons, y4 : Cons, z4 : Cons) : Cons =
       if isShorterThan(y, x) then
         tail(
           tail(x.next, y, z),

@@ -4,7 +4,7 @@ for i := 0 to 30 do (
     type Cons = { val: int, next : Cons}
     
     function length(l : Cons): int =
-      [[Exp]]
+      $Exp
         
     function makeList(length: int): Cons =
       if length = 0 then

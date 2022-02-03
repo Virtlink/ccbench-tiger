@@ -23,7 +23,7 @@ let
   end
 
  in show(0, tree); 
-    [[Var]]
+    $Var
 end
 
 function node(x : string, l : tree, r : tree) : tree =

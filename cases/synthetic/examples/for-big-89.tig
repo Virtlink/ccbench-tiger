@@ -13,6 +13,6 @@ in
   for y := 1 to x do (
     f := f * y
   );
-  [[ID]]("s");
+  $ID("s");
   print(chr(x))
 end

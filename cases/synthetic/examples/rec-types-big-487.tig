@@ -31,7 +31,7 @@ let
   type tree5     = { key : int, children : treelist, key2 : int, children2 : treelist, key3 : int, children3 : treelist, key4 : int, children4 : treelist, key5 : int, children5 : treelist }
   type treelist5 = { hd : tree, tl : treelist, hd2 : tree, tl2 : treelist, hd3 : tree, tl3 : treelist, hd4 : tree, tl4 : treelist, hd5 : tree, tl5 : treelist }
   var l5 : intlist   := nil
-  var tl5 : treelist := treelist { hd = [[Exp]], tl = nil }
+  var tl5 : treelist := treelist { hd = $Exp, tl = nil }
   var t5 : tree      := tree { key = 1, children = tl }
 in
   l := intlist { hd = 3, tl = l };

@@ -6,6 +6,6 @@ let
   var q     := R{f = 1}
   
 in
-  [[LValue]].f;
+  $LValue.f;
   q.f
 end

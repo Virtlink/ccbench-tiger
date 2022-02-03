@@ -45,7 +45,7 @@ let
       else list{first=b.first,rest=merge(a,b.rest)}
 
  function printint(i: int) =
-  [[Exp]]
+  $Exp
 
  function printlist(l: list) =
    if l=nil then print("\n")

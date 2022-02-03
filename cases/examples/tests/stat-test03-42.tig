@@ -4,7 +4,7 @@ let
  in 
    if n > 0 then (
      sum := sum + n;
-     [[ID]] := n - 1
+     $ID := n - 1
    );
    sum
 end

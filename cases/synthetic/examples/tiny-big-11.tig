@@ -1,6 +1,6 @@
 let
   type foo = int
-  var x : int := [[Exp]]
+  var x : int := $Exp
   function f(y : int) : foo =
     3 + x + y
   var y : int := 1

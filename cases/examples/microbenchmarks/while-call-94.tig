@@ -16,6 +16,6 @@ in
     bar();
     foo();
     plus();
-    [[ID]]()
+    $ID()
   )
 end

@@ -13,7 +13,7 @@ let
   function show(n: int, t: tree) =
   let function indent(s: string) =
         (write("\n");
-         for [[Var]] := 1 to n
+         for $Var := 1 to n
           do write(" ");
          output := concat(output, s))
    in if t = nil then indent(".")

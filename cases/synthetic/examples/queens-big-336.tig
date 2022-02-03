@@ -34,7 +34,7 @@ let
         )
   )
   
-  var N2 := [[IntConst]]
+  var N2 := $IntConst
 
   type intArray2 = array of int
 

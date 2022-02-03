@@ -6,7 +6,7 @@ name -> fullName
 let
 	type student = {
 			name : string, 
-    	[[Field]]
+    	$Field
   	}
   	var student1: student := student{name = "Alan Turing", age = 107 }
 in

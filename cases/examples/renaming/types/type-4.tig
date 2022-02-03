@@ -4,7 +4,7 @@ student -> person
 */
 
 let
-	type [[ID]] = {
+	type $ID = {
 		name : string, 
     	age : int
   	}

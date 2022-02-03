@@ -1,7 +1,7 @@
 /* define a recursive function */
 let
 
-function printnl([[ID]] : string) =
+function printnl($ID : string) =
   (print(x); print("\n"))
 
 function mod(i : int, j : int) : int =

@@ -1,6 +1,6 @@
 let
   var cumsum := 0
 in
-  [[Exp]]
+  $Exp
 end
  

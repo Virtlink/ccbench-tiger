@@ -235,7 +235,7 @@ for i := 0 to 30 do (
         
     type Cons5 = { val : int, next : Cons, val2 : int, next2 : Cons, val3 : int, next3 : Cons, val4 : int, next4 : Cons, val5 : int, next5 : Cons }
     
-    function length5(l : Cons, l2 : Cons, l3 : Cons, l4 : Cons, l5 : [[ID]]): int =
+    function length5(l : Cons, l2 : Cons, l3 : Cons, l4 : Cons, l5 : $ID): int =
       if l.next = nil then
         1
       else

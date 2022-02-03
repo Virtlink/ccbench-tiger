@@ -12,7 +12,7 @@ for i := 0 to 30 do (
         let
           var freeRows  : intArray := intArray[ 8] of  1
           var freeMaxs  : intArray := intArray[16] of  1
-          [[Dec]]
+          $Dec
           var queenRows : intArray := intArray[ 8] of -1
           
           function getRowColumn(r : int, c : int): int =

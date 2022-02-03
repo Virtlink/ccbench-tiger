@@ -29,7 +29,7 @@ let
 
  type list = {first: int, rest: list}
 
- [[Dec]]
+ $Dec
 
  function merge(a: list, b: list) : list =
    if a=nil then b

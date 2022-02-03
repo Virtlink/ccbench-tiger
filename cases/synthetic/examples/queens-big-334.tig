@@ -34,7 +34,7 @@ let
         )
   )
   
-  var [[ID]] := 8
+  var $ID := 8
 
   type intArray2 = array of int
 

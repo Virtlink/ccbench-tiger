@@ -46,7 +46,7 @@ let
           end
         end
     end
-  var r := fact([[Exp]])
+  var r := fact($Exp)
 
   function fact2(n : int, n2 : int) : int =
     let

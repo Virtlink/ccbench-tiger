@@ -179,7 +179,7 @@ for i := 0 to 30 do (
         end
         
         
-     type TowersDisk4 = [[Type]]
+     type TowersDisk4 = $Type
     
      type arrayOfTowersDisk4 = array of TowersDisk
     

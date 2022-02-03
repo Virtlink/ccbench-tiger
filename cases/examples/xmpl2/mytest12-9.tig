@@ -1,7 +1,7 @@
 /* define a recursive function */
 let
 
-function f(x : [[ID]]) : int = 0
+function f(x : $ID) : int = 0
 
 in
    f(f(0)) 

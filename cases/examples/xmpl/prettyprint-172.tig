@@ -22,7 +22,7 @@ let
             show(n+1, t.right))
   end
 
- in show(0, [[LValue]]); 
+ in show(0, $LValue); 
     output
 end
 

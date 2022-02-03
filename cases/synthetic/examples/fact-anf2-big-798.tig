@@ -114,7 +114,7 @@ let
           var l2 : int := n
           var r2 : int := 1
           var l3 : int := n
-          var r3 : [[ID]] := 1
+          var r3 : $ID := 1
           var l4 : int := n
           var r4 : int := 1
           var l5 : int := n

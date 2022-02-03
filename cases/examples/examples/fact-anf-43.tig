@@ -7,7 +7,7 @@ let
          1
       else
         let
-           var a : int := n - [[IntConst]]
+           var a : int := n - $IntConst
            var b : int := fact(a)
            var c : int := n * b
         in

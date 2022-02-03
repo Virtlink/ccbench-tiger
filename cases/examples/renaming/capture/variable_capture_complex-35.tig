@@ -13,7 +13,7 @@ in
 		let
 			var a := 1
 		in
-			a + [[Var]]
+			a + $Var
 		end
 	end
 end

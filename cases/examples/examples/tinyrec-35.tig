@@ -3,5 +3,5 @@ let
   var rec1 : myrec := myrec { x = 1 }
 in
   rec1.x := 99;
-  rec1.[[ID]] //  33
+  rec1.$ID //  33
 end

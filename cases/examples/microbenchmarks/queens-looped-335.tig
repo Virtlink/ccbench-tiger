@@ -33,6 +33,6 @@ let
         )
   )
 in
-  for i := [[IntConst]] to 30 do
+  for i := $IntConst to 30 do
     try(0)
 end

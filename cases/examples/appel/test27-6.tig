@@ -1,6 +1,6 @@
 /* locals hide globals */
 let
-	var a := [[IntConst]]
+	var a := $IntConst
 
 	function g(a:int):int = a 
 in

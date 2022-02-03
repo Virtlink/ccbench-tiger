@@ -6,6 +6,6 @@ in
   in
     for i:=0 to 9
     do
-      printi(v1[[[Exp]]])
+      printi(v1[$Exp])
   end
 end

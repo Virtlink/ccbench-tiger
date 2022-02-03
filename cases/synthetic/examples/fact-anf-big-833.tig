@@ -95,7 +95,7 @@ let
       var c2 := n < 1
       var c3 := n < 1
       var c4 := n < 1
-      [[Dec]]
+      $Dec
      in if c then
           1
         else

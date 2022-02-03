@@ -233,7 +233,7 @@ for i := 0 to 30 do (
       else
         z
         
-    type Cons5 = { [[Field]], next : Cons, val2 : int, next2 : Cons, val3 : int, next3 : Cons, val4 : int, next4 : Cons, val5 : int, next5 : Cons }
+    type Cons5 = { $Field, next : Cons, val2 : int, next2 : Cons, val3 : int, next3 : Cons, val4 : int, next4 : Cons, val5 : int, next5 : Cons }
     
     function length5(l : Cons, l2 : Cons, l3 : Cons, l4 : Cons, l5 : Cons): int =
       if l.next = nil then

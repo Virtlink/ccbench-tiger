@@ -10,6 +10,6 @@ let
 in 
 
   for i := 1 to 3 do 
-    x := [[LValue]] + fact(i)
+    x := $LValue + fact(i)
 
 end

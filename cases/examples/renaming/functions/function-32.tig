@@ -8,5 +8,5 @@ let
 		a + b
 	)
 in
-   	plus([[IntConst]],1)
+   	plus($IntConst,1)
 end

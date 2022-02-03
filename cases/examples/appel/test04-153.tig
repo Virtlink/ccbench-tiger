@@ -17,6 +17,6 @@ function nfactor(n: int): int =
   if n = 0 then 1 else (n * nfactor(n-1))
 
 in
-   printnl([[ID]](nfactor(10)))
+   printnl($ID(nfactor(10)))
 end
 

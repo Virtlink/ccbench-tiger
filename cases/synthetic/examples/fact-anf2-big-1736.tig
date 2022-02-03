@@ -242,7 +242,7 @@ let
           end
         end
     end
-  var r5 := fact([[Exp]])
+  var r5 := fact($Exp)
 in
   r
 end

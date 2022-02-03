@@ -12,7 +12,7 @@ let
       concat(inttostring(n / 10), inttostring(mod(n, 10)))
   var x := 1
  in
-  while [[Exp]] do
+  while $Exp do
     (
       x := x + 1;
       print(inttostring(x));

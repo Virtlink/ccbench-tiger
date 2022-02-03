@@ -242,7 +242,7 @@ let
           end
         end
     end
-  var r5 := fact([[IntConst]])
+  var r5 := fact($IntConst)
 in
   r
 end

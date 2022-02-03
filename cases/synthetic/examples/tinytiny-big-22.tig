@@ -3,7 +3,7 @@ let
   var x2 := 3
   var x3 := 3
   var x4 := 3
-  var x5 := [[IntConst]]
+  var x5 := $IntConst
 in
   x
 end

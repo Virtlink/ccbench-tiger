@@ -5,7 +5,7 @@
 let
 	type a = int
 	var b := 4
-	[[Dec]]
+	$Dec
 in
 	0
 end

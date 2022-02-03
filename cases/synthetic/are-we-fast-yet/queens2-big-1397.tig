@@ -167,7 +167,7 @@ for i := 0 to 30 do (
             
             
           var freeRows5  : intArray := intArray[ 8] of  1
-          var [[ID]]  : intArray := intArray[16] of  1
+          var $ID  : intArray := intArray[16] of  1
           var freeMins5  : intArray := intArray[16] of  1
           var queenRows5 : intArray := intArray[ 8] of -1
           

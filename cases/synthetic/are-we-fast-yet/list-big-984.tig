@@ -151,7 +151,7 @@ for i := 0 to 30 do (
         
         var xTail5 : Cons := x
         var yTail5 : Cons := y
-        var isShorter5 : int := [[Exp]]
+        var isShorter5 : int := $Exp
       in
         while yTail <> nil do (
           if xTail = nil then (

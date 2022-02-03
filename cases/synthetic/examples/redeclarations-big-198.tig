@@ -51,7 +51,7 @@ let
       print(v);
       let
         var v := "8"
-        [[Dec]]
+        $Dec
         var v3 := "8"
         var v4 := "8"
         var v5 := "8"

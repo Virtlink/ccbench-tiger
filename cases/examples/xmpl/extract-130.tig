@@ -17,7 +17,7 @@ let
 	     print("\n"));
          print("\n"))
 
-    [[Dec]]
+    $Dec
  in try(0)
 end
 	

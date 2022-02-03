@@ -4,7 +4,7 @@ let
 		type a = array of int
 		type b = a
 
-		var arr1:a := [[Exp]]
+		var arr1:a := $Exp
 in
 		arr1[2]
 end

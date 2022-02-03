@@ -6,7 +6,7 @@ in
       if i < 500 then
         cumsum := cumsum + 1
       else
-        [[LValue]] := cumsum - 1
+        $LValue := cumsum - 1
     )
   )
 end

@@ -7,7 +7,7 @@ let
 	var bar := 10
 	in
 	  let
-		  [[Dec]]
+		  $Dec
 	  in 
 		  bar + foo
 		end

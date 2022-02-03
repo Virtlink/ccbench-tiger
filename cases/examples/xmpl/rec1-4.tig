@@ -1,5 +1,5 @@
 let
-  type [[ID]] = {
+  type $ID = {
     f : int
   } 
   var r : R := nil 

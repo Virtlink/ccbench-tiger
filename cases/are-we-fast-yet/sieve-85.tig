@@ -12,7 +12,7 @@ for i := 0 to 30 do (
             if flags[i-1] = 1 then (
               primeCount := primeCount + 1;
               let
-                [[Dec]]
+                $Dec
               in
                 while k <= size do (
                   flags[k-1] := 0;

@@ -71,7 +71,7 @@ for i := 0 to 30 do (
       if length = 0 then
         nil
       else
-        Cons{ val = length, [[InitField]] }
+        Cons{ val = length, $InitField }
     
     function isShorterThan2(x : Cons, y : Cons, x2 : Cons, y2 : Cons): int =
       let

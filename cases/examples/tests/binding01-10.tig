@@ -1,6 +1,6 @@
 let 
   var x := "1"
-  var x := [[IntConst]] // shadows previous x
+  var x := $IntConst // shadows previous x
 in 
   x + x
 end

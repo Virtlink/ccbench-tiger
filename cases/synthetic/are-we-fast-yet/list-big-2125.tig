@@ -294,7 +294,7 @@ for i := 0 to 30 do (
     let
       var result : Cons := tail(makeList(15), makeList(10), makeList(6))
       var result2 : Cons := tail(makeList(15), makeList(10), makeList(6))
-      var result3 : Cons := [[ID]](makeList(15), makeList(10), makeList(6))
+      var result3 : Cons := $ID(makeList(15), makeList(10), makeList(6))
       var result4 : Cons := tail(makeList(15), makeList(10), makeList(6))
       var result5 : Cons := tail(makeList(15), makeList(10), makeList(6))
     in

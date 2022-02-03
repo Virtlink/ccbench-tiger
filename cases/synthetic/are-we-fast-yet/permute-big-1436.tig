@@ -186,7 +186,7 @@ for i := 0 to 30 do (
       function swap5(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int, i4 : int, j4 : int, i5 : int, j5 : int) =
         let
           var tmp: int := v[i]
-          var tmp2: int := [[Var]][i]
+          var tmp2: int := $Var[i]
           var tmp3: int := v[i]
           var tmp4: int := v[i]
           var tmp5: int := v[i]

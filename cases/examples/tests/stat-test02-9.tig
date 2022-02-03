@@ -1,6 +1,6 @@
 let
   var sum : int := 0
-  [[Dec]]
+  $Dec
  in 
    while n > 0 do (
      sum := sum + n;

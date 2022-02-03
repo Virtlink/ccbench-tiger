@@ -14,5 +14,5 @@ in
       tl = treelist { hd = tree { key = 4, children = nil }, tl = nil }
     }
   };
-  t.children.hd.children := [[Exp]]
+  t.children.hd.children := $Exp
 end

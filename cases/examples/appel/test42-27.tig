@@ -4,7 +4,7 @@ let
 type arrtype1 = array of int
 type rectype1 = {name:string, address:string, id: int , age: int}
 type arrtype2 = array of rectype1
-[[Dec]]
+$Dec
 
 type arrtype3 = array of string
 

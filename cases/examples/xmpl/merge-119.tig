@@ -23,7 +23,7 @@ let
   in skipto();
      any.any := isdigit(buffer);
      while isdigit(buffer)
-       do ([[Exp]]; buffer := getchar());
+       do ($Exp; buffer := getchar());
      i
  end
 

@@ -5,7 +5,7 @@ type tree = {key: string, left : tree, right: tree}
 function prettyprint(tree: tree) : string =
 let
 
-  [[Dec]]
+  $Dec
 
   function write(s: string) =
     output := concat(output, s)

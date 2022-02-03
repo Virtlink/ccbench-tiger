@@ -11,7 +11,7 @@ for i := 0 to 30 do (
       function queens(): int =
         let
           var freeRows  : intArray := intArray[ 8] of  1
-          var freeMaxs  : intArray := [[Exp]]
+          var freeMaxs  : intArray := $Exp
           var freeMins  : intArray := intArray[16] of  1
           var queenRows : intArray := intArray[ 8] of -1
           

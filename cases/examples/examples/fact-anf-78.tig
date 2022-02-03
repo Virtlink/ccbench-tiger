@@ -14,7 +14,7 @@ let
            c
         end
     end
-  var r := fact([[Exp]])
+  var r := fact($Exp)
 in
   r
 end

@@ -39,7 +39,7 @@ in
     key = 2,
     children = treelist {
       hd = tree { key = 3, children = nil },
-      tl = treelist { [[ID]] = tree { key = 4, children = nil }, tl = nil }
+      tl = treelist { $ID = tree { key = 4, children = nil }, tl = nil }
     }
   };
   t.children.hd.children := t.children

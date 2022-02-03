@@ -1,1 +1,1 @@
-substring("martijn", 2, [[Exp]])
+substring("martijn", 2, $Exp)

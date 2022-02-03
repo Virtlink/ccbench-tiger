@@ -1,6 +1,6 @@
 let
   var x : int := 1
-  function f([[ID]] : int) : int =
+  function f($ID : int) : int =
     x + y
 in
   x

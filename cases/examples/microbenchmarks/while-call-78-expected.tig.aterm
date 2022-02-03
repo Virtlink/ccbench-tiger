@@ -1,1 +1,0 @@
-[Call("fact",[Int("10")]),Call("bar",[]),Call("foo",[]),Call("plus",[]),Call("minus",[])]

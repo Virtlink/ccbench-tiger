@@ -5,7 +5,7 @@ function printnl(x : string) =
   (print(x); print("\n"))
 
 function mod(i : int, j : int) : int =
-  i - (([[Var]] / j) * j)
+  i - (($Var / j) * j)
 
 function inttostring(n : int) : string =
   if n < 10 

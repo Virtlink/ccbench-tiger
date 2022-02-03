@@ -11,7 +11,7 @@ let
   function minus() = flush()
   
 in
-  for i := 0 to [[IntConst]] do (
+  for i := 0 to $IntConst do (
     fact(10);
     bar();
     foo();

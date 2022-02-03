@@ -100,7 +100,7 @@ for i := 0 to 30 do (
    
     function buildTowerAt2(pile : int, disks : int, pile2 : int, disks2 : int) =
       // might be wrong here. the iteration in the reference implementation is in reverse
-      [[Exp]]
+      $Exp
    
     function moveDisks2(disks : int, fromPile : int, toPile : int, disks2 : int, fromPile2 : int, toPile2 : int) =
       if disks = 1 then

@@ -6,5 +6,5 @@ msg -> message
 let
 	var msg : string := "Hello World"
 in 
-	[[ID]](msg)
+	$ID(msg)
 end

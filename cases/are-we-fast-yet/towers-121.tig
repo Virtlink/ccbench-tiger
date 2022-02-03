@@ -20,7 +20,7 @@ for i := 0 to 30 do (
       let
         var top : TowersDisk := piles[pile]
       in
-        piles[[[Exp]]] := top.next;
+        piles[$Exp] := top.next;
         top.next := nil;
         top
       end

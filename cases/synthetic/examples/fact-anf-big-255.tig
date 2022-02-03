@@ -28,7 +28,7 @@ let
            in c
           end
     end
-  var r := fact([[IntConst]])
+  var r := fact($IntConst)
   function fact2(n : int, n2 : int) : int =
     let
       var c := n < 1

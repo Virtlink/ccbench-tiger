@@ -41,7 +41,7 @@ for i := 0 to 30 do (
     
     function buildTowerAt(pile : int, disks : int) =
       // might be wrong here. the iteration in the reference implementation is in reverse
-      for [[Var]] := 0 to disks do
+      for $Var := 0 to disks do
         pushDisk(TowersDisk{size = i, next = nil}, pile)
     
     function moveDisks(disks : int, fromPile : int, toPile : int) =

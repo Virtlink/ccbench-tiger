@@ -5,7 +5,7 @@ let
 
   /* define a tree */
   type tree = { key: int, children: treelist }
-  type treelist = { hd: tree, [[Field]] }
+  type treelist = { hd: tree, $Field }
 
   var lis:intlist := intlist { hd = 0, tl = nil } 
 

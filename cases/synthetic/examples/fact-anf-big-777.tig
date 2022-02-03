@@ -89,7 +89,7 @@ let
           end
     end
   var r3 := fact(10)
-  function fact4([[FArg]], n2 : int, n3 : int, n4 : int) : int =
+  function fact4($FArg, n2 : int, n3 : int, n4 : int) : int =
     let
       var c := n < 1
       var c2 := n < 1

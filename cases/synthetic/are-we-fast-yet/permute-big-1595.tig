@@ -202,7 +202,7 @@ for i := 0 to 30 do (
             var n1 : int := n - 1
             var n12 : int := n - 1
             var n13 : int := n - 1
-            var n14 : [[ID]] := n - 1
+            var n14 : $ID := n - 1
             var n15 : int := n - 1
           in
             permute(n1);

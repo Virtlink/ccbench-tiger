@@ -7,7 +7,7 @@ let
         1
       else
         let
-          var l : int := [[ID]]
+          var l : int := $ID
           var r : int := 1
         in
           let

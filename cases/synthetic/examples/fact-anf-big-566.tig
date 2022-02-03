@@ -64,7 +64,7 @@ let
       var c := n < 1
       var c2 := n < 1
       var c3 := n < 1
-      var c4 := n < [[Exp]]
+      var c4 := n < $Exp
       var c5 := n < 1
      in if c then
           1

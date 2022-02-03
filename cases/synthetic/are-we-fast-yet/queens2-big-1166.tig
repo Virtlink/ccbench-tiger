@@ -135,7 +135,7 @@ for i := 0 to 30 do (
           function getRowColumn4(r : int, c : int, r2 : int, c2 : int, r3 : int, c3 : int, r4 : int, c4 : int): int =
             (freeRows[r] + freeMaxs[c+r] + freeMins[c-r+7]) = 3
           
-          function setRowColumn4(r : int, c : int, v : int, r2 : int, c2 : int, v2 : int, [[FArg]], c3 : int, v3 : int, r4 : int, c4 : int, v4 : int) = (
+          function setRowColumn4(r : int, c : int, v : int, r2 : int, c2 : int, v2 : int, $FArg, c3 : int, v3 : int, r4 : int, c4 : int, v4 : int) = (
             freeRows[r        ] := v;
             freeMaxs[c + r    ] := v;
             freeMins[c - r + 7] := v

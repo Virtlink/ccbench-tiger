@@ -26,7 +26,7 @@ let
   type foo5 = int
   var x5 : int := 0
   function f5(y : int, y2 : int, y3 : int, y4 : int, y5 : int) : foo =
-    3 + x + [[Var]]
+    3 + x + $Var
   var y5 : int := 1
 in
   for x := x to y + 1 do

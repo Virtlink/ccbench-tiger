@@ -6,7 +6,7 @@ let
   var tl : treelist := treelist { hd = nil, tl = nil }
   var t : tree      := tree { key = 1, children = tl }
 in
-  l := [[ID]] { hd = 3, tl = l };
+  l := $ID { hd = 3, tl = l };
   t := tree {
     key = 2,
     children = treelist {

@@ -31,7 +31,7 @@ let
   var r := fact(10)
   function fact2(n : int, n2 : int) : int =
     let
-      var c := [[Exp]] < 1
+      var c := $Exp < 1
       var c2 := n < 1
       var c3 := n < 1
       var c4 := n < 1

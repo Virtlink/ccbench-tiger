@@ -26,7 +26,7 @@ for i := 0 to 30 do (
       end
     
     function moveTopDisk(fromPile : int, toPile : int) = (
-      pushDisk([[Exp]], toPile);
+      pushDisk($Exp, toPile);
       movesDone := movesDone + 1
     )
     

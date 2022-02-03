@@ -86,7 +86,7 @@ let
   )
 
   function try3(c : int, c2 : int, c3 : int) = (
-    if [[ID]] = N then
+    if $ID = N then
       printboard()
     else
       for r := 0 to N-1 do

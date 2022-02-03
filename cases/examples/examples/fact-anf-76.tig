@@ -14,7 +14,7 @@ let
            c
         end
     end
-  var r := [[ID]](10)
+  var r := $ID(10)
 in
   r
 end

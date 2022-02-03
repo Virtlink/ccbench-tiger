@@ -41,7 +41,7 @@ for i := 0 to 30 do (
                   flush()
                 )
               );
-              [[Var]]
+              $Var
             end
               
         in

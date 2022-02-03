@@ -151,7 +151,7 @@ let
       in
         print(v)
       end;
-      print([[Var]])
+      print($Var)
     end
 in
   f("4")

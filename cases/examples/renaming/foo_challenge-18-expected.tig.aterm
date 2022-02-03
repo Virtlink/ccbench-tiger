@@ -1,1 +1,0 @@
-[Let([VarDecNoType("foo",LValue2Exp(FieldVar(Var2LValue(Var("foo")),"foo")))],[Call("print",[LValue2Exp(Var2LValue(Var("foo")))])])]

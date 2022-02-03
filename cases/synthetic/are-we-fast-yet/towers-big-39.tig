@@ -7,7 +7,7 @@ for i := 0 to 30 do (
     type arrayOfTowersDisk = array of TowersDisk
     
     var piles : arrayOfTowersDisk := arrayOfTowersDisk[3] of nil
-    var movesDone : int := [[Exp]]
+    var movesDone : int := $Exp
     
     function pushDisk(disk : TowersDisk, pile : int) =
       let

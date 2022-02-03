@@ -1,4 +1,4 @@
-let [[Dec]]
+let $Dec
  in f(4, 6)
 end
  

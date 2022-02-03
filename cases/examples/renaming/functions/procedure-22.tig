@@ -6,7 +6,7 @@ printnl -> printNewLine
 let 
 	function printnl(x : string) = (
 		print(x); 
-		print([[Exp]])
+		print($Exp)
 	)
 in
    	printnl("Hello World")

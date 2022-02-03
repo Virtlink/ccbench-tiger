@@ -166,7 +166,7 @@ let
           var r3 : int := 1
           var l4 : int := n
           var r4 : int := 1
-          var l5 : [[ID]] := n
+          var l5 : $ID := n
           var r5 : int := 1
         in
           let

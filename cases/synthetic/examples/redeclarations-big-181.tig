@@ -46,7 +46,7 @@ let
         var v4 := "7"
         var v5 := "7"
       in
-        print([[Exp]])
+        print($Exp)
       end;
       print(v);
       let

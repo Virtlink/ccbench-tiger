@@ -135,7 +135,7 @@ for i := 0 to 30 do (
       let
         var xTail : Cons := x
         var yTail : Cons := y
-        var isShorter : int := [[Exp]]
+        var isShorter : int := $Exp
         
         var xTail2 : Cons := x
         var yTail2 : Cons := y

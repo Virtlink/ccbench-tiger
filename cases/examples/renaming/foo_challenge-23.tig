@@ -8,7 +8,7 @@ let
   }
   function foo (foo: foo) = (
   	let
-  		var foo := [[Exp]]
+  		var foo := $Exp
   	in
   		print(foo)
   	end

@@ -74,7 +74,7 @@ for i := 0 to 30 do (
             var n12 : int := n - 1
             var n13 : int := n - 1
             var n14 : int := n - 1
-            var n15 : int := [[Exp]]
+            var n15 : int := $Exp
           in
             permute(n1);
             let

@@ -61,7 +61,7 @@ for i := 0 to 30 do (
         end
         
         
-    type TowersDisk2 = { size: int, next: TowersDisk, size2: int, [[Field]] }
+    type TowersDisk2 = { size: int, next: TowersDisk, size2: int, $Field }
    
     type arrayOfTowersDisk2 = array of TowersDisk
    

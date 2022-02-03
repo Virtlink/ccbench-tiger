@@ -19,7 +19,7 @@ let
     print("\n")
   )
 
-  function try(c : [[ID]]) = (
+  function try(c : $ID) = (
     if c = N then
       printboard()
     else

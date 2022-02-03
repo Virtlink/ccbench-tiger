@@ -199,7 +199,7 @@ for i := 0 to 30 do (
         count := count + 1;
         if n <> 0 then
           let
-            var n1 : int := n - [[Exp]]
+            var n1 : int := n - $Exp
             var n12 : int := n - 1
             var n13 : int := n - 1
             var n14 : int := n - 1

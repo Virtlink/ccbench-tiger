@@ -25,7 +25,7 @@ for i := 0 to 30 do (
         top
       end
     
-    [[Dec]]
+    $Dec
     
     function buildTowerAt(pile : int, disks : int) =
       // might be wrong here. the iteration in the reference implementation is in reverse

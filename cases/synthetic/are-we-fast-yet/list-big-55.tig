@@ -9,7 +9,7 @@ for i := 0 to 30 do (
       else
         1 + length(l.next)
         
-    function [[ID]](length: int): Cons =
+    function $ID(length: int): Cons =
       if length = 0 then
         nil
       else

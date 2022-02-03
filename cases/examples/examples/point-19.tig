@@ -1,7 +1,0 @@
-let
-  type point = { x : int, y : int }
-  var origin : point := point {  }
-in
-  origin.x;
-  origin := nil
-end

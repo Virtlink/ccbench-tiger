@@ -119,7 +119,7 @@ for i := 0 to 30 do (
             var n14 : int := n - 1
             var n15 : int := n - 1
           in
-            permute([[LValue]]);
+            permute($LValue);
             let
               var i : int := n1
               var i2 : int := n1

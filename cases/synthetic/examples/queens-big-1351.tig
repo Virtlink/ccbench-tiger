@@ -135,7 +135,7 @@ let
   
   var N5 := 8
 
-  [[Dec]]
+  $Dec
 
   var row5 := intArray [N] of 0
   var col5 := intArray [N] of 0

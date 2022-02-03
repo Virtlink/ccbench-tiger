@@ -13,7 +13,7 @@ let
   function printboard() = (
     for i := 0 to N-1 do (
       for j := 0 to N-1 do
-        print(if col[[[LValue]]]=j then " O" else " .");
+        print(if col[$LValue]=j then " O" else " .");
         print("\n")
     );
     print("\n")

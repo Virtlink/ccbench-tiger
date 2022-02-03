@@ -7,7 +7,7 @@ let
 
   var row := intArray [N] of 0
   var col := intArray [N] of 0
-  var diag1 := intArray [[[Exp]]+N-1] of 0
+  var diag1 := intArray [$Exp+N-1] of 0
   var diag2 := intArray [N+N-1] of 0
 
   function printboard() = (

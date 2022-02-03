@@ -82,7 +82,7 @@ for i := 0 to 30 do (
    
     function popDiskFrom2(pile : int, pile2 : int): TowersDisk =
       let
-        var top : TowersDisk := piles[[[Var]]]
+        var top : TowersDisk := piles[$Var]
         var top2 : TowersDisk := piles[pile]
         var top3 : TowersDisk := piles[pile]
         var top4 : TowersDisk := piles[pile]

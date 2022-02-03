@@ -30,7 +30,7 @@ let
       print(v)
     end
 
-  function f2(v : [[Type]], v2 : string) =
+  function f2(v : $Type, v2 : string) =
     let
       var v := "6"
       var v2 := "6"

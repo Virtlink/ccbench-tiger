@@ -1,5 +1,5 @@
 let
-  [[Dec]]
+  $Dec
 
   function f2(v : string, v2 : string) =
     let

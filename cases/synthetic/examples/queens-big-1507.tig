@@ -152,7 +152,7 @@ let
   )
 
   function try5(c : int, c2 : int, c3 : int, c4 : int, c5 : int) = (
-    if c = [[Var]] then
+    if c = $Var then
       printboard()
     else
       for r := 0 to N-1 do

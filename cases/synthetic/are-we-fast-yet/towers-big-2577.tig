@@ -270,7 +270,7 @@ for i := 0 to 30 do (
          top
        end
     
-     function moveTopDisk5(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int, fromPile3 : int, toPile3 : int, fromPile4 : int, toPile4 : int, fromPile5 : int, toPile5 : int) = [[Exp]]
+     function moveTopDisk5(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int, fromPile3 : int, toPile3 : int, fromPile4 : int, toPile4 : int, fromPile5 : int, toPile5 : int) = $Exp
     
      function buildTowerAt5(pile : int, disks : int, pile2 : int, disks2 : int, pile3 : int, disks3 : int, pile4 : int, disks4 : int, pile5 : int, disks5 : int) =
        // might be wrong here. the iteration in the reference implementation is in reverse

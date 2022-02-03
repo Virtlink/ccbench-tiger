@@ -3,6 +3,6 @@ let
   var n := 5
  in 
    for x := 1 to n do
-     [[Exp]];   
+     $Exp;   
    sum
 end

@@ -1,1 +1,0 @@
-[FArg("disks",Tid("int")),FArg("fromPile",Tid("int")),FArg("toPile",Tid("int"))]

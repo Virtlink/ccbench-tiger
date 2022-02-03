@@ -12,7 +12,7 @@ let
       concat(inttostring(n / 10), inttostring(mod(n, 10)))
   var x := 1
  in
-  while [[ID]] < 10 do
+  while $ID < 10 do
     (
       x := x + 1;
       print(inttostring(x));

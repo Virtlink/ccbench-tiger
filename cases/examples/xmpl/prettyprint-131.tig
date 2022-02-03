@@ -17,7 +17,7 @@ let
           do write(" ");
          output := concat(output, s))
    in if t = nil then indent(".")
-      else (indent([[ID]].key);
+      else (indent($ID.key);
             show(n+1, t.left);
             show(n+1, t.right))
   end

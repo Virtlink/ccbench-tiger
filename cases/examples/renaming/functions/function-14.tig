@@ -4,7 +4,7 @@ plus -> add
 */
 
 let 
-	function plus(a : int, b:int) : [[Type]] = (
+	function plus(a : int, b:int) : $Type = (
 		a + b
 	)
 in

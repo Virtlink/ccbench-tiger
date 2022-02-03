@@ -18,7 +18,7 @@ for i := 0 to 30 do (
           function getRowColumn(r : int, c : int): int =
             (freeRows[r] + freeMaxs[c+r] + freeMins[c-r+7]) = 3
           
-          function setRowColumn(r : int, c : int, [[ID]] : int) = (
+          function setRowColumn(r : int, c : int, $ID : int) = (
             freeRows[r        ] := v;
             freeMaxs[c + r    ] := v;
             freeMins[c - r + 7] := v

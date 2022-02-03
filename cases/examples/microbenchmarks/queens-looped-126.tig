@@ -16,7 +16,7 @@ let
         print(if col[i]=j then " O" else " .");
         print("\n")
     );
-    [[ID]]("\n")
+    $ID("\n")
   )
 
   function try(c:int) = (

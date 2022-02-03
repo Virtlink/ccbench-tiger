@@ -41,7 +41,7 @@ let
    if a=nil then b
    else if b=nil then a
    else if a.first < b.first 
-      then list{first=a.first,rest=merge([[Var]].rest,b)}
+      then list{first=a.first,rest=merge($Var.rest,b)}
       else list{first=b.first,rest=merge(a,b.rest)}
 
  function printint(i: int) =

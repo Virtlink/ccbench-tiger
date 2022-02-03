@@ -13,7 +13,7 @@ in for i := 0 to 1 do
      
    for i := 0 to 1 do
      for j := 0 to 2 do
-       [[LValue]][i][j] := i + j;
+       $LValue[i][j] := i + j;
        
    t[1][2]
 end

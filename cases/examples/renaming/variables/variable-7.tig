@@ -4,7 +4,7 @@ msg -> message
 */
 
 let
-	var msg : string := [[Exp]]
+	var msg : string := $Exp
 in 
 	print(msg)
 end

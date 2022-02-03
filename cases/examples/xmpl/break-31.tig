@@ -2,7 +2,7 @@ let
   function mod(i : int, j : int): int =
     i - (
       (
-        i / [[Exp]]
+        i / $Exp
       ) * j
     )
   function inttostring(n : int): string =

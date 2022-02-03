@@ -13,7 +13,7 @@ let
       let
         var v := "8"
       in
-        [[Exp]]
+        $Exp
       end;
       print(v)
     end

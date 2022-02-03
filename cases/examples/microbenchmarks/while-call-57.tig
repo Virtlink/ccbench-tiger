@@ -6,7 +6,7 @@ let
   
   function foo() : string = ""
   
-  function plus() : [[ID]] = 1 + 2
+  function plus() : $ID = 1 + 2
   
   function minus() = flush()
   

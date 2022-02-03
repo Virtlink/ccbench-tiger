@@ -9,5 +9,5 @@ let
 		print("\n")
 	)
 in
-   	printnl([[Exp]])
+   	printnl($Exp)
 end

@@ -1,6 +1,6 @@
   let
     type point = {x : int, y: int}
-    var p := point{x = 1, y = [[Exp]]}
+    var p := point{x = 1, y = $Exp}
   in 
     p.y
   end 

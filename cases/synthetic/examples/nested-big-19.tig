@@ -1,7 +1,7 @@
 let
   var x : int := 1
   function f(y : int) : int =
-    [[Exp]] + y
+    $Exp + y
   var x2 : int := 1
   function f2(y : int, y2 : int) : int =
     x + y

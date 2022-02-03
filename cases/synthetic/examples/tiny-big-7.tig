@@ -1,6 +1,6 @@
 let
   type foo = int
-  [[Dec]]
+  $Dec
   function f(y : int) : foo =
     3 + x + y
   var y : int := 1

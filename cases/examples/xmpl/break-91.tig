@@ -10,7 +10,7 @@ let
       chr(48 + n)
     else
       concat(inttostring(n / 10), inttostring(mod(n, 10)))
-  [[Dec]]
+  $Dec
  in
   while x < 10 do
     (

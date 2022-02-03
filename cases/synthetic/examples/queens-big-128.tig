@@ -16,7 +16,7 @@ let
         print(if col[i] = j then " O" else " .");
         print("\n")
     );
-    print([[Exp]])
+    print($Exp)
   )
 
   function try(c : int) = (

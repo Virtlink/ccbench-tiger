@@ -1,5 +1,5 @@
 let
-  type R = [[Type]] 
+  type R = $Type 
   var r : R := nil 
   var q     := R{f = 1}
   

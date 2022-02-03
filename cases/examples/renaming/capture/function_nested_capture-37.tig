@@ -7,7 +7,7 @@ let
 	function plus(a : int, b:int) : int = (
 		a + b;
 	  let
-			function plus(d:int) : [[ID]] = 
+			function plus(d:int) : $ID = 
 				a + d
 		in 
 		 plus(1)

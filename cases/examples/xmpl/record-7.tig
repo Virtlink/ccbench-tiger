@@ -1,6 +1,6 @@
 let 
   type i = int
-  [[Dec]]
+  $Dec
   type r = {x : i, y : i}
   var x : int := 1
   var a : r := r{ x = 1, y = 1 } 

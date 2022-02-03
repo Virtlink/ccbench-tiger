@@ -52,7 +52,7 @@ for i := 0 to 30 do (
     function tail(x : Cons, y : Cons, z : Cons) : Cons =
       if isShorterThan(y, x) then
         tail(
-          tail([[LValue]], y, z),
+          tail($LValue, y, z),
           tail(y.next, z, x),
           tail(z.next, x, y)
         )

@@ -92,7 +92,7 @@ let
       print(v)
     end
 
-  function f4(v : [[ID]], v2 : string, v3 : string, v4 : string) =
+  function f4(v : $ID, v2 : string, v3 : string, v4 : string) =
     let
       var v := "6"
       var v2 := "6"

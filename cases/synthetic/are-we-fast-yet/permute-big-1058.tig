@@ -141,7 +141,7 @@ for i := 0 to 30 do (
       var v4 : vector := vector[6] of 0
       
       function swap4(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int, i4 : int, j4 : int) =
-        [[Exp]]
+        $Exp
       
       function permute4(n: int, n2: int, n3: int, n4: int) = (
         count := count + 1;

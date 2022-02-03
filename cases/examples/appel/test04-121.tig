@@ -14,7 +14,7 @@ function inttostring(n : int) : string =
 
 /* calculate n! */
 function nfactor(n: int): int =
-  [[Exp]]
+  $Exp
 
 in
    printnl(inttostring(nfactor(10)))

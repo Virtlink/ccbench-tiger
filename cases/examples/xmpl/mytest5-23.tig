@@ -5,7 +5,7 @@ let
   var x := 0
 
   function fact(n : int) : int = 
-      if n < [[IntConst]] then 1 else (n * fact(n - 1))
+      if n < $IntConst then 1 else (n * fact(n - 1))
 
 in 
 

@@ -200,7 +200,7 @@ let
       var c := n < 1
       var c2 := n < 1
       var c3 := n < 1
-      var c4 := [[Exp]] < 1
+      var c4 := $Exp < 1
       var c5 := n < 1
     in
       if c then

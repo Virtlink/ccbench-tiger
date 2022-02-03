@@ -22,7 +22,7 @@ let
             show(n+1, t.right))
   end
 
- in show([[Exp]], tree); 
+ in show($Exp, tree); 
     output
 end
 

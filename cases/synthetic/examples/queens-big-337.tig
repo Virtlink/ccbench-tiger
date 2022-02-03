@@ -36,7 +36,7 @@ let
   
   var N2 := 8
 
-  [[Dec]]
+  $Dec
 
   var row2 := intArray [N] of 0
   var col2 := intArray [N] of 0

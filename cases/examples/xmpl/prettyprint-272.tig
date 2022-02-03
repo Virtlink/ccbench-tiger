@@ -37,6 +37,6 @@ in let var t : tree := node("a",node("b",nil,nil),
     in //printnl("start");
        //printnl(prettyprint(t));
        //printnl("end")
-       [[ID]](t)
+       $ID(t)
    end
 end

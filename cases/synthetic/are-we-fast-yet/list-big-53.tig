@@ -7,7 +7,7 @@ for i := 0 to 30 do (
       if l.next = nil then
         1
       else
-        1 + length(l.[[ID]])
+        1 + length(l.$ID)
         
     function makeList(length: int): Cons =
       if length = 0 then

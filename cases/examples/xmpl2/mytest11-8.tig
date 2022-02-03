@@ -1,5 +1,5 @@
 let var x := "a\n"
-    var [[ID]] := "b\n"
+    var $ID := "b\n"
     var z := concat(x,y)
  in print(z);
     exit(0) 

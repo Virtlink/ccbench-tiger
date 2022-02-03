@@ -89,7 +89,7 @@ let
       in
         print(v)
       end;
-      print([[Var]])
+      print($Var)
     end
 
   function f4(v : string, v2 : string, v3 : string, v4 : string) =

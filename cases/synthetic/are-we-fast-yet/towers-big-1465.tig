@@ -166,7 +166,7 @@ for i := 0 to 30 do (
       if disks = 1 then
         moveTopDisk(fromPile, toPile)
       else
-        [[Exp]]
+        $Exp
         
         
      type TowersDisk4 = { size: int, next: TowersDisk, size2: int, next2: TowersDisk, size3: int, next3: TowersDisk, size4: int, next4: TowersDisk }

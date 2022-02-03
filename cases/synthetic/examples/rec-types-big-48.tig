@@ -3,7 +3,7 @@ let
   type tree     = { key : int, children : treelist }
   type treelist = { hd : tree, tl : treelist }
   var l : intlist   := nil
-  var tl : treelist := treelist { hd = nil, [[InitField]] }
+  var tl : treelist := treelist { hd = nil, $InitField }
   var t : tree      := tree { key = 1, children = tl }
   
   type intlist2  = { hd : int, tl : intlist, hd2 : int, tl2 : intlist }

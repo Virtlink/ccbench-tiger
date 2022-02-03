@@ -115,7 +115,7 @@ for i := 0 to 30 do (
           tail(z.next, x, y)
         )
       else
-        [[Exp]]
+        $Exp
         
     type Cons3 = { val : int, next : Cons, val2 : int, next2 : Cons, val3 : int, next3 : Cons }
     

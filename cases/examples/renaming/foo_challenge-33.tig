@@ -10,7 +10,7 @@ let
   	let
   		var foo := foo.foo
   	in
-  		print([[Exp]])
+  		print($Exp)
   	end
   )
 in

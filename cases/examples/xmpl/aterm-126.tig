@@ -13,7 +13,7 @@ function match(x : aterm, y : aterm) : int =
   else 0
 
 function match_args(xs : alist, ys : alist) : int =
-  [[Exp]]
+  $Exp
 
 function test1() : aterm =
   app("Succ", alist{hd = app("Zero", nil), tl = nil})

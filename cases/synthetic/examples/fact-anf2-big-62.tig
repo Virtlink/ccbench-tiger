@@ -7,7 +7,7 @@ let
       var c4 := n < 1
       var c5 := n < 1
     in
-      if [[LValue]] then
+      if $LValue then
         1
       else
         let

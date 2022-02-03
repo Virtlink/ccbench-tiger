@@ -14,7 +14,7 @@ for i := 0 to 30 do (
           function getRowColumn(r : int, c : int): int =
             (freeRows[r] + freeMaxs[c+r] + freeMins[c-r+7]) = 3
           
-          [[Dec]]
+          $Dec
           
           function placeQueen(c : int):int =
             let

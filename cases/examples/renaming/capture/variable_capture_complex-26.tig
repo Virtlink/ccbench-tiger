@@ -11,7 +11,7 @@ in
 	in
 		a := 2;
 		let
-			var a := [[IntConst]]
+			var a := $IntConst
 		in
 			a + b
 		end

@@ -88,7 +88,7 @@ for i := 0 to 30 do (
             end
             
             
-          [[Dec]]
+          $Dec
           var freeMaxs3  : intArray := intArray[16] of  1
           var freeMins3  : intArray := intArray[16] of  1
           var queenRows3 : intArray := intArray[ 8] of -1

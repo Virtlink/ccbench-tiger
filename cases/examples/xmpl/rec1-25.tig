@@ -6,6 +6,6 @@ let
   var q     := R{f = 1}
   
 in
-  [[Exp]];
+  $Exp;
   q.f
 end

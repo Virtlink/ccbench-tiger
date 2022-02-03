@@ -16,7 +16,7 @@ let
  function readint(any: any) : int =
  let var i := 0
      function isdigit(s : string) : int = 
-		  ord(buffer)>=ord("0") & [[Exp]]
+		  ord(buffer)>=ord("0") & $Exp
      function skipto() =
        while buffer=" " | buffer="\n"
          do buffer := getchar()

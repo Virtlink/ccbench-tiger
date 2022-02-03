@@ -58,7 +58,7 @@ let
       in
         print(v)
       end;
-      print([[Exp]])
+      print($Exp)
     end
 
   function f3(v : string, v2 : string, v3 : string) =

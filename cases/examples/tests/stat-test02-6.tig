@@ -1,5 +1,5 @@
 let
-  var sum : [[ID]] := 0
+  var sum : $ID := 0
   var n : int := 5
  in 
    while n > 0 do (

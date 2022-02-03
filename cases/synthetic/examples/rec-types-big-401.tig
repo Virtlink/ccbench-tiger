@@ -27,7 +27,7 @@ let
   var tl4 : treelist := treelist { hd = nil, tl = nil }
   var t4 : tree      := tree { key = 1, children = tl }
   
-  type intlist5  = { hd : int, tl : intlist, hd2 : int, tl2 : intlist, hd3 : int, tl3 : intlist, hd4 : int, tl4 : intlist, hd5 : [[ID]], tl5 : intlist }
+  type intlist5  = { hd : int, tl : intlist, hd2 : int, tl2 : intlist, hd3 : int, tl3 : intlist, hd4 : int, tl4 : intlist, hd5 : $ID, tl5 : intlist }
   type tree5     = { key : int, children : treelist, key2 : int, children2 : treelist, key3 : int, children3 : treelist, key4 : int, children4 : treelist, key5 : int, children5 : treelist }
   type treelist5 = { hd : tree, tl : treelist, hd2 : tree, tl2 : treelist, hd3 : tree, tl3 : treelist, hd4 : tree, tl4 : treelist, hd5 : tree, tl5 : treelist }
   var l5 : intlist   := nil

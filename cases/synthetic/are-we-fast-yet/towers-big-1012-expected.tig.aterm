@@ -1,1 +1,0 @@
-[Minus(LValue2Exp(Var2LValue(Var("disks"))),Int("1")),LValue2Exp(Var2LValue(Var("otherPile"))),LValue2Exp(Var2LValue(Var("toPile")))]

@@ -1,1 +1,1 @@
-substring("martijn", [[IntConst]], 2)
+substring("martijn", $IntConst, 2)

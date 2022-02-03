@@ -201,7 +201,7 @@ for i := 0 to 30 do (
         
         var xTail3 : Cons := x
         var yTail3 : Cons := y
-        var isShorter3 : [[Type]] := 0
+        var isShorter3 : $Type := 0
         
         var xTail4 : Cons := x
         var yTail4 : Cons := y

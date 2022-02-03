@@ -1,6 +1,6 @@
 /* locals hide globals */
 let
-	var [[ID]] := 0
+	var $ID := 0
 
 	function g(a:int):int = a 
 in

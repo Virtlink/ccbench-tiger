@@ -1,5 +1,5 @@
 let function f(x : int, z : int) : int = 
-    let function g([[ID]] : int) : int = 
+    let function g($ID : int) : int = 
           (x + y) - z
      in g(x)
     end

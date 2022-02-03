@@ -1,6 +1,6 @@
 let
 
-type tree = [[Type]]
+type tree = $Type
 
 function prettyprint(tree: tree) : string =
 let

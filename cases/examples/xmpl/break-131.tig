@@ -18,5 +18,5 @@ let
       print(inttostring(x));
       break
     );
-  print([[Exp]])
+  print($Exp)
 end

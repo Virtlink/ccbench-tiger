@@ -3,5 +3,5 @@ let function f(i : int) : int =
           i
      in i + g(i)
     end
- in [[ID]](10)
+ in $ID(10)
 end

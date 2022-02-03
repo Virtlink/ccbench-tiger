@@ -14,5 +14,5 @@ let
 		end
 	)
 in
-   	plus(1,[[Exp]])
+   	plus(1,$Exp)
 end

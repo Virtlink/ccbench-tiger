@@ -105,7 +105,7 @@ for i := 0 to 30 do (
    
     function moveDisks2(disks : int, fromPile : int, toPile : int, disks2 : int, fromPile2 : int, toPile2 : int) =
       if disks = 1 then
-        moveTopDisk(fromPile, [[Exp]])
+        moveTopDisk(fromPile, $Exp)
       else
         let
           var otherPile : int := (3 - fromPile) - toPile

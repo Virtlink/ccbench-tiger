@@ -1,4 +1,4 @@
-let var [[ID]] := 3
+let var $ID := 3
  in while x < 5 do (
       x := x + 1
     )

@@ -1,6 +1,6 @@
 let
   var i : int := 1
 in
-  [[Exp]]
+  $Exp
 end
 

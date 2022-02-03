@@ -146,7 +146,7 @@ for i := 0 to 30 do (
               var placed : int := 0
             in
               for r := 0 to 7 do (
-                if [[Exp]] = 1 then (
+                if $Exp = 1 then (
                   queenRows[r] := c;
                   setRowColumn(r, c, 0);
                   if c = 7 then (

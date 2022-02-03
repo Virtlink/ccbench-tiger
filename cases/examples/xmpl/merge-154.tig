@@ -24,7 +24,7 @@ let
      any.any := isdigit(buffer);
      while isdigit(buffer)
        do (i := i*10+ord(buffer)-ord("0"); buffer := getchar());
-     [[ID]]
+     $ID
  end
 
  type list = {first: int, rest: list}

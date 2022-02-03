@@ -10,7 +10,7 @@ for i := 0 to 30 do (
         if counter2 > 500 then
           break
       );
-      [[Var]] := 0
+      $Var := 0
     )
   end
 )

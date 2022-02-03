@@ -145,7 +145,7 @@ let
   function printboard5() = (
     for i := 0 to N-1 do (
       for j := 0 to N-1 do
-        print(if [[Var]][i] = j then " O" else " .");
+        print(if $Var[i] = j then " O" else " .");
         print("\n")
     );
     print("\n")

@@ -1,6 +1,6 @@
 let
   type R = {
-    [[Field]]
+    $Field
   } 
   var r : R := nil 
   var q     := R{f = 1}

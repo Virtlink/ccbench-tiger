@@ -4,7 +4,7 @@ let
  in 
    if n > 0 then (
      sum := sum + n;
-     n := [[Var]] - 1
+     n := $Var - 1
    );
    sum
 end

@@ -105,7 +105,7 @@ for i := 0 to 30 do (
           var tmp4: int := v[i]
           var tmp5: int := v[i]
         in
-          v[i] := [[LValue]];
+          v[i] := $LValue;
           v[j] := tmp
         end
       

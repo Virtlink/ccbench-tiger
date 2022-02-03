@@ -4,6 +4,6 @@ in
   let
     var b := 1
   in
-    [[ID]] + b
+    $ID + b
   end
 end

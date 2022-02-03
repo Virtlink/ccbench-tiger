@@ -4,7 +4,7 @@ for k := 0 to 30  do (
       var cumsum := 0
     in
       let
-        var [[ID]] := -99
+        var $ID := -99
       in
         cumsum := cumsum + 1
       end

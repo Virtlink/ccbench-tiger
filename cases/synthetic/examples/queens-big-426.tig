@@ -45,7 +45,7 @@ let
 
   function printboard2() = (
     for i := 0 to N-1 do (
-      for j := 0 to N-[[Exp]] do
+      for j := 0 to N-$Exp do
         print(if col[i] = j then " O" else " .");
         print("\n")
     );

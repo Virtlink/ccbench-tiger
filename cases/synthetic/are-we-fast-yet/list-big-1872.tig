@@ -266,7 +266,7 @@ for i := 0 to 30 do (
         var isShorter4 : int := 0
         
         var xTail5 : Cons := x
-        [[Dec]]
+        $Dec
         var isShorter5 : int := 0
       in
         while yTail <> nil do (

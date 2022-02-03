@@ -1,5 +1,5 @@
 let
-  var x : [[Type]] := 5
+  var x : $Type := 5
   var f : int := 1
 in
   for y := 1 to x do (

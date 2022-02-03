@@ -7,7 +7,7 @@ let
     )
   function inttostring(n : int): string =
     if n < 10 then
-      chr(48 + [[ID]])
+      chr(48 + $ID)
     else
       concat(inttostring(n / 10), inttostring(mod(n, 10)))
   var x := 1

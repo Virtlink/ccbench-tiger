@@ -1,5 +1,5 @@
 let
-  [[Dec]]
+  $Dec
   type tree     = { key : int, children : treelist }
   type treelist = { hd : tree, tl : treelist }
   var l : intlist   := nil

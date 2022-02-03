@@ -110,7 +110,7 @@ let
       in
         print(v)
       end;
-      print([[Exp]]);
+      print($Exp);
       let
         var v := "8"
         var v2 := "8"

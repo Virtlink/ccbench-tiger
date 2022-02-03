@@ -213,7 +213,7 @@ for i := 0 to 30 do (
               var i4 : int := n1
               var i5 : int := n1
             in
-              while i >= 0 do [[Exp]]
+              while i >= 0 do $Exp
             end
           end
       )

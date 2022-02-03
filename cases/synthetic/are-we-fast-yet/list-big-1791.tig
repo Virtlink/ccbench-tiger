@@ -250,7 +250,7 @@ for i := 0 to 30 do (
     function isShorterThan5(x : Cons, y : Cons, x2 : Cons, y2 : Cons, x3 : Cons, y3 : Cons, x4 : Cons, y4 : Cons, x5 : Cons, y5 : Cons): int =
       let
         var xTail : Cons := x
-        var yTail : Cons := [[ID]]
+        var yTail : Cons := $ID
         var isShorter : int := 0
         
         var xTail2 : Cons := x

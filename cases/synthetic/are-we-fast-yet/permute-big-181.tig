@@ -25,7 +25,7 @@ for i := 0 to 30 do (
       
       function permute(n: int) = (
         count := count + 1;
-        [[Exp]]
+        $Exp
       )
       
       var count2 : int := 0

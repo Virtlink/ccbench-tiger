@@ -1,1 +1,0 @@
-[InitField("key",Int("2")),InitField("children",Record("treelist",[InitField("hd",Record("tree",[InitField("key",Int("3")),InitField("children",NilExp())])),InitField("tl",Record("treelist",[InitField("hd",Record("tree",[InitField("key",Int("4")),InitField("children",NilExp())])),InitField("tl",NilExp())]))]))]

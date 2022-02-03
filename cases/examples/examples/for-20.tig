@@ -2,7 +2,7 @@ let
   var x : int := 5
   var f : int := 1
 in
-  for y := [[IntConst]] to x do (
+  for y := $IntConst to x do (
     f := f * y
   );
   print("s");

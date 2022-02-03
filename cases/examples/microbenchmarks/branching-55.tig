@@ -6,7 +6,7 @@ in
       if i < 500 then
         cumsum := cumsum + 1
       else
-        cumsum := cumsum - [[IntConst]]
+        cumsum := cumsum - $IntConst
     )
   )
 end

@@ -1,5 +1,5 @@
 let
-  var [[ID]] : int := 3
+  var $ID : int := 3
   var n : int := 7
  in 
    if n > 0 then (

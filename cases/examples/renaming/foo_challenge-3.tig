@@ -3,7 +3,7 @@ test file challenge
 */
 
 let
-	[[Dec]]
+	$Dec
   function foo (foo: foo) = (
   	let
   		var foo := foo.foo

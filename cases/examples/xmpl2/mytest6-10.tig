@@ -1,4 +1,4 @@
-let function f(i : int) : [[Type]] =
+let function f(i : int) : $Type =
     let function g(i : int) : int = 
           i
      in i + g(i)

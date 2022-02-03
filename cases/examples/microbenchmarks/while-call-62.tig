@@ -6,7 +6,7 @@ let
   
   function foo() : string = ""
   
-  function plus() : int = 1 + [[IntConst]]
+  function plus() : int = 1 + $IntConst
   
   function minus() = flush()
   

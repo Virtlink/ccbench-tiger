@@ -8,7 +8,7 @@ let
 		a + b;
 	  let
 			function plus(d:int) : int = 
-				[[Exp]]
+				$Exp
 		in 
 		 plus(1)
 		end

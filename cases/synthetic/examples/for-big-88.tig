@@ -13,6 +13,6 @@ in
   for y := 1 to x do (
     f := f * y
   );
-  [[Exp]];
+  $Exp;
   print(chr(x))
 end

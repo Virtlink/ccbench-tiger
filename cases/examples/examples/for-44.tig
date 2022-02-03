@@ -5,6 +5,6 @@ in
   for y := 1 to x do (
     f := f * y
   );
-  print([[StrConst]]);
+  print($StrConst);
   print(chr(x))
 end

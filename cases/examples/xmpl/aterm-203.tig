@@ -19,7 +19,7 @@ function match_args(xs : alist, ys : alist) : int =
   else 0
 
 function test1() : aterm =
-  app("Succ", alist{[[ID]] = app("Zero", nil), tl = nil})
+  app("Succ", alist{$ID = app("Zero", nil), tl = nil})
 
 in
  

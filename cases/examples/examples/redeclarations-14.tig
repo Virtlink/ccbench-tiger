@@ -1,7 +1,7 @@
 let
   function f(v : string) =
     let
-      var v := [[Exp]]
+      var v := $Exp
     in
       print(v);
       let

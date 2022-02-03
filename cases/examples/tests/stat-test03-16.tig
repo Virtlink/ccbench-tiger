@@ -2,6 +2,6 @@ let
   var sum : int := 3
   var n : int := 7
  in 
-   [[Exp]];
+   $Exp;
    sum
 end

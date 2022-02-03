@@ -9,7 +9,7 @@ let
   var x2 : int := 0
   function f2(y : int, y2 : int) : foo =
     3 + x + y
-  [[Dec]]
+  $Dec
   
   type foo3 = int
   var x3 : int := 0

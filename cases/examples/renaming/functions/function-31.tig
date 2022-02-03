@@ -8,5 +8,5 @@ let
 		a + b
 	)
 in
-   	plus([[Exp]],1)
+   	plus($Exp,1)
 end

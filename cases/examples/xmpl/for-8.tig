@@ -1,6 +1,6 @@
 let 
   var i := 1
-  var [[ID]] := i
+  var $ID := i
 
   type vec = array of int
 

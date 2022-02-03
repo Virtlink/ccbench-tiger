@@ -3,4 +3,4 @@ test file to rename a parameter inside a nested function to the same name as the
 d -> a
 */
 
-[[Exp]]
+$Exp

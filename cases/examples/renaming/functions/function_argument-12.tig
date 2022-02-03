@@ -5,7 +5,7 @@ x -> text
 
 let 
 	function printnl(x : string) = (
-		[[Exp]]; 
+		$Exp; 
 		print("\n")
 	)
 in

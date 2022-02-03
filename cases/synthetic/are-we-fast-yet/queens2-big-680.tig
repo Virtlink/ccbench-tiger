@@ -89,7 +89,7 @@ for i := 0 to 30 do (
             
             
           var freeRows3  : intArray := intArray[ 8] of  1
-          var freeMaxs3  : intArray := [[Exp]]
+          var freeMaxs3  : intArray := $Exp
           var freeMins3  : intArray := intArray[16] of  1
           var queenRows3 : intArray := intArray[ 8] of -1
           

@@ -32,7 +32,7 @@ let
  function readlist() : list =
     let var any := any{any=0}
         var i := readint(any)
-     in [[Exp]]
+     in $Exp
     end
 
  function merge(a: list, b: list) : list =

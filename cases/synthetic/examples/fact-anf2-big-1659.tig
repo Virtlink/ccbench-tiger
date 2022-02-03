@@ -230,7 +230,7 @@ let
             var a5 : int := l - r
             var b5 : int := fact(a)
           in
-            [[Exp]]
+            $Exp
           end
         end
     end

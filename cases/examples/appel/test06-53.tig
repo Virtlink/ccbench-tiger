@@ -9,6 +9,6 @@ function do_nothing2(d: int) =
 		do_nothing1(d, "str")
 
 in
-	do_nothing1([[IntConst]], "str2")
+	do_nothing1($IntConst, "str2")
 end
 

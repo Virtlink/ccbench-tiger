@@ -1,4 +1,4 @@
-let function [[ID]](n : int) : int =
+let function $ID(n : int) : int =
       if n = 0 then 1 else n * fac(n - 1)
  in fac(5)
 end

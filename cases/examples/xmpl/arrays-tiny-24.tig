@@ -4,7 +4,7 @@ in
   let
     var v1 : vector := vector[10] of 1
   in
-    for i:=[[Exp]] to 9
+    for i:=$Exp to 9
     do
       printi(v1[i])
   end

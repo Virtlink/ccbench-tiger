@@ -123,7 +123,7 @@ let
       print(v)
     end
 
-  [[Dec]]
+  $Dec
 in
   f("4")
 end

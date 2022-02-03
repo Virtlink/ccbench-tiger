@@ -4,7 +4,7 @@ let
  in 
    while n > 0 do (
      sum := sum + n;
-     n := [[Exp]] - 1
+     n := $Exp - 1
    );
    sum
 end

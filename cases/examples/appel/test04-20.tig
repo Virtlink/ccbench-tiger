@@ -2,7 +2,7 @@
 let
 
 function printnl(x : string) =
-  (print(x); [[ID]]("\n"))
+  (print(x); $ID("\n"))
 
 function mod(i : int, j : int) : int =
   i - ((i / j) * j)

@@ -18,5 +18,5 @@ let
       print(v)
     end
 in
-  [[Exp]]
+  $Exp
 end

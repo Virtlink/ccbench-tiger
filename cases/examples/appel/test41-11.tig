@@ -3,7 +3,7 @@ let
 	type a = int
 in
 	let
-		type [[ID]] = string
+		type $ID = string
 	in
 		0
 	end

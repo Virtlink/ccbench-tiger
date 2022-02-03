@@ -154,5 +154,5 @@ let
       print(v)
     end
 in
-  f([[StrConst]])
+  f($StrConst)
 end

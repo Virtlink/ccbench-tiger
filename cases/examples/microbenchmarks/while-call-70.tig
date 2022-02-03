@@ -11,5 +11,5 @@ let
   function minus() = flush()
   
 in
-  [[Exp]]
+  $Exp
 end

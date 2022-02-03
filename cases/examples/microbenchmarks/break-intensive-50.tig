@@ -5,7 +5,7 @@ for i := 0 to 30 do (
   in
     while counter < 100 do (
       counter := counter + 1;
-      while counter2 < 1000 do [[Exp]];
+      while counter2 < 1000 do $Exp;
       counter2 := 0
     )
   end

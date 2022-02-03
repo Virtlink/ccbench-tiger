@@ -5,5 +5,5 @@ let
     else 
       1 + size(xs.tl)
 in 
-  list{hd = [[Exp]], tl = list{hd = 0, tl = nil}}
+  list{hd = $Exp, tl = list{hd = 0, tl = nil}}
 end

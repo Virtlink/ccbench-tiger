@@ -22,7 +22,7 @@ let
           end
         end
     end
-  var r := fact([[IntConst]])
+  var r := fact($IntConst)
 in
   r
 end

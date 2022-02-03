@@ -1,5 +1,5 @@
   let
-    type x = {x : [[ID]]}
+    type x = {x : $ID}
     var x : x := x{x = 1}
   in 
     x.x + 1

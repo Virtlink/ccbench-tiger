@@ -3,7 +3,7 @@ let
 in
   for c := 0 to 30 do (
     for i := 0 to 500 do (
-      [[Exp]]
+      $Exp
     )
   )
 end

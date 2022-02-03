@@ -23,7 +23,7 @@ for i := 0 to 30 do (
           v[j] := tmp
         end
       
-      function permute(n: int) = [[Exp]]
+      function permute(n: int) = $Exp
       
       var count2 : int := 0
       var v2 : vector := vector[6] of 0

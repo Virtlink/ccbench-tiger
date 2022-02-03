@@ -10,7 +10,7 @@ let
   var x5 : int := 5
   var f5 : int := 1
 in
-  for y := [[Exp]] to x do (
+  for y := $Exp to x do (
     f := f * y
   );
   print("s");

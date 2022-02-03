@@ -142,7 +142,7 @@ for i := 0 to 30 do (
           )
           
           function placeQueen4(c : int, c2 : int, c3 : int, c4 : int):int =
-            [[Exp]]
+            $Exp
             
             
           var freeRows5  : intArray := intArray[ 8] of  1

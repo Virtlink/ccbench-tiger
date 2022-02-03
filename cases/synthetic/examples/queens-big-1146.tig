@@ -118,7 +118,7 @@ let
     print("\n")
   )
 
-  function try4(c : int, c2 : int, c3 : [[ID]], c4 : int) = (
+  function try4(c : int, c2 : int, c3 : $ID, c4 : int) = (
     if c = N then
       printboard()
     else

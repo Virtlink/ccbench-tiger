@@ -18,7 +18,7 @@ for i := 0 to 30 do (
     function isShorterThan(x : Cons, y : Cons): int =
       let
         var xTail : Cons := x
-        var yTail : [[Type]] := y
+        var yTail : $Type := y
         var isShorter : int := 0
       in
         while yTail <> nil do (

@@ -3,7 +3,7 @@ let
     f : int
   } 
   var r : R := nil 
-  var q     := [[Exp]]
+  var q     := $Exp
   
 in
   r.f;

@@ -1,7 +1,7 @@
 let
   type foo = int
   var x : int := 0
-  [[Dec]]
+  $Dec
   var y : int := 1
 in
   for x := x to y + 1 do

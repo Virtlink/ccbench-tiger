@@ -1,7 +1,7 @@
 let
   type list = {hd : int, tl : list}
   function size(xs : list) : int = 
-    if [[Var]] = nil then 0
+    if $Var = nil then 0
     else 
       1 + size(xs.tl)
 in 

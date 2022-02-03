@@ -14,7 +14,7 @@ let
  var buffer := getchar()
 
  function readint(any: any) : int =
- let [[Dec]]
+ let $Dec
      function isdigit(s : string) : int = 
 		  ord(buffer)>=ord("0") & ord(buffer)<=ord("9")
      function skipto() =

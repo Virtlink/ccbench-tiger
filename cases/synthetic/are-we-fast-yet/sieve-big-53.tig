@@ -10,7 +10,7 @@ for i := 0 to 30 do (
     let
       function sieve(flags : intArray, size : int): int = (
         let
-          var [[ID]] : int := 0
+          var $ID : int := 0
           var primeCount2 : int := 0
           var primeCount3 : int := 0
           var primeCount4 : int := 0

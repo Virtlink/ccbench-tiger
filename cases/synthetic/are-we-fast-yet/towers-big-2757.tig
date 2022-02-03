@@ -284,7 +284,7 @@ for i := 0 to 30 do (
        if disks = 1 then
          moveTopDisk(fromPile, toPile)
        else
-         [[Exp]]
+         $Exp
   in
     buildTowerAt(0, 13);
     movesDone := 0;

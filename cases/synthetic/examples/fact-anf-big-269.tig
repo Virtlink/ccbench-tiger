@@ -30,7 +30,7 @@ let
     end
   var r := fact(10)
   function fact2(n : int, n2 : int) : int =
-    [[Exp]]
+    $Exp
   var r2 := fact(10)
   function fact3(n : int, n2 : int, n3 : int) : int =
     let

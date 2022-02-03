@@ -3,7 +3,7 @@ test file challenge
 */
 
 let
-	type foo = [[Type]]
+	type foo = $Type
   function foo (foo: foo) = (
   	let
   		var foo := foo.foo

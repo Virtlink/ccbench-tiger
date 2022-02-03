@@ -22,7 +22,7 @@ for i := 0 to 30 do (
             var n1 : int := n - 1
           in
             permute(n1);
-            [[Exp]]
+            $Exp
           end
       )
     in

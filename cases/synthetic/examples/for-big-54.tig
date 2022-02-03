@@ -7,7 +7,7 @@ let
   var f3 : int := 1
   var x4 : int := 5
   var f4 : int := 1
-  var x5 : [[ID]] := 5
+  var x5 : $ID := 5
   var f5 : int := 1
 in
   for y := 1 to x do (

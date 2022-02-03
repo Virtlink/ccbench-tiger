@@ -15,7 +15,7 @@ let
 
  function readint(any: any) : int =
  let var i := 0
-     function isdigit(s : [[ID]]) : int = 
+     function isdigit(s : $ID) : int = 
 		  ord(buffer)>=ord("0") & ord(buffer)<=ord("9")
      function skipto() =
        while buffer=" " | buffer="\n"

@@ -4,6 +4,6 @@ in
   let
     var v1 : vector := vector[10] of 1
   in
-    [[Exp]]
+    $Exp
   end
 end

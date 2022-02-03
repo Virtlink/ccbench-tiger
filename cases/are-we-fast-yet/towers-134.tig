@@ -21,7 +21,7 @@ for i := 0 to 30 do (
         var top : TowersDisk := piles[pile]
       in
         piles[pile] := top.next;
-        [[Var]].next := nil;
+        $Var.next := nil;
         top
       end
     

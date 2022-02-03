@@ -13,7 +13,7 @@ let
       let
         var v := "8"
       in
-        [[ID]](v)
+        $ID(v)
       end;
       print(v)
     end

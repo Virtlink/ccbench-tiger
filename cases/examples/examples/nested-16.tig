@@ -1,6 +1,6 @@
 let
   var x : int := 1
-  function f(y : int) : [[Type]] =
+  function f(y : int) : $Type =
     x + y
 in
   x

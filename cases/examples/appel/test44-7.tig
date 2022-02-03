@@ -1,7 +1,7 @@
 /* valid nil initialization and assignment */
 let 
 
-	type rectype = {[[Field]], id:int}
+	type rectype = {$Field, id:int}
 	var b:rectype := nil
 
 in

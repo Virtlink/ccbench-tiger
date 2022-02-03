@@ -1,7 +1,7 @@
 let
   var x : int := 1
   function f(y : int) : int =
-    x + [[Var]]
+    x + $Var
   var x2 : int := 1
   function f2(y : int, y2 : int) : int =
     x + y

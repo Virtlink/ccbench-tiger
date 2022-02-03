@@ -82,7 +82,7 @@ for i := 0 to 30 do (
               var i2 : int := n1
               var i3 : int := n1
               var i4 : int := n1
-              var i5 : int := [[ID]]
+              var i5 : int := $ID
             in
               while i >= 0 do (
                 swap(n1, i);

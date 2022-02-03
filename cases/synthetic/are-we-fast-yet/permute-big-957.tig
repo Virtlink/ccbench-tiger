@@ -127,7 +127,7 @@ for i := 0 to 30 do (
               var i4 : int := n1
               var i5 : int := n1
             in
-              [[Exp]]
+              $Exp
             end
           end
       )

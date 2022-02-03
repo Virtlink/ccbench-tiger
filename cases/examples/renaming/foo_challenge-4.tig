@@ -3,7 +3,7 @@ test file challenge
 */
 
 let
-	type [[ID]] = {
+	type $ID = {
 		foo : string
   }
   function foo (foo: foo) = (

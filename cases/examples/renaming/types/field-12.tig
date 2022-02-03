@@ -6,7 +6,7 @@ name -> fullName
 let
 	type student = {
 			name : string, 
-    	age : [[ID]]
+    	age : $ID
   	}
   	var student1: student := student{name = "Alan Turing", age = 107 }
 in

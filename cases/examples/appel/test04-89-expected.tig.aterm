@@ -1,1 +1,0 @@
-[Call("inttostring",[Divide(LValue2Exp(Var2LValue(Var("n"))),Int("10"))]),Call("inttostring",[Call("mod",[LValue2Exp(Var2LValue(Var("n"))),Int("10")])])]

@@ -183,7 +183,7 @@ for i := 0 to 30 do (
       var count5 : int := 0
       var v5 : vector := vector[6] of 0
       
-      [[Dec]]
+      $Dec
       
       function permute5(n: int, n2: int, n3: int, n4: int, n5: int) = (
         count := count + 1;

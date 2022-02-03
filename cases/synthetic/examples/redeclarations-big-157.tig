@@ -40,7 +40,7 @@ let
     in
       print(v);
       let
-        [[Dec]]
+        $Dec
         var v2 := "7"
         var v3 := "7"
         var v4 := "7"

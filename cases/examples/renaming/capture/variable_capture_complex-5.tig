@@ -4,7 +4,7 @@ var b -> x (line 10)
 */
 
 let
-	var a := [[Exp]]
+	var a := $Exp
 in
 	let
 		var b := 1

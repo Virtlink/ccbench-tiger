@@ -7,7 +7,7 @@ let
 
   var output := ""
 
-  [[Dec]]
+  $Dec
 
   function show(n: int, t: tree) =
   let function indent(s: string) =

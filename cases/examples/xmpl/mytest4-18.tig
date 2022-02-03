@@ -1,5 +1,5 @@
 let function f(x : int, z : int) : int = 
-    let [[Dec]]
+    let $Dec
      in g(x)
     end
  in f(4, 6)

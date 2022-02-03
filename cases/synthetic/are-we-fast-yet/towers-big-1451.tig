@@ -163,7 +163,7 @@ for i := 0 to 30 do (
         pushDisk(TowersDisk{size = i, next = nil}, pile)
    
     function moveDisks3(disks : int, fromPile : int, toPile : int, disks2 : int, fromPile2 : int, toPile2 : int, disks3 : int, fromPile3 : int, toPile3 : int) =
-      if [[ID]] = 1 then
+      if $ID = 1 then
         moveTopDisk(fromPile, toPile)
       else
         let

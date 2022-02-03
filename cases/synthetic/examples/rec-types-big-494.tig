@@ -32,7 +32,7 @@ let
   type treelist5 = { hd : tree, tl : treelist, hd2 : tree, tl2 : treelist, hd3 : tree, tl3 : treelist, hd4 : tree, tl4 : treelist, hd5 : tree, tl5 : treelist }
   var l5 : intlist   := nil
   var tl5 : treelist := treelist { hd = nil, tl = nil }
-  var t5 : [[ID]]      := tree { key = 1, children = tl }
+  var t5 : $ID      := tree { key = 1, children = tl }
 in
   l := intlist { hd = 3, tl = l };
   t := tree {

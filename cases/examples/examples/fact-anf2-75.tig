@@ -14,7 +14,7 @@ let
             var a : int := l - r
             var b : int := fact(a)
           in
-            [[Exp]]
+            $Exp
           end
         end
     end

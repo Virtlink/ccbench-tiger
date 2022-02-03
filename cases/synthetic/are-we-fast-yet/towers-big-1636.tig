@@ -181,7 +181,7 @@ for i := 0 to 30 do (
         
      type TowersDisk4 = { size: int, next: TowersDisk, size2: int, next2: TowersDisk, size3: int, next3: TowersDisk, size4: int, next4: TowersDisk }
     
-     type arrayOfTowersDisk4 = array of [[ID]]
+     type arrayOfTowersDisk4 = array of $ID
     
      var piles4 : arrayOfTowersDisk := arrayOfTowersDisk[3] of nil
      var movesDone4 : int := 0

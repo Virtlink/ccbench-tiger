@@ -110,7 +110,7 @@ let
       in
         print(v)
       end;
-      print([[LValue]]);
+      print($LValue);
       let
         var v := "8"
         var v2 := "8"

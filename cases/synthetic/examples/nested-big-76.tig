@@ -6,7 +6,7 @@ let
   function f2(y : int, y2 : int) : int =
     x + y
   var x3 : int := 1
-  function f3(y : int, y2 : int, y3 : int) : [[Type]] =
+  function f3(y : int, y2 : int, y3 : int) : $Type =
     x + y
   var x4 : int := 1
   function f4(y : int, y2 : int, y3 : int, y4 : int) : int =

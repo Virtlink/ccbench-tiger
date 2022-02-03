@@ -17,7 +17,7 @@ let
             let
               var c : int := n * b
             in
-              [[Exp]]
+              $Exp
             end
           end
         end

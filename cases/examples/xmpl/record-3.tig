@@ -1,5 +1,5 @@
 let 
-  [[Dec]]
+  $Dec
   var y : i := 4
   type r = {x : i, y : i}
   var x : int := 1

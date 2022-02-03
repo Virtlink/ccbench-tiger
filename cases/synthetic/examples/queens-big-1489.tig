@@ -151,7 +151,7 @@ let
     print("\n")
   )
 
-  function try5(c : int, c2 : int, c3 : int, [[FArg]], c5 : int) = (
+  function try5(c : int, c2 : int, c3 : int, $FArg, c5 : int) = (
     if c = N then
       printboard()
     else

@@ -63,7 +63,7 @@ for i := 0 to 30 do (
     
     function length2(l : Cons, l2 : Cons): int =
       if l.next = nil then
-        [[Exp]]
+        $Exp
       else
         1 + length(l.next)
         

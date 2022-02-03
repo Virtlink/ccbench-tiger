@@ -1,5 +1,5 @@
 let
-  type [[ID]]  = { hd : int, tl : intlist }
+  type $ID  = { hd : int, tl : intlist }
   type tree     = { key : int, children : treelist }
   type treelist = { hd : tree, tl : treelist }
   var l : intlist   := nil

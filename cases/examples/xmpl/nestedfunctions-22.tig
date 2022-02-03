@@ -1,6 +1,6 @@
 let var x := 1
  in let var x := x + 3
-     in let [[Dec]]
+     in let $Dec
          in x(3,4)
         end;
         x + 5

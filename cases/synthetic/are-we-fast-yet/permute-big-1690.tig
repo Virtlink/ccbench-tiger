@@ -215,7 +215,7 @@ for i := 0 to 30 do (
             in
               while i >= 0 do (
                 swap(n1, i);
-                permute([[LValue]]);
+                permute($LValue);
                 swap(n1, i);
                 i := i - 1
               )

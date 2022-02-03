@@ -42,7 +42,7 @@ for i := 0 to 30 do (
         let
           var otherPile : int := (3 - fromPile) - toPile
         in
-          moveDisks([[Exp]], fromPile, otherPile);
+          moveDisks($Exp, fromPile, otherPile);
           moveTopDisk(fromPile, toPile);
           moveDisks(disks - 1, otherPile, toPile)
         end

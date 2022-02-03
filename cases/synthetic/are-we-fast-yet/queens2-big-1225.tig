@@ -138,7 +138,7 @@ for i := 0 to 30 do (
           function setRowColumn4(r : int, c : int, v : int, r2 : int, c2 : int, v2 : int, r3 : int, c3 : int, v3 : int, r4 : int, c4 : int, v4 : int) = (
             freeRows[r        ] := v;
             freeMaxs[c + r    ] := v;
-            [[LValue]][c - r + 7] := v
+            $LValue[c - r + 7] := v
           )
           
           function placeQueen4(c : int, c2 : int, c3 : int, c4 : int):int =

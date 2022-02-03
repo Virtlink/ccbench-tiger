@@ -28,7 +28,7 @@ let
           col[c]:=r;
           try(c+1);
           row[r]:=0;
-          [[ID]][r+c]:=0;
+          $ID[r+c]:=0;
           diag2[r+7-c]:=0
         )
   )

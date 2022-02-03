@@ -253,7 +253,7 @@ for i := 0 to 30 do (
         var yTail : Cons := y
         var isShorter : int := 0
         
-        [[Dec]]
+        $Dec
         var yTail2 : Cons := y
         var isShorter2 : int := 0
         

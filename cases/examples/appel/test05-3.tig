@@ -1,7 +1,7 @@
 /* define valid recursive types */
 let
   /* define a list */
-  [[Dec]]
+  $Dec
 
   /* define a tree */
   type tree = { key: int, children: treelist }

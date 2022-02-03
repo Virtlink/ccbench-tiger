@@ -100,7 +100,7 @@ let
         )
   )
   
-  var N4 := [[IntConst]]
+  var N4 := $IntConst
 
   type intArray4 = array of int
 

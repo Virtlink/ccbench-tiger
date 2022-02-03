@@ -14,7 +14,7 @@ function inttostring(n : int) : string =
 
 /* calculate n! */
 function nfactor(n: int): int =
-  if n = 0 then [[IntConst]] else (n * nfactor(n-1))
+  if n = 0 then $IntConst else (n * nfactor(n-1))
 
 in
    printnl(inttostring(nfactor(10)))

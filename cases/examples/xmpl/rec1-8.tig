@@ -1,6 +1,6 @@
 let
   type R = {
-    [[ID]] : int
+    $ID : int
   } 
   var r : R := nil 
   var q     := R{f = 1}

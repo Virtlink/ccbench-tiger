@@ -10,6 +10,6 @@ let
 in 
 
   for i := 1 to 3 do 
-    [[ID]] := x + fact(i)
+    $ID := x + fact(i)
 
 end

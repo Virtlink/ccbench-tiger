@@ -8,7 +8,7 @@ let
       var v5 := "6"
     in
       print(v);
-      [[Exp]];
+      $Exp;
       print(v);
       let
         var v := "8"

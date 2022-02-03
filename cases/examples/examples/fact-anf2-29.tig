@@ -4,7 +4,7 @@ let
       var c := n < 1
     in
       if c then
-        [[Exp]]
+        $Exp
       else
         let
           var l : int := n

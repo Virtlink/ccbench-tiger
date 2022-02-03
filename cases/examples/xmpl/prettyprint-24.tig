@@ -2,7 +2,7 @@ let
 
 type tree = {key: string, left : tree, right: tree}
 
-function prettyprint(tree: tree) : [[ID]] =
+function prettyprint(tree: tree) : $ID =
 let
 
   var output := ""

@@ -1,7 +1,7 @@
 let
   var i : int := 1
 in
-  while [[ID]] < 10 do (
+  while $ID < 10 do (
     print(chr(i));
     i := i + 1
   )

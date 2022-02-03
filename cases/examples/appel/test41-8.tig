@@ -2,5 +2,5 @@
 let
 	type a = int
 in
-	[[Exp]]
+	$Exp
 end

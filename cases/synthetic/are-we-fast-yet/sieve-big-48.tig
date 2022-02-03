@@ -8,7 +8,7 @@ for i := 0 to 30 do (
     type intArray5 = array of int
   in
     let
-      function sieve(flags : intArray, size : int): int = [[Exp]]
+      function sieve(flags : intArray, size : int): int = $Exp
       
       function sieve2(flags : intArray, size : int, flags2 : intArray, size2 : int): int = (
         let

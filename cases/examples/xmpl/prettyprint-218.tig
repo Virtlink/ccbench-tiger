@@ -29,7 +29,7 @@ end
 function node(x : string, l : tree, r : tree) : tree =
   tree{key = x, left = l, right = r}
 
-function [[ID]](x : string) =
+function $ID(x : string) =
   (print(x); print("\n"))
 
 in let var t : tree := node("a",node("b",nil,nil),

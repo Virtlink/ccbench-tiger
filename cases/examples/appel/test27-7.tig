@@ -2,7 +2,7 @@
 let
 	var a := 0
 
-	[[Dec]] 
+	$Dec 
 in
  g(2)
 end

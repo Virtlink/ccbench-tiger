@@ -17,7 +17,7 @@ for i := 0 to 30 do (
       
       function permute(n: int) = (
         count := count + 1;
-        if [[Var]] <> 0 then
+        if $Var <> 0 then
           let
             var n1 : int := n - 1
           in

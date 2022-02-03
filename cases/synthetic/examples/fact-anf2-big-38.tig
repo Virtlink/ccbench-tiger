@@ -3,7 +3,7 @@ let
     let
       var c := n < 1
       var c2 := n < 1
-      var c3 := [[ID]] < 1
+      var c3 := $ID < 1
       var c4 := n < 1
       var c5 := n < 1
     in

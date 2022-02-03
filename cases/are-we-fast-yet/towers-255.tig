@@ -40,7 +40,7 @@ for i := 0 to 30 do (
         moveTopDisk(fromPile, toPile)
       else
         let
-          [[Dec]]
+          $Dec
         in
           moveDisks(disks - 1, fromPile, otherPile);
           moveTopDisk(fromPile, toPile);

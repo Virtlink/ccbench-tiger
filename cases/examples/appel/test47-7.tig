@@ -4,7 +4,7 @@
    See also test38 */
 let
 	type a = int
-	[[Dec]]
+	$Dec
 	type a = string
 in
 	0

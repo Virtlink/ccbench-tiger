@@ -4,7 +4,7 @@ x -> text
 */
 
 let 
-	[[Dec]]
+	$Dec
 in
    	printnl("Hello World")
 end

@@ -15,5 +15,5 @@ let
   var rec15 : myrec := myrec { x = 1 }
 in
   rec1.x := 99;
-  [[ID]].x //  33
+  $ID.x //  33
 end

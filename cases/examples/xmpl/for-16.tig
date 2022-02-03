@@ -2,7 +2,7 @@ let
   var i := 1
   var j := i
 
-  type vec = array of [[ID]]
+  type vec = array of $ID
 
   var v : vec := vec [5] of 0
 

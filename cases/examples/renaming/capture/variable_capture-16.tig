@@ -9,6 +9,6 @@ let
 	  let
 		  var foo := 100
 	  in 
-		  [[Exp]] + foo
+		  $Exp + foo
 		end
 end

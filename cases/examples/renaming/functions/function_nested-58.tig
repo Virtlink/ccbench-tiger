@@ -10,7 +10,7 @@ let
 			function plus(a : int, b:int) : int = 
 				a + b
 		in 
-		 plus(1,[[IntConst]])
+		 plus(1,$IntConst)
 		end
 	)
 in

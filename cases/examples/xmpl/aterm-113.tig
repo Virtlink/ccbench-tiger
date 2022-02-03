@@ -12,7 +12,7 @@ function match(x : aterm, y : aterm) : int =
   else if x.fun = y.fun then match_args(x.args, y.args)
   else 0
 
-[[Dec]]
+$Dec
 
 function test1() : aterm =
   app("Succ", alist{hd = app("Zero", nil), tl = nil})

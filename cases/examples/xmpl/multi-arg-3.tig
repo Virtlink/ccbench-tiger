@@ -1,6 +1,6 @@
 /* function with many (more than four) arguments */
 
-let [[Dec]]
+let $Dec
  in
     multi(1,2,3,4,5)
 end

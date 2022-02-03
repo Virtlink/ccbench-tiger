@@ -15,7 +15,7 @@ let
       in
         print(v)
       end;
-      print([[LValue]])
+      print($LValue)
     end
 in
   f("4")

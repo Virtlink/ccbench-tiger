@@ -30,7 +30,7 @@ let
  type list = {first: int, rest: list}
 
  function readlist() : list =
-    [[Exp]]
+    $Exp
 
  function merge(a: list, b: list) : list =
    if a=nil then b

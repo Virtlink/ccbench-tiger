@@ -11,7 +11,7 @@ let
     var diag2 := intArray [N+N-1] of 0
 
     function printboard() =
-       [[Exp]]
+       $Exp
 
     function try(c:int) = 
 (    if c=N

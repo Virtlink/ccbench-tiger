@@ -1,5 +1,5 @@
 let function f(x : int, z : int) : int = 
-    [[Exp]]
+    $Exp
  in f(4, 6)
 end
  

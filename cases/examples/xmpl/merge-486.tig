@@ -60,6 +60,6 @@ let
    var list2 := (buffer:=getchar(); readlist())
 
   /* BODY OF MAIN PROGRAM */
- in [[ID]](merge(list1,list2))
+ in $ID(merge(list1,list2))
 end
 

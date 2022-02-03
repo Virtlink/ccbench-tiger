@@ -6,5 +6,5 @@ var b -> x (line 10)
 let
 	var a := 1
 in
-	[[Exp]]
+	$Exp
 end

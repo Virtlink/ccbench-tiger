@@ -3,7 +3,7 @@ let
     f : int
   } 
   var r : R := nil 
-  var q     := [[ID]]{f = 1}
+  var q     := $ID{f = 1}
   
 in
   r.f;

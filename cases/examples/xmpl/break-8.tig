@@ -1,5 +1,5 @@
 let
-  function mod(i : [[Type]], j : int): int =
+  function mod(i : $Type, j : int): int =
     i - (
       (
         i / j

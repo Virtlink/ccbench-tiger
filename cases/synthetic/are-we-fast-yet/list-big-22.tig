@@ -3,7 +3,7 @@ for i := 0 to 30 do (
   let
     type Cons = { val: int, next : Cons}
     
-    [[Dec]]
+    $Dec
         
     function makeList(length: int): Cons =
       if length = 0 then

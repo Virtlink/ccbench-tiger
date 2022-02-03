@@ -1,7 +1,7 @@
 let
   var count := 0
 in
-  while count > -[[Exp]] do
+  while count > -$Exp do
     break
 end
 

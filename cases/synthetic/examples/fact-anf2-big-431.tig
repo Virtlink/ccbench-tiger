@@ -62,7 +62,7 @@ let
         let
           var l : int := n
           var r : int := 1
-          var l2 : int := [[LValue]]
+          var l2 : int := $LValue
           var r2 : int := 1
           var l3 : int := n
           var r3 : int := 1

@@ -34,7 +34,7 @@ let
         )
   )
   
-  var N2 := [[Exp]]
+  var N2 := $Exp
 
   type intArray2 = array of int
 

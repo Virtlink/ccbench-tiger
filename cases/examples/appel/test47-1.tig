@@ -2,4 +2,4 @@
    Because of the intervening variable declaration, the two "a" types
    are not in the same  batch of mutually recursive types.
    See also test38 */
-[[Exp]]
+$Exp

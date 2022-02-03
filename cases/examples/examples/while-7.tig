@@ -1,5 +1,5 @@
 let
-  var i : int := [[Exp]]
+  var i : int := $Exp
 in
   while i < 10 do (
     print(chr(i));

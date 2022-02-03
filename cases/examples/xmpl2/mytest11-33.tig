@@ -2,6 +2,6 @@ let var x := "a\n"
     var y := "b\n"
     var z := concat(x,y)
  in print(z);
-    [[ID]](0) 
+    $ID(0) 
 end
   

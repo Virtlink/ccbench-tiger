@@ -6,6 +6,6 @@ in
   in
     for i:=0 to 9
     do
-      printi([[LValue]][i])
+      printi($LValue[i])
   end
 end

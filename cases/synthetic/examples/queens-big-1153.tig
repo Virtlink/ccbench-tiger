@@ -119,7 +119,7 @@ let
   )
 
   function try4(c : int, c2 : int, c3 : int, c4 : int) = (
-    [[Exp]]
+    $Exp
   )
   
   var N5 := 8

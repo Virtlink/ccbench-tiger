@@ -179,7 +179,7 @@ for i := 0 to 30 do (
         end
         
         
-     type TowersDisk4 = { size: int, next: TowersDisk, [[ID]]: int, next2: TowersDisk, size3: int, next3: TowersDisk, size4: int, next4: TowersDisk }
+     type TowersDisk4 = { size: int, next: TowersDisk, $ID: int, next2: TowersDisk, size3: int, next3: TowersDisk, size4: int, next4: TowersDisk }
     
      type arrayOfTowersDisk4 = array of TowersDisk
     

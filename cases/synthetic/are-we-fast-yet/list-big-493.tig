@@ -77,7 +77,7 @@ for i := 0 to 30 do (
       let
         var xTail : Cons := x
         var yTail : Cons := y
-        var isShorter : [[Type]] := 0
+        var isShorter : $Type := 0
         
         var xTail2 : Cons := x
         var yTail2 : Cons := y

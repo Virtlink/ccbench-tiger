@@ -1,5 +1,5 @@
 let
-  type [[ID]] = array of int
+  type $ID = array of int
 in
   let
     var v1 : vector := vector[10] of 1

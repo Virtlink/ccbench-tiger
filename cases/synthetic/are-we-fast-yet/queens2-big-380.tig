@@ -52,7 +52,7 @@ for i := 0 to 30 do (
           var freeRows2  : intArray := intArray[ 8] of  1
           var freeMaxs2  : intArray := intArray[16] of  1
           var freeMins2  : intArray := intArray[16] of  1
-          var queenRows2 : intArray := intArray[ 8] of [[Exp]]
+          var queenRows2 : intArray := intArray[ 8] of $Exp
           
           function getRowColumn2(r : int, c : int, r2 : int, c2 : int): int =
             (freeRows[r] + freeMaxs[c+r] + freeMins[c-r+7]) = 3

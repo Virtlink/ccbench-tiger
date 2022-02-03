@@ -1,7 +1,7 @@
 let function f(i : int) : int =
     let function g(i : int) : int = 
           i
-     in i + g([[Exp]])
+     in i + g($Exp)
     end
  in f(10)
 end

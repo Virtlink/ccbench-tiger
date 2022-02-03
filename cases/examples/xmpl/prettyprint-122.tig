@@ -17,7 +17,7 @@ let
           do write(" ");
          output := concat(output, s))
    in if t = nil then indent(".")
-      else [[Exp]]
+      else $Exp
   end
 
  in show(0, tree); 

@@ -163,7 +163,7 @@ let
           var l2 : int := n
           var r2 : int := 1
           var l3 : int := n
-          [[Dec]]
+          $Dec
           var l4 : int := n
           var r4 : int := 1
           var l5 : int := n

@@ -17,7 +17,7 @@ let
           var r2 : int := 1
           var l3 : int := n
           var r3 : int := 1
-          var [[ID]] : int := n
+          var $ID : int := n
           var r4 : int := 1
           var l5 : int := n
           var r5 : int := 1

@@ -19,7 +19,7 @@ let
     print("\n")
   )
 
-  function try(c:int) = [[Exp]]
+  function try(c:int) = $Exp
 in
   for i := 0 to 30 do
     try(0)

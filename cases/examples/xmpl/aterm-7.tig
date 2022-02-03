@@ -1,6 +1,6 @@
 let
 
-type aterm = {[[Field]], args : alist}
+type aterm = {$Field, args : alist}
 type alist = {hd : aterm, tl : alist}
 
 function app(fun: string, args : alist) : aterm =

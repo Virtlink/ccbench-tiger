@@ -9,7 +9,7 @@ in
   l := intlist { hd = 3, tl = l };
   t := tree {
     key = 2,
-    [[InitField]]
+    $InitField
   };
   t.children.hd.children := t.children
 end

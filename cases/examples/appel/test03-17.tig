@@ -4,7 +4,7 @@ let
      name : string, 
      age : int
   }
-  var rec1: rectype := [[Exp]]
+  var rec1: rectype := $Exp
  in
   rec1.name := "Somebody";
   rec1.age

@@ -7,7 +7,7 @@ let
 in
   while i < 10 do (
     print(chr(i));
-    i := [[LValue]] + 1
+    i := $LValue + 1
   )
 end
 

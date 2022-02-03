@@ -80,7 +80,7 @@ for i := 0 to 30 do (
               let
                 var k : int := i + i
                 var k2 : int := i + i
-                var k3 : int := i + [[Var]]
+                var k3 : int := i + $Var
                 var k4 : int := i + i
                 var k5 : int := i + i
               in

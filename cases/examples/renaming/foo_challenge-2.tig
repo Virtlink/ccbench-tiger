@@ -1,9 +1,0 @@
-/* 
-test file challenge
-*/
-
-let
-	
-in
-  	foo(foo{foo = "foo"})
-end

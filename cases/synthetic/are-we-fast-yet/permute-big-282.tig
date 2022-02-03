@@ -38,7 +38,7 @@ for i := 0 to 30 do (
               var i : int := n1
               var i2 : int := n1
               var i3 : int := n1
-              var i4 : [[Type]] := n1
+              var i4 : $Type := n1
               var i5 : int := n1
             in
               while i >= 0 do (

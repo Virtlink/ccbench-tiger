@@ -14,7 +14,7 @@ in
   for i := 0 to 10000 do (
     fact(10);
     bar();
-    [[Exp]];
+    $Exp;
     plus();
     minus()
   )

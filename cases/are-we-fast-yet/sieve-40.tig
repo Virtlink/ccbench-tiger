@@ -6,7 +6,7 @@ for i := 0 to 30 do (
     let
       function sieve(flags : intArray, size : int): int = (
         let
-          var primeCount : int := [[Exp]]
+          var primeCount : int := $Exp
         in
           for i := 2 to size do (
             if flags[i-1] = 1 then (

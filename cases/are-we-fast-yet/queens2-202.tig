@@ -20,7 +20,7 @@ for i := 0 to 30 do (
             freeMins[c - r + 7] := v
           )
           
-          function placeQueen(c : [[ID]]):int =
+          function placeQueen(c : $ID):int =
             let
               var placed : int := 0
             in

@@ -4,7 +4,7 @@ x -> text
 */
 
 let 
-	function printnl([[ID]] : string) = (
+	function printnl($ID : string) = (
 		print(x); 
 		print("\n")
 	)

@@ -22,7 +22,7 @@ let
             show(n+1, t.right))
   end
 
- in [[ID]](0, tree); 
+ in $ID(0, tree); 
     output
 end
 

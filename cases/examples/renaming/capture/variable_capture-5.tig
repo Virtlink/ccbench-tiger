@@ -4,7 +4,7 @@ foo -> bar
 */
 
 let 
-	var bar := [[Exp]]
+	var bar := $Exp
 	in
 	  let
 		  var foo := 100

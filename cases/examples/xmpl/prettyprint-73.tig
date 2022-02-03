@@ -12,7 +12,7 @@ let
 
   function show(n: int, t: tree) =
   let function indent(s: string) =
-        [[Exp]]
+        $Exp
    in if t = nil then indent(".")
       else (indent(t.key);
             show(n+1, t.left);

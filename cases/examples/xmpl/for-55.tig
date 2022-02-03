@@ -11,6 +11,6 @@ in
   for i := 0 to 4 do
     v[i] := i * 2;
 
-  [[ID]][3]
+  $ID[3]
   
 end

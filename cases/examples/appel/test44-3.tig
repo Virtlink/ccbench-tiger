@@ -1,7 +1,7 @@
 /* valid nil initialization and assignment */
 let 
 
-	[[Dec]]
+	$Dec
 	var b:rectype := nil
 
 in

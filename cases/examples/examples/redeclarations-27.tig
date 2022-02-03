@@ -5,7 +5,7 @@ let
     in
       print(v);
       let
-        var [[ID]] := "7"
+        var $ID := "7"
       in
         print(v)
       end;

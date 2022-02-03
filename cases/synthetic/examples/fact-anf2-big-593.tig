@@ -80,7 +80,7 @@ let
             var b3 : int := fact(a)
             var a4 : int := l - r
             var b4 : int := fact(a)
-            var a5 : int := l - [[ID]]
+            var a5 : int := l - $ID
             var b5 : int := fact(a)
           in
             let

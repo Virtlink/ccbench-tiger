@@ -10,6 +10,6 @@ let var x := 1
         x + 5
     end;
     let var y := 3
-     in ([[ID]] + 6) + y
+     in ($ID + 6) + y
     end
 end

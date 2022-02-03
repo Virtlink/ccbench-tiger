@@ -1,6 +1,6 @@
 /* locals hide globals */
 let
-	var a := [[Exp]]
+	var a := $Exp
 
 	function g(a:int):int = a 
 in

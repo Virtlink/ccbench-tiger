@@ -108,7 +108,7 @@ for i := 0 to 30 do (
       end
     
     function tail2(x : Cons, y : Cons, z : Cons, x2 : Cons, y2 : Cons, z2 : Cons) : Cons =
-      if isShorterThan(y, [[Exp]]) then
+      if isShorterThan(y, $Exp) then
         tail(
           tail(x.next, y, z),
           tail(y.next, z, x),

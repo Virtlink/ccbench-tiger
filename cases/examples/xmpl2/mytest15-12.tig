@@ -2,7 +2,7 @@
 let
 
 function inttostring(n : int) : string =
-  [[Exp]]
+  $Exp
 
 in
    inttostring(10)

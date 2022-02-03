@@ -275,7 +275,7 @@ for i := 0 to 30 do (
        movesDone := movesDone + 1
      )
     
-     function buildTowerAt5(pile : int, disks : int, pile2 : int, disks2 : int, pile3 : int, disks3 : [[ID]], pile4 : int, disks4 : int, pile5 : int, disks5 : int) =
+     function buildTowerAt5(pile : int, disks : int, pile2 : int, disks2 : int, pile3 : int, disks3 : $ID, pile4 : int, disks4 : int, pile5 : int, disks5 : int) =
        // might be wrong here. the iteration in the reference implementation is in reverse
        for i := 0 to disks do
          pushDisk(TowersDisk{size = i, next = nil}, pile)

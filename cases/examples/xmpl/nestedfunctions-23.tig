@@ -1,6 +1,6 @@
 let var x := 1
  in let var x := x + 3
-     in let function [[ID]](x : int, y : int) : int =
+     in let function $ID(x : int, y : int) : int =
               let var i := 3 var z := 0
                in for i := 0 to x do z := z + i * y;
                   z

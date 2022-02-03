@@ -2,7 +2,7 @@
 let 
 
 	type rectype = {name:string, id:int}
-	[[Dec]]
+	$Dec
 
 in
 

@@ -1,6 +1,6 @@
 let 
   var x : int := 1
-  var z := [[IntConst]]
+  var z := $IntConst
   var y : int := x + 1
 in
   x + y + z

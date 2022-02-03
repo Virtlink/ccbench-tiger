@@ -1,6 +1,0 @@
-/* arr1 is valid since expression 0 is int = myint */
-let
-	
-in
-	arr1
-end

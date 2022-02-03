@@ -11,7 +11,7 @@
 let 
 
  type any = {any : int}
- var buffer := [[ID]]()
+ var buffer := $ID()
 
  function readint(any: any) : int =
  let var i := 0

@@ -3,7 +3,7 @@ for i := 0 to 30 do (
   let
     type Cons = { val: int, next : Cons}
     
-    function length([[ID]] : Cons): int =
+    function length($ID : Cons): int =
       if l.next = nil then
         1
       else

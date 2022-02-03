@@ -44,7 +44,7 @@ for i := 0 to 30 do (
         z
   in
     let
-      var result : Cons := tail(makeList(15), makeList(10), makeList([[Exp]]))
+      var result : Cons := tail(makeList(15), makeList(10), makeList($Exp))
     in
       length(result); // 10
       ()

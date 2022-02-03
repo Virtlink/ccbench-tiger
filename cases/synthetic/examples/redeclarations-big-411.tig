@@ -105,7 +105,7 @@ let
         var v := "7"
         var v2 := "7"
         var v3 := "7"
-        [[Dec]]
+        $Dec
         var v5 := "7"
       in
         print(v)

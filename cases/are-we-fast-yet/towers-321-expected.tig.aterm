@@ -1,1 +1,0 @@
-[Call("buildTowerAt",[Int("0"),Int("13")]),Assign(Var2LValue(Var("movesDone")),Int("0")),Call("moveDisks",[Int("13"),Int("0"),Int("1")]),LValue2Exp(Var2LValue(Var("movesDone"))),Seq([])]

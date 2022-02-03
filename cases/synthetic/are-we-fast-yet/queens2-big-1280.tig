@@ -145,7 +145,7 @@ for i := 0 to 30 do (
             let
               var placed : int := 0
             in
-              for r := 0 to [[IntConst]] do (
+              for r := 0 to $IntConst do (
                 if getRowColumn(r, c) = 1 then (
                   queenRows[r] := c;
                   setRowColumn(r, c, 0);

@@ -5,5 +5,5 @@ let
     else 
       1 + size(xs.tl)
 in 
-  [[Exp]]
+  $Exp
 end

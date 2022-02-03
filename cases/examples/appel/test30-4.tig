@@ -1,7 +1,7 @@
 /* synonyms are fine */
 
 let 
-		type [[ID]] = array of int
+		type $ID = array of int
 		type b = a
 
 		var arr1:a := b [10] of 0

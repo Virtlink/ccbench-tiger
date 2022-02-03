@@ -1,5 +1,5 @@
 let
-  [[Dec]]
+  $Dec
 in
   while count > -1 do
     break

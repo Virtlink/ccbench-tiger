@@ -26,7 +26,7 @@ let
             var a : int := l - r
             var b : int := fact(a)
             var a2 : int := l - r
-            var b2 : int := fact([[Var]])
+            var b2 : int := fact($Var)
             var a3 : int := l - r
             var b3 : int := fact(a)
             var a4 : int := l - r

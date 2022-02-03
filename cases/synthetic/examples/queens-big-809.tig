@@ -85,7 +85,7 @@ let
     print("\n")
   )
 
-  function try3(c : int, c2 : int, c3 : int) = [[Exp]]
+  function try3(c : int, c2 : int, c3 : int) = $Exp
   
   var N4 := 8
 

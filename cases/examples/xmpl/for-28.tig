@@ -8,7 +8,7 @@ let
 
 in 
 
-  [[Exp]];
+  $Exp;
 
   v[3]
   

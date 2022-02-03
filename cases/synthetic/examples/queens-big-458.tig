@@ -49,7 +49,7 @@ let
         print(if col[i] = j then " O" else " .");
         print("\n")
     );
-    print([[Exp]])
+    print($Exp)
   )
 
   function try2(c : int, c2 : int) = (

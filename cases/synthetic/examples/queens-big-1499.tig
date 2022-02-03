@@ -152,7 +152,7 @@ let
   )
 
   function try5(c : int, c2 : int, c3 : int, c4 : int, c5 : int) = (
-    [[Exp]]
+    $Exp
   )
 in
   try(0)

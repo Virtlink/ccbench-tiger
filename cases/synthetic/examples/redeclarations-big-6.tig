@@ -1,5 +1,5 @@
 let
-  function f([[FArg]]) =
+  function f($FArg) =
     let
       var v := "6"
       var v2 := "6"

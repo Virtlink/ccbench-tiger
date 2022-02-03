@@ -3,6 +3,6 @@ for i := 0 to 30 do (
     var counter := 0
     var counter2 := 0
   in
-    while counter < 100 do [[Exp]]
+    while counter < 100 do $Exp
   end
 )

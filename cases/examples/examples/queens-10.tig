@@ -3,7 +3,7 @@
 let
   var N := 8
 
-  type intArray = array of [[ID]]
+  type intArray = array of $ID
 
   var row := intArray [N] of 0
   var col := intArray [N] of 0

@@ -34,7 +34,7 @@ for i := 0 to 30 do (
                   );
                   
                   if placeQueen(c + 1) = 1 then (
-                    [[Var]] := 1;
+                    $Var := 1;
                     break
                   );
                   setRowColumn(r, c, 1);

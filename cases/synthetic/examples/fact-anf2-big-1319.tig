@@ -183,7 +183,7 @@ let
           in
             let
               var c : int := n * b
-              [[Dec]]
+              $Dec
               var c3 : int := n * b
               var c4 : int := n * b
               var c5 : int := n * b

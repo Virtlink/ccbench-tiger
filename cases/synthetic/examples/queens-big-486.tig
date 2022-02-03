@@ -56,7 +56,7 @@ let
     if c = N then
       printboard()
     else
-      [[Exp]]
+      $Exp
   )
   
   var N3 := 8

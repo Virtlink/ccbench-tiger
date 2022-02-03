@@ -4,7 +4,7 @@ name -> fullName
 */
 
 let
-	type [[ID]] = {
+	type $ID = {
 			name : string, 
     	age : int
   	}

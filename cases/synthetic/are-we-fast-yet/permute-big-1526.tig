@@ -195,7 +195,7 @@ for i := 0 to 30 do (
           v[j] := tmp
         end
       
-      function permute5(n: int, n2: int, n3: [[Type]], n4: int, n5: int) = (
+      function permute5(n: int, n2: int, n3: $Type, n4: int, n5: int) = (
         count := count + 1;
         if n <> 0 then
           let

@@ -11,7 +11,7 @@ let
     output := concat(output, s)
 
   function show(n: int, t: tree) =
-  let [[Dec]]
+  let $Dec
    in if t = nil then indent(".")
       else (indent(t.key);
             show(n+1, t.left);

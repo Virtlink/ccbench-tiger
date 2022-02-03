@@ -1,4 +1,4 @@
 let function f() : int =
-    [[Exp]]
+    $Exp
 in f()
 end

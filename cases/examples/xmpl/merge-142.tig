@@ -23,7 +23,7 @@ let
   in skipto();
      any.any := isdigit(buffer);
      while isdigit(buffer)
-       do (i := i*10+ord(buffer)-ord([[Exp]]); buffer := getchar());
+       do (i := i*10+ord(buffer)-ord($Exp); buffer := getchar());
      i
  end
 

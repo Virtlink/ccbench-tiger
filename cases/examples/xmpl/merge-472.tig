@@ -57,7 +57,7 @@ let
    else (printint(l.first); print(" "); printlist(l.rest))
 
    var list1 := readlist()
-   var list2 := [[Exp]]
+   var list2 := $Exp
 
   /* BODY OF MAIN PROGRAM */
  in printlist(merge(list1,list2))

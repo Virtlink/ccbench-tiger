@@ -1,4 +1,4 @@
-let function [[ID]]() : int =
+let function $ID() : int =
     let var x : int := 1
      in x + 1
     end

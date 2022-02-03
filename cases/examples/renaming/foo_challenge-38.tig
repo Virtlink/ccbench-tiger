@@ -14,5 +14,5 @@ let
   	end
   )
 in
-  	[[Exp]]
+  	$Exp
 end

@@ -33,6 +33,6 @@ let
         )
   )
 in
-  for i := 0 to [[Exp]] do
+  for i := 0 to $Exp do
     try(0)
 end

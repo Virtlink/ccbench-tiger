@@ -9,7 +9,7 @@ let
 
 in 
 
-  for i := 1 to [[Exp]] do 
+  for i := 1 to $Exp do 
     x := x + fact(i)
 
 end

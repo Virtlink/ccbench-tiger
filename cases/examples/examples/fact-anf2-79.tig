@@ -15,7 +15,7 @@ let
             var b : int := fact(a)
           in
             let
-              var c : [[Type]] := n * b
+              var c : $Type := n * b
             in
               c
             end

@@ -27,7 +27,7 @@ let
 end
 
 function node(x : string, l : tree, r : tree) : tree =
-  [[Exp]]
+  $Exp
 
 function printnl(x : string) =
   (print(x); print("\n"))

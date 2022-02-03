@@ -41,7 +41,7 @@ for i := 0 to 30 do (
     
     function buildTowerAt(pile : int, disks : int) =
       // might be wrong here. the iteration in the reference implementation is in reverse
-      [[Exp]]
+      $Exp
     
     function moveDisks(disks : int, fromPile : int, toPile : int) =
       if disks = 1 then

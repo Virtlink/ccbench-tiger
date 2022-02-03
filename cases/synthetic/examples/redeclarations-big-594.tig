@@ -151,7 +151,7 @@ let
       in
         print(v)
       end;
-      print([[Exp]])
+      print($Exp)
     end
 in
   f("4")

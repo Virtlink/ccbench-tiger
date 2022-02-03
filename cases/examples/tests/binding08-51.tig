@@ -5,5 +5,5 @@ let
     else 
       1 + size(xs.tl)
 in 
-  list{hd = 1, [[InitField]]}
+  list{hd = 1, $InitField}
 end

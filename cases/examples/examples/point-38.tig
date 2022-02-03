@@ -3,5 +3,5 @@ let
   var origin : point := point { x = 1, y = 2 }
 in
   origin.x;
-  [[ID]] := nil
+  $ID := nil
 end

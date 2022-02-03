@@ -5,7 +5,7 @@ for i := 0 to 30 do (
     type vector2 = array of int
     type vector3 = array of int
     type vector4 = array of int
-    type vector5 = array of [[ID]]
+    type vector5 = array of $ID
   in
     let
       var count : int := 0

@@ -212,7 +212,7 @@ for i := 0 to 30 do (
         var isShorter5 : int := 0
       in
         while yTail <> nil do (
-          if [[LValue]] = nil then (
+          if $LValue = nil then (
             isShorter := 1;
             break
           ) else (

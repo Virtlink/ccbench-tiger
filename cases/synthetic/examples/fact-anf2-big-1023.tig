@@ -139,7 +139,7 @@ let
               var c4 : int := n * b
               var c5 : int := n * b
             in
-              [[Var]]
+              $Var
             end
           end
         end

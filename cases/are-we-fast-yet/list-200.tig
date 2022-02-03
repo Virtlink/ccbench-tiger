@@ -34,7 +34,7 @@ for i := 0 to 30 do (
       end
     
     function tail(x : Cons, y : Cons, z : Cons) : Cons =
-      if [[Exp]] then
+      if $Exp then
         tail(
           tail(x.next, y, z),
           tail(y.next, z, x),

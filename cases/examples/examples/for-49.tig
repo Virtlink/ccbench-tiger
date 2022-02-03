@@ -6,5 +6,5 @@ in
     f := f * y
   );
   print("s");
-  print([[ID]](x))
+  print($ID(x))
 end

@@ -3,7 +3,7 @@ let
   var f : int := 1
 in
   for y := 1 to x do (
-    [[Var]] := f * y
+    $Var := f * y
   );
   print("s");
   print(chr(x))

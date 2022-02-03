@@ -3,7 +3,7 @@
    are not in the same  batch of mutually recursive types.
    See also test38 */
 let
-	type a = [[ID]]
+	type a = $ID
 	var b := 4
 	type a = string
 in

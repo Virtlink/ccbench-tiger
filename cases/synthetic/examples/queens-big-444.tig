@@ -46,7 +46,7 @@ let
   function printboard2() = (
     for i := 0 to N-1 do (
       for j := 0 to N-1 do
-        print(if col[i] = [[Var]] then " O" else " .");
+        print(if col[i] = $Var then " O" else " .");
         print("\n")
     );
     print("\n")

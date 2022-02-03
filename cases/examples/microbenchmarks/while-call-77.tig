@@ -11,5 +11,5 @@ let
   function minus() = flush()
   
 in
-  for i := 0 to 10000 do [[Exp]]
+  for i := 0 to 10000 do $Exp
 end

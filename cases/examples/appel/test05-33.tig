@@ -7,7 +7,7 @@ let
   type tree = { key: int, children: treelist }
   type treelist = { hd: tree, tl: treelist }
 
-  [[Dec]] 
+  $Dec 
 
 in
   lis

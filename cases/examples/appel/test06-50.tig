@@ -9,6 +9,6 @@ function do_nothing2(d: int) =
 		do_nothing1(d, "str")
 
 in
-	[[ID]](0, "str2")
+	$ID(0, "str2")
 end
 

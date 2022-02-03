@@ -30,5 +30,5 @@ let
   var y5 : int := 1
 in
   for x := x to y + 1 do
-    x := f([[Var]] + 1)
+    x := f($Var + 1)
 end

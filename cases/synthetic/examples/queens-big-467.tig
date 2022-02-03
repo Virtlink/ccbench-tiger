@@ -52,7 +52,7 @@ let
     print("\n")
   )
 
-  function try2(c : int, [[FArg]]) = (
+  function try2(c : int, $FArg) = (
     if c = N then
       printboard()
     else

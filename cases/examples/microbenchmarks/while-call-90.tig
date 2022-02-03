@@ -15,7 +15,7 @@ in
     fact(10);
     bar();
     foo();
-    [[Exp]];
+    $Exp;
     minus()
   )
 end

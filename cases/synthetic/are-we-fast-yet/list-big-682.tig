@@ -110,7 +110,7 @@ for i := 0 to 30 do (
     function tail2(x : Cons, y : Cons, z : Cons, x2 : Cons, y2 : Cons, z2 : Cons) : Cons =
       if isShorterThan(y, x) then
         tail(
-          [[ID]](x.next, y, z),
+          $ID(x.next, y, z),
           tail(y.next, z, x),
           tail(z.next, x, y)
         )

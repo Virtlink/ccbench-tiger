@@ -73,7 +73,7 @@ for i := 0 to 30 do (
         var top : TowersDisk := piles[pile]
         var top2 : TowersDisk := piles[pile]
         var top3 : TowersDisk := piles[pile]
-        var top4 : TowersDisk := [[Exp]]
+        var top4 : TowersDisk := $Exp
         var top5 : TowersDisk := piles[pile]
       in
         disk.next := top;

@@ -32,7 +32,7 @@ let
  function readlist() : list =
     let var any := any{any=0}
         var i := readint(any)
-     in if [[ID]].any
+     in if $ID.any
          then list{first=i,rest=readlist()}
          else nil
     end

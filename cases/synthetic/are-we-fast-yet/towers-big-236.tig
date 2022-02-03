@@ -30,7 +30,7 @@ for i := 0 to 30 do (
         var top5 : TowersDisk := piles[pile]
       in
         piles[pile] := top.next;
-        [[LValue]] := nil;
+        $LValue := nil;
         top
       end
     

@@ -7,7 +7,7 @@ let
   type tree = { key: int, children: treelist }
   type treelist = { hd: tree, tl: treelist }
 
-  var lis:[[Type]] := intlist { hd = 0, tl = nil } 
+  var lis:$Type := intlist { hd = 0, tl = nil } 
 
 in
   lis

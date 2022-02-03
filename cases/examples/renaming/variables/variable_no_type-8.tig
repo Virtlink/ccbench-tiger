@@ -6,5 +6,5 @@ msg -> message
 let
 	var msg := "Hello World"
 in 
-	[[Exp]]
+	$Exp
 end

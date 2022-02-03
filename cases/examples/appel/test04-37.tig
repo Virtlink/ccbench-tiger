@@ -5,7 +5,7 @@ function printnl(x : string) =
   (print(x); print("\n"))
 
 function mod(i : int, j : int) : int =
-  [[Exp]]
+  $Exp
 
 function inttostring(n : int) : string =
   if n < 10 

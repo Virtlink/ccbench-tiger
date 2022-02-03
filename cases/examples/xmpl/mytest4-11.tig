@@ -1,4 +1,4 @@
-let function f(x : int, [[ID]] : int) : int = 
+let function f(x : int, $ID : int) : int = 
     let function g(y : int) : int = 
           (x + y) - z
      in g(x)

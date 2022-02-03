@@ -10,7 +10,7 @@
 
 let 
 
- [[Dec]]
+ $Dec
  var buffer := getchar()
 
  function readint(any: any) : int =

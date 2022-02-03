@@ -76,7 +76,7 @@ let
             var b : int := fact(a)
             var a2 : int := l - r
             var b2 : int := fact(a)
-            var a3 : int := l - [[ID]]
+            var a3 : int := l - $ID
             var b3 : int := fact(a)
             var a4 : int := l - r
             var b4 : int := fact(a)

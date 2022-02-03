@@ -13,7 +13,7 @@ let
  type any = {any : int}
  var buffer := getchar()
 
- [[Dec]]
+ $Dec
 
  type list = {first: int, rest: list}
 

@@ -10,7 +10,7 @@
 
 let 
 
- type any = {any : [[ID]]}
+ type any = {any : $ID}
  var buffer := getchar()
 
  function readint(any: any) : int =

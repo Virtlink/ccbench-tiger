@@ -6,7 +6,7 @@ type rectype1 = {name:string, address:string, id: int , age: int}
 type arrtype2 = array of rectype1
 type rectype2 = {name : string, dates: arrtype1}
 
-[[Dec]]
+$Dec
 
 var arr1 := arrtype1 [10] of 0
 var arr2  := arrtype2 [5] of rectype1 {name="aname", address="somewhere", id=0, age=0}

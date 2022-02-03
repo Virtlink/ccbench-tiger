@@ -14,5 +14,5 @@ in
     f := f * y
   );
   print("s");
-  print([[Exp]])
+  print($Exp)
 end

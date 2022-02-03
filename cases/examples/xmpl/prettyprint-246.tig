@@ -32,7 +32,7 @@ function node(x : string, l : tree, r : tree) : tree =
 function printnl(x : string) =
   (print(x); print("\n"))
 
-in let var t : tree := [[ID]]("a",node("b",nil,nil),
+in let var t : tree := $ID("a",node("b",nil,nil),
                          node("c",nil,node("d",nil,nil)))
     in //printnl("start");
        //printnl(prettyprint(t));

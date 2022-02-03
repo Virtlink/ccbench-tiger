@@ -97,7 +97,7 @@ for i := 0 to 30 do (
       in
         while yTail <> nil do (
           if xTail = nil then (
-            [[ID]] := 1;
+            $ID := 1;
             break
           ) else (
             xTail := xTail.next;

@@ -1,6 +1,6 @@
 let
   var sum : int := 0
-  var n : int := [[IntConst]]
+  var n : int := $IntConst
  in 
    while n > 0 do (
      sum := sum + n;

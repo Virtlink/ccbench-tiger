@@ -240,7 +240,7 @@ for i := 0 to 30 do (
         
      type TowersDisk5 = { size: int, next: TowersDisk, size2: int, next2: TowersDisk, size3: int, next3: TowersDisk, size4: int, next4: TowersDisk, size5: int, next5: TowersDisk }
     
-     [[Dec]]
+     $Dec
     
      var piles5 : arrayOfTowersDisk := arrayOfTowersDisk[3] of nil
      var movesDone5 : int := 0

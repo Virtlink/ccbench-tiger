@@ -7,7 +7,7 @@ let var x := 1
               end
          in x(3,4)
         end;
-        x + [[Exp]]
+        x + $Exp
     end;
     let var y := 3
      in (x + 6) + y

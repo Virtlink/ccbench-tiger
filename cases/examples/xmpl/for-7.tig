@@ -1,6 +1,6 @@
 let 
   var i := 1
-  [[Dec]]
+  $Dec
 
   type vec = array of int
 

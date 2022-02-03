@@ -1,6 +1,6 @@
 let
 
-type tree = {key: string, left : tree, right: [[ID]]}
+type tree = {key: string, left : tree, right: $ID}
 
 function prettyprint(tree: tree) : string =
 let

@@ -47,7 +47,7 @@ for i := 0 to 30 do (
           moveDisks(disks - 1, otherPile, toPile)
         end
   in
-    buildTowerAt([[Exp]], 13);
+    buildTowerAt($Exp, 13);
     movesDone := 0;
     moveDisks(13, 0, 1);
     movesDone; // 8191

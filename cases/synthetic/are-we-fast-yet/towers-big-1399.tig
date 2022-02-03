@@ -160,7 +160,7 @@ for i := 0 to 30 do (
     function buildTowerAt3(pile : int, disks : int, pile2 : int, disks2 : int, pile3 : int, disks3 : int) =
       // might be wrong here. the iteration in the reference implementation is in reverse
       for i := 0 to disks do
-        pushDisk(TowersDisk{size = [[ID]], next = nil}, pile)
+        pushDisk(TowersDisk{size = $ID, next = nil}, pile)
    
     function moveDisks3(disks : int, fromPile : int, toPile : int, disks2 : int, fromPile2 : int, toPile2 : int, disks3 : int, fromPile3 : int, toPile3 : int) =
       if disks = 1 then

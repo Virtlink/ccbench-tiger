@@ -8,7 +8,7 @@ let
 		a + b;
 	  let
 			function plus(d:int) : int = 
-				a + [[ID]]
+				a + $ID
 		in 
 		 plus(1)
 		end

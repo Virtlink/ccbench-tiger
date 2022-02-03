@@ -1,5 +1,5 @@
 let var x := 3
- in while x < [[IntConst]] do (
+ in while x < $IntConst do (
       x := x + 1
     )
 end

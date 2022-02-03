@@ -1,7 +1,7 @@
 let
   var i : int := 1
 in
-  while [[LValue]] < 10 do (
+  while $LValue < 10 do (
     print(chr(i));
     i := i + 1
   )

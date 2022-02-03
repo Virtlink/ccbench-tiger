@@ -177,7 +177,7 @@ for i := 0 to 30 do (
         
     type Cons4 = { val : int, next : Cons, val2 : int, next2 : Cons, val3 : int, next3 : Cons, val4 : int, next4 : Cons }
     
-    [[Dec]]
+    $Dec
         
     function makeList4(length : int, length2 : int, length3 : int, length4 : int): Cons =
       if length = 0 then

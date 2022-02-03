@@ -1,5 +1,5 @@
 let
-  [[Dec]]
+  $Dec
   
   function bar() : int = 42
   

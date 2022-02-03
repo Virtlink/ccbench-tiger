@@ -14,7 +14,7 @@ let
  var buffer := getchar()
 
  function readint(any: any) : int =
- [[Exp]]
+ $Exp
 
  type list = {first: int, rest: list}
 

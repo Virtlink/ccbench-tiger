@@ -37,7 +37,7 @@ for i := 0 to 30 do (
         end
       )
       
-      function sieve2(flags : intArray, size : int, flags2 : intArray, size2 : int): int = [[Exp]]
+      function sieve2(flags : intArray, size : int, flags2 : intArray, size2 : int): int = $Exp
       
       function sieve3(flags : intArray, size : int, flags2 : intArray, size2 : int, flags3 : intArray, size3 : int): int = (
         let

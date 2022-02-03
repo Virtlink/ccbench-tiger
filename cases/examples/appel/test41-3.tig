@@ -1,6 +1,6 @@
 /* local types hide global */
 let
-	[[Dec]]
+	$Dec
 in
 	let
 		type a = string

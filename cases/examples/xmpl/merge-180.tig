@@ -30,7 +30,7 @@ let
  type list = {first: int, rest: list}
 
  function readlist() : list =
-    let var any := any{any=[[IntConst]]}
+    let var any := any{any=$IntConst}
         var i := readint(any)
      in if any.any
          then list{first=i,rest=readlist()}

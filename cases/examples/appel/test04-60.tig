@@ -7,7 +7,7 @@ function printnl(x : string) =
 function mod(i : int, j : int) : int =
   i - ((i / j) * j)
 
-[[Dec]]
+$Dec
 
 /* calculate n! */
 function nfactor(n: int): int =

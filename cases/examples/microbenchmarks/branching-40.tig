@@ -4,7 +4,7 @@ in
   for c := 0 to 30 do (
     for i := 0 to 500 do (
       if i < 500 then
-        cumsum := [[LValue]] + 1
+        cumsum := $LValue + 1
       else
         cumsum := cumsum - 1
     )

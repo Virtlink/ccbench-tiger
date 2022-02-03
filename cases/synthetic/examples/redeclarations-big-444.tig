@@ -114,7 +114,7 @@ let
       let
         var v := "8"
         var v2 := "8"
-        [[Dec]]
+        $Dec
         var v4 := "8"
         var v5 := "8"
       in

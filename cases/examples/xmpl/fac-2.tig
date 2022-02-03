@@ -1,6 +1,0 @@
-/* factorial function; example from SPIM manual */
-
-let 
- in fact(10)
-end
-   

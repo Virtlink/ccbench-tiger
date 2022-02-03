@@ -9,7 +9,7 @@ function mod(i : int, j : int) : int =
 
 function inttostring(n : int) : string =
   if n < 10 
-  then chr(48 + [[LValue]])
+  then chr(48 + $LValue)
   else concat(inttostring(n / 10), inttostring(mod(n, 10)))
 
 /* calculate n! */

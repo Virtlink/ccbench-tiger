@@ -2,7 +2,7 @@
 let
 
 function printnl(x : string) =
-  (print([[LValue]]); print("\n"))
+  (print($LValue); print("\n"))
 
 function mod(i : int, j : int) : int =
   i - ((i / j) * j)

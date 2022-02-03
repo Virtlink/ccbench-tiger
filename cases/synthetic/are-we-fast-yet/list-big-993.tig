@@ -153,7 +153,7 @@ for i := 0 to 30 do (
         var yTail5 : Cons := y
         var isShorter5 : int := 0
       in
-        while yTail <> [[Exp]] do (
+        while yTail <> $Exp do (
           if xTail = nil then (
             isShorter := 1;
             break

@@ -26,7 +26,7 @@ let
     output
 end
 
-function node([[FArg]], l : tree, r : tree) : tree =
+function node($FArg, l : tree, r : tree) : tree =
   tree{key = x, left = l, right = r}
 
 function printnl(x : string) =

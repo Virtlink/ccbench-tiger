@@ -18,7 +18,7 @@ let
      function isdigit(s : string) : int = 
 		  ord(buffer)>=ord("0") & ord(buffer)<=ord("9")
      function skipto() =
-       while buffer=" " | [[LValue]]="\n"
+       while buffer=" " | $LValue="\n"
          do buffer := getchar()
   in skipto();
      any.any := isdigit(buffer);

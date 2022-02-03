@@ -13,7 +13,7 @@ function inttostring(n : int) : string =
   else concat(inttostring(n / 10), inttostring(mod(n, 10)))
 
 /* calculate n! */
-function nfactor([[FArg]]): int =
+function nfactor($FArg): int =
   if n = 0 then 1 else (n * nfactor(n-1))
 
 in

@@ -16,7 +16,7 @@ let
          for i := 1 to n
           do write(" ");
          output := concat(output, s))
-   in [[Exp]]
+   in $Exp
   end
 
  in show(0, tree); 

@@ -59,7 +59,7 @@ let
       if c then
         1
       else
-        [[Exp]]
+        $Exp
     end
   var r2 := fact(10)
   

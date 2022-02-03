@@ -225,7 +225,7 @@ let
             var b2 : int := fact(a)
             var a3 : int := l - r
             var b3 : int := fact(a)
-            var [[ID]] : int := l - r
+            var $ID : int := l - r
             var b4 : int := fact(a)
             var a5 : int := l - r
             var b5 : int := fact(a)

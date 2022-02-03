@@ -2,7 +2,7 @@ let
   type R = {
     f : int
   } 
-  var [[ID]] : R := nil 
+  var $ID : R := nil 
   var q     := R{f = 1}
   
 in

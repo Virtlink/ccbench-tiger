@@ -12,7 +12,7 @@ let
         in
           let
             var a : int := l - r
-            var b : int := [[ID]](a)
+            var b : int := $ID(a)
           in
             let
               var c : int := n * b

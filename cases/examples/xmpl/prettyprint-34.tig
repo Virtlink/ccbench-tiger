@@ -7,7 +7,7 @@ let
 
   var output := ""
 
-  function write([[FArg]]) =
+  function write($FArg) =
     output := concat(output, s)
 
   function show(n: int, t: tree) =

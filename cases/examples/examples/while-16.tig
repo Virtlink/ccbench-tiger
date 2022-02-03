@@ -1,7 +1,7 @@
 let
   var i : int := 1
 in
-  while i < [[Exp]] do (
+  while i < $Exp do (
     print(chr(i));
     i := i + 1
   )

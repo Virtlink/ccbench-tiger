@@ -158,7 +158,7 @@ let
         1
       else
         let
-          [[Dec]]
+          $Dec
           var r : int := 1
           var l2 : int := n
           var r2 : int := 1

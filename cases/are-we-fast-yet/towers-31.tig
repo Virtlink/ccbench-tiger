@@ -5,7 +5,7 @@ for i := 0 to 30 do (
     
     type arrayOfTowersDisk = array of TowersDisk
     
-    var piles : arrayOfTowersDisk := [[ID]][3] of nil
+    var piles : arrayOfTowersDisk := $ID[3] of nil
     var movesDone : int := 0
     
     function pushDisk(disk : TowersDisk, pile : int) =

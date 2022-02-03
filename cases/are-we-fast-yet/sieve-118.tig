@@ -15,7 +15,7 @@ for i := 0 to 30 do (
                 var k : int := i + i
               in
                 while k <= size do (
-                  flags[[[LValue]]-1] := 0;
+                  flags[$LValue-1] := 0;
                   k := k + i
                 )
               end

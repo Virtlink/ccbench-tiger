@@ -149,7 +149,7 @@ let
         var v4 := "8"
         var v5 := "8"
       in
-        [[Exp]]
+        $Exp
       end;
       print(v)
     end

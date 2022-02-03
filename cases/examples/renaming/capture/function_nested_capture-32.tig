@@ -7,7 +7,7 @@ let
 	function plus(a : int, b:int) : int = (
 		a + b;
 	  let
-			function plus([[FArg]]) : int = 
+			function plus($FArg) : int = 
 				a + d
 		in 
 		 plus(1)

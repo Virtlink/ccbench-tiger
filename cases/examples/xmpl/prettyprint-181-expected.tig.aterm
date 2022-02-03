@@ -1,1 +1,0 @@
-[FArg("x",Tid("string")),FArg("l",Tid("tree")),FArg("r",Tid("tree"))]

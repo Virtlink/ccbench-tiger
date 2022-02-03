@@ -20,7 +20,7 @@ let
   )
 
   function try(c : int) = (
-    [[Exp]]
+    $Exp
   )
 in
   try(0)

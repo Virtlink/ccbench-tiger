@@ -133,7 +133,7 @@ for i := 0 to 30 do (
           var queenRows4 : intArray := intArray[ 8] of -1
           
           function getRowColumn4(r : int, c : int, r2 : int, c2 : int, r3 : int, c3 : int, r4 : int, c4 : int): int =
-            (freeRows[r] + freeMaxs[[[Exp]]] + freeMins[c-r+7]) = 3
+            (freeRows[r] + freeMaxs[$Exp] + freeMins[c-r+7]) = 3
           
           function setRowColumn4(r : int, c : int, v : int, r2 : int, c2 : int, v2 : int, r3 : int, c3 : int, v3 : int, r4 : int, c4 : int, v4 : int) = (
             freeRows[r        ] := v;

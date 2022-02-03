@@ -138,7 +138,7 @@ let
   type intArray5 = array of int
 
   var row5 := intArray [N] of 0
-  [[Dec]]
+  $Dec
   var diag15 := intArray [N+N-1] of 0
   var diag25 := intArray [N+N-1] of 0
 

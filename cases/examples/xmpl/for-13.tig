@@ -2,7 +2,7 @@ let
   var i := 1
   var j := i
 
-  [[Dec]]
+  $Dec
 
   var v : vec := vec [5] of 0
 

@@ -101,7 +101,7 @@ for i := 0 to 30 do (
         let
           var tmp: int := v[i]
           var tmp2: int := v[i]
-          var tmp3: int := v[[[Var]]]
+          var tmp3: int := v[$Var]
           var tmp4: int := v[i]
           var tmp5: int := v[i]
         in

@@ -1,1 +1,0 @@
-[FArg("pile",Tid("int")),FArg("disks",Tid("int")),FArg("pile2",Tid("int")),FArg("disks2",Tid("int")),FArg("pile3",Tid("int")),FArg("disks3",Tid("int"))]

@@ -1,7 +1,7 @@
 /* define valid mutually recursive procedures */
 let
 
-function do_nothing1([[FArg]], b: string)=
+function do_nothing1($FArg, b: string)=
 	   if a < 25 then
 		do_nothing2(a+1)
 

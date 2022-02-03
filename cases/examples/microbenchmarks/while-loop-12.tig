@@ -1,6 +1,6 @@
 for i := 0 to 30 do (
   let
-    [[Dec]]
+    $Dec
   in
     while counter < 10000 do
       counter := counter + 1

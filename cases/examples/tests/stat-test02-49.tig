@@ -4,7 +4,7 @@ let
  in 
    while n > 0 do (
      sum := sum + n;
-     n := n - [[IntConst]]
+     n := n - $IntConst
    );
    sum
 end

@@ -121,7 +121,7 @@ for i := 0 to 30 do (
           in
             permute(n1);
             let
-              var [[ID]] : int := n1
+              var $ID : int := n1
               var i2 : int := n1
               var i3 : int := n1
               var i4 : int := n1

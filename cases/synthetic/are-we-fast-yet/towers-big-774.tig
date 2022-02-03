@@ -94,7 +94,7 @@ for i := 0 to 30 do (
       end
    
     function moveTopDisk2(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int) = (
-      pushDisk([[ID]](fromPile), toPile);
+      pushDisk($ID(fromPile), toPile);
       movesDone := movesDone + 1
     )
    

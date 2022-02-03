@@ -28,7 +28,7 @@ for i := 0 to 30 do (
               in
                 while k <= size do (
                   flags[k-1] := 0;
-                  k := [[Exp]] + i
+                  k := $Exp + i
                 )
               end
             )

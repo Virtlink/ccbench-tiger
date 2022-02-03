@@ -63,7 +63,7 @@ for i := 0 to 30 do (
           var tmp5: int := v[i]
         in
           v[i] := v[j];
-          [[Var]][j] := tmp
+          $Var[j] := tmp
         end
       
       function permute2(n: int, n2: int) = (

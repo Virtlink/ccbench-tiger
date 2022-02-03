@@ -151,7 +151,7 @@ let
       in
         print(v)
       end;
-      print([[ID]])
+      print($ID)
     end
 in
   f("4")

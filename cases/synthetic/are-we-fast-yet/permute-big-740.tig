@@ -100,7 +100,7 @@ for i := 0 to 30 do (
       function swap3(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int) =
         let
           var tmp: int := v[i]
-          var tmp2: int := v[[[Var]]]
+          var tmp2: int := v[$Var]
           var tmp3: int := v[i]
           var tmp4: int := v[i]
           var tmp5: int := v[i]

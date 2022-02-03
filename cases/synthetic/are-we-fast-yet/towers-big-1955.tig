@@ -216,7 +216,7 @@ for i := 0 to 30 do (
        movesDone := movesDone + 1
      )
     
-     [[Dec]]
+     $Dec
     
      function moveDisks4(disks : int, fromPile : int, toPile : int, disks2 : int, fromPile2 : int, toPile2 : int, disks3 : int, fromPile3 : int, toPile3 : int, disks4 : int, fromPile4 : int, toPile4 : int) =
        if disks = 1 then

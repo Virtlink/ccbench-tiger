@@ -6,7 +6,7 @@ for i := 0 to 30 do (
     while counter < 100 do (
       counter := counter + 1;
       while counter2 < 1000 do (
-        [[ID]] := counter2 + 1;
+        $ID := counter2 + 1;
         if counter2 > 500 then
           break
       );

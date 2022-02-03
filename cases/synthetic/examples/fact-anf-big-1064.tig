@@ -120,7 +120,7 @@ let
     end
   var r4 := fact(10)
   function fact5(n : int, n2 : int, n3 : int, n4 : int, n5 : int) : int =
-    [[Exp]]
+    $Exp
   var r5 := fact(10)
 in
   r

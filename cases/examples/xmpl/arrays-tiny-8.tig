@@ -1,5 +1,5 @@
 let
   type vector = array of int
 in
-  [[Exp]]
+  $Exp
 end

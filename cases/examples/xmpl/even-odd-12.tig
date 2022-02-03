@@ -1,7 +1,7 @@
 let 
 
   function even(n : int): int = 
-    [[Exp]]
+    $Exp
   function odd(n : int): int =
     if n = 1 then 1 else even(n - 1)
  

@@ -9,7 +9,7 @@ let
         let
            var a : int := n - 1
            var b : int := fact(a)
-           var c : int := [[ID]] * b
+           var c : int := $ID * b
         in
            c
         end

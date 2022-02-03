@@ -27,7 +27,7 @@ let
       in
         print(v)
       end;
-      print([[LValue]])
+      print($LValue)
     end
 
   function f2(v : string, v2 : string) =

@@ -73,7 +73,7 @@ let
       let
         var v := "7"
         var v2 := "7"
-        var [[ID]] := "7"
+        var $ID := "7"
         var v4 := "7"
         var v5 := "7"
       in

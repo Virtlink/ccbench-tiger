@@ -1,5 +1,5 @@
 let
-  var x : [[ID]] := 5
+  var x : $ID := 5
   var f : int := 1
   var x2 : int := 5
   var f2 : int := 1

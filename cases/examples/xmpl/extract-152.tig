@@ -20,7 +20,7 @@ let
     function try(c:int) = 
 (    if c=N
      then printboard()
-     else [[Exp]]
+     else $Exp
 )
  in try(0)
 end

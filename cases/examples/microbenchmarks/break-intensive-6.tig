@@ -1,4 +1,4 @@
-for i := 0 to [[Exp]] do (
+for i := 0 to $Exp do (
   let
     var counter := 0
     var counter2 := 0

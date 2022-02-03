@@ -4,7 +4,7 @@ let
  in 
    if n > 0 then (
      sum := sum + n;
-     n := n - [[Exp]]
+     n := n - $Exp
    );
    sum
 end

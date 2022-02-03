@@ -19,7 +19,7 @@ let
     print("\n")
   )
 
-  function [[ID]](c:int) = (
+  function $ID(c:int) = (
     if c<>N then
       for r := 0 to N-1 do
         if row[r]=0 & diag1[r+c]=0 & diag2[r+7-c]=0

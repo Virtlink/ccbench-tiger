@@ -80,7 +80,7 @@ for i := 0 to 30 do (
             let
               var i : int := n1
               var i2 : int := n1
-              var i3 : [[Type]] := n1
+              var i3 : $Type := n1
               var i4 : int := n1
               var i5 : int := n1
             in

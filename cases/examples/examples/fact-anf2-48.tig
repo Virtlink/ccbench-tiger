@@ -10,7 +10,7 @@ let
           var l : int := n
           var r : int := 1
         in
-          [[Exp]]
+          $Exp
         end
     end
   var r := fact(10)

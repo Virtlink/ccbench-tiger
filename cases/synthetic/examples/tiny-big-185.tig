@@ -25,7 +25,7 @@ let
   
   type foo5 = int
   var x5 : int := 0
-  [[Dec]]
+  $Dec
   var y5 : int := 1
 in
   for x := x to y + 1 do

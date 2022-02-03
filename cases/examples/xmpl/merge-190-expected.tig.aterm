@@ -1,1 +1,0 @@
-[If(LValue2Exp(FieldVar(Var2LValue(Var("any")),"any")),Record("list",[InitField("first",LValue2Exp(Var2LValue(Var("i")))),InitField("rest",Call("readlist",[]))]),NilExp())]

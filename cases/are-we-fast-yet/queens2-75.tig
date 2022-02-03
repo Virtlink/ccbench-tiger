@@ -11,7 +11,7 @@ for i := 0 to 30 do (
           var freeMins  : intArray := intArray[16] of  1
           var queenRows : intArray := intArray[ 8] of -1
           
-          function getRowColumn(r : int, [[ID]] : int): int =
+          function getRowColumn(r : int, $ID : int): int =
             (freeRows[r] + freeMaxs[c+r] + freeMins[c-r+7]) = 3
           
           function setRowColumn(r : int, c : int, v : int) = (

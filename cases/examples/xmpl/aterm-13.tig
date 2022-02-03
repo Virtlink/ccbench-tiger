@@ -1,7 +1,7 @@
 let
 
 type aterm = {fun : string, args : alist}
-[[Dec]]
+$Dec
 
 function app(fun: string, args : alist) : aterm =
   aterm{fun = fun, args = args}

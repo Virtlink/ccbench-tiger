@@ -184,7 +184,7 @@ for i := 0 to 30 do (
             let
               var placed : int := 0
             in
-              for [[Var]] := 0 to 7 do (
+              for $Var := 0 to 7 do (
                 if getRowColumn(r, c) = 1 then (
                   queenRows[r] := c;
                   setRowColumn(r, c, 0);

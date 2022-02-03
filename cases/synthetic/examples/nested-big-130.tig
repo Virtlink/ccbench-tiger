@@ -12,7 +12,7 @@ let
   function f4(y : int, y2 : int, y3 : int, y4 : int) : int =
     x + y
   var x5 : int := 1
-  function [[ID]](y : int, y2 : int, y3 : int, y4 : int, y5 : int) : int =
+  function $ID(y : int, y2 : int, y3 : int, y4 : int, y5 : int) : int =
     x + y
 in
   x

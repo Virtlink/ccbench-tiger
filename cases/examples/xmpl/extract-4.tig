@@ -1,7 +1,7 @@
 /* A program to solve the 8-queens problem */
 
 let
-    var [[ID]] := 8
+    var $ID := 8
 
     type intArray = array of int
 

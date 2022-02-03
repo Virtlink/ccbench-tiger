@@ -9,5 +9,5 @@ let
 		print("\n")
 	)
 in
-   	[[Exp]]
+   	$Exp
 end

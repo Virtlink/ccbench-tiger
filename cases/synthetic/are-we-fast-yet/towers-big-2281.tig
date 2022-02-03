@@ -245,7 +245,7 @@ for i := 0 to 30 do (
      var piles5 : arrayOfTowersDisk := arrayOfTowersDisk[3] of nil
      var movesDone5 : int := 0
     
-     [[Dec]]
+     $Dec
     
      function popDiskFrom5(pile : int, pile2 : int, pile3 : int, pile4 : int, pile5 : int): TowersDisk =
        let

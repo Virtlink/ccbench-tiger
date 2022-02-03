@@ -10,7 +10,7 @@ let
 			function plus(d:int) : int = 
 				a + d
 		in 
-		 [[ID]](1)
+		 $ID(1)
 		end
 	)
 in

@@ -3,5 +3,5 @@ let function f(i : int) : int =
           i
      in i + g(i)
     end
- in f([[IntConst]])
+ in f($IntConst)
 end

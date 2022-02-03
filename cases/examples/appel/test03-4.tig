@@ -1,6 +1,6 @@
 /* a record type and a record variable */
 let
-  type [[ID]] = {
+  type $ID = {
      name : string, 
      age : int
   }

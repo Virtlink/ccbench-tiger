@@ -15,7 +15,7 @@ let
             var b : int := fact(a)
           in
             let
-              var c : int := n * [[Exp]]
+              var c : int := n * $Exp
             in
               c
             end

@@ -87,7 +87,7 @@ let
               var c : int := n * b
               var c2 : int := n * b
               var c3 : int := n * b
-              var c4 : int := [[Var]] * b
+              var c4 : int := $Var * b
               var c5 : int := n * b
             in
               c

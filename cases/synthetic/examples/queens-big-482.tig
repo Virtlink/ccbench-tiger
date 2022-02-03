@@ -53,7 +53,7 @@ let
   )
 
   function try2(c : int, c2 : int) = (
-    if c = [[ID]] then
+    if c = $ID then
       printboard()
     else
       for r := 0 to N-1 do

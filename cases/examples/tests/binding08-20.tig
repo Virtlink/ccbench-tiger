@@ -1,6 +1,6 @@
 let
   type list = {hd : int, tl : list}
-  function size(xs : list) : [[Type]] = 
+  function size(xs : list) : $Type = 
     if xs = nil then 0
     else 
       1 + size(xs.tl)

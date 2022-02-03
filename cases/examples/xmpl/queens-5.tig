@@ -1,7 +1,7 @@
 /* A program to solve the 8-queens problem */
 
 let
-    var N := [[Exp]]
+    var N := $Exp
 
     type intArray = array of int
 

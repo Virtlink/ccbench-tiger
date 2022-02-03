@@ -13,7 +13,7 @@ let
     function printboard() =
        (for i := 0 to N-1
 	 do (for j := 0 to N-1 
-	      do [[Exp]];
+	      do $Exp;
 	     print("\n"));
          print("\n"))
 

@@ -1,7 +1,7 @@
 /* define valid recursive types */
 let
   /* define a list */
-  type intlist = { hd: int, [[ID]]: intlist }
+  type intlist = { hd: int, $ID: intlist }
 
   /* define a tree */
   type tree = { key: int, children: treelist }

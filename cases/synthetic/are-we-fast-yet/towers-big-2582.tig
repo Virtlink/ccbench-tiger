@@ -271,7 +271,7 @@ for i := 0 to 30 do (
        end
     
      function moveTopDisk5(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int, fromPile3 : int, toPile3 : int, fromPile4 : int, toPile4 : int, fromPile5 : int, toPile5 : int) = (
-       pushDisk([[Exp]], toPile);
+       pushDisk($Exp, toPile);
        movesDone := movesDone + 1
      )
     

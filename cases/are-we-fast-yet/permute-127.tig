@@ -19,7 +19,7 @@ for i := 0 to 30 do (
         count := count + 1;
         if n <> 0 then
           let
-            var n1 : int := [[Exp]]
+            var n1 : int := $Exp
           in
             permute(n1);
             let

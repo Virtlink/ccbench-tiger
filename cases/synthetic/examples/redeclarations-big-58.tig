@@ -13,7 +13,7 @@ let
         var v2 := "7"
         var v3 := "7"
         var v4 := "7"
-        [[Dec]]
+        $Dec
       in
         print(v)
       end;

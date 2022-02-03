@@ -3,7 +3,7 @@ let
   var rec1 : myrec := myrec { x = 1 }
   
   type myrec2 = { x : int, x2 : int }
-  var [[ID]] : myrec := myrec { x = 1 }
+  var $ID : myrec := myrec { x = 1 }
   
   type myrec3 = { x : int, x2 : int, x3 : int }
   var rec13 : myrec := myrec { x = 1 }

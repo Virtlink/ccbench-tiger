@@ -5,7 +5,7 @@ function printnl(x : string) =
   (print(x); print("\n"))
 
 function mod(i : int, j : int) : int =
-  [[ID]] - ((i / j) * j)
+  $ID - ((i / j) * j)
 
 function inttostring(n : int) : string =
   if n < 10 

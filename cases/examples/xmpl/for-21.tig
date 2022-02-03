@@ -4,7 +4,7 @@ let
 
   type vec = array of int
 
-  var v : vec := [[Exp]]
+  var v : vec := $Exp
 
 in 
 

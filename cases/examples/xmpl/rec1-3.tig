@@ -1,5 +1,5 @@
 let
-  [[Dec]] 
+  $Dec 
   var r : R := nil 
   var q     := R{f = 1}
   

@@ -100,7 +100,7 @@ let
         )
   )
   
-  var [[ID]] := 8
+  var $ID := 8
 
   type intArray4 = array of int
 

@@ -35,7 +35,7 @@ let
   var t5 : tree      := tree { key = 1, children = tl }
 in
   l := intlist { hd = 3, tl = l };
-  t := [[ID]] {
+  t := $ID {
     key = 2,
     children = treelist {
       hd = tree { key = 3, children = nil },

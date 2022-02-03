@@ -298,7 +298,7 @@ for i := 0 to 30 do (
       var result4 : Cons := tail(makeList(15), makeList(10), makeList(6))
       var result5 : Cons := tail(makeList(15), makeList(10), makeList(6))
     in
-      [[Exp]]; // 10
+      $Exp; // 10
       ()
     end
   end

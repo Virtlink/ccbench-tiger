@@ -7,7 +7,7 @@ let
         1
       else
         let
-          [[Dec]]
+          $Dec
           var r : int := 1
         in
           let

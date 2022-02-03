@@ -4,7 +4,7 @@ test file challenge
 
 let
 	type foo = {
-		[[Field]]
+		$Field
   }
   function foo (foo: foo) = (
   	let

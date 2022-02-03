@@ -19,7 +19,7 @@ let
   
   type foo4 = int
   var x4 : int := 0
-  [[Dec]]
+  $Dec
   var y4 : int := 1
   
   type foo5 = int

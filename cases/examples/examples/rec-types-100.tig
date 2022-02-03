@@ -9,7 +9,7 @@ in
   l := intlist { hd = 3, tl = l };
   t := tree {
     key = 2,
-    children = [[ID]] {
+    children = $ID {
       hd = tree { key = 3, children = nil },
       tl = treelist { hd = tree { key = 4, children = nil }, tl = nil }
     }

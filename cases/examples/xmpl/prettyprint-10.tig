@@ -1,6 +1,6 @@
 let
 
-type tree = {key: string, [[Field]], right: tree}
+type tree = {key: string, $Field, right: tree}
 
 function prettyprint(tree: tree) : string =
 let

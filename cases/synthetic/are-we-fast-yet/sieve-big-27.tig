@@ -4,7 +4,7 @@ for i := 0 to 30 do (
     type intArray = array of int
     type intArray2 = array of int
     type intArray3 = array of int
-    type intArray4 = array of [[ID]]
+    type intArray4 = array of $ID
     type intArray5 = array of int
   in
     let

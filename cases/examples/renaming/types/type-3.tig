@@ -4,7 +4,7 @@ student -> person
 */
 
 let
-	[[Dec]]
+	$Dec
   	var student1: student := student{name = "Alan Turing", age = 107 }
 in
   	student1.name

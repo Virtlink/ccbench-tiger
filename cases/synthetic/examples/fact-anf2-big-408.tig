@@ -57,7 +57,7 @@ let
       var c5 := n < 1
     in
       if c then
-        [[Exp]]
+        $Exp
       else
         let
           var l : int := n

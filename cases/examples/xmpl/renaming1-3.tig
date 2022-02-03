@@ -1,4 +1,4 @@
-let [[Dec]]
+let $Dec
  in (let var i := (i + 2)
       in i
      end + i)

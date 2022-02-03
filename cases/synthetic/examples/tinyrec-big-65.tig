@@ -6,7 +6,7 @@ let
   var rec12 : myrec := myrec { x = 1 }
   
   type myrec3 = { x : int, x2 : int, x3 : int }
-  var rec13 : myrec := myrec { x = [[IntConst]] }
+  var rec13 : myrec := myrec { x = $IntConst }
   
   type myrec4 = { x : int, x2 : int, x3 : int, x4 : int }
   var rec14 : myrec := myrec { x = 1 }

@@ -3,7 +3,7 @@ let
   var y : i := 4
   type r = {x : i, y : i}
   var x : int := 1
-  [[Dec]] 
+  $Dec 
 in
   
 end    

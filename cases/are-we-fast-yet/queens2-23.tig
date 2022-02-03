@@ -4,7 +4,7 @@ for i := 0 to 30 do (
     type intArray = array of int
   in
     let
-      function queens(): [[ID]] =
+      function queens(): $ID =
         let
           var freeRows  : intArray := intArray[ 8] of  1
           var freeMaxs  : intArray := intArray[16] of  1

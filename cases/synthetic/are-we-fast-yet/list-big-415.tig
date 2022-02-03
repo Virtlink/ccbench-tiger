@@ -67,7 +67,7 @@ for i := 0 to 30 do (
       else
         1 + length(l.next)
         
-    function makeList2(length : [[ID]], length2 : int): Cons =
+    function makeList2(length : $ID, length2 : int): Cons =
       if length = 0 then
         nil
       else

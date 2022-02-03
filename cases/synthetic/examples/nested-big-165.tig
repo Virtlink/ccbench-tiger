@@ -15,6 +15,6 @@ let
   function f5(y : int, y2 : int, y3 : int, y4 : int, y5 : int) : int =
     x + y
 in
-  [[LValue]]
+  $LValue
 end
 

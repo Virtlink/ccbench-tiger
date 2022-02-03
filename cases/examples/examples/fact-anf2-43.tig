@@ -8,7 +8,7 @@ let
       else
         let
           var l : int := n
-          var r : [[Type]] := 1
+          var r : $Type := 1
         in
           let
             var a : int := l - r

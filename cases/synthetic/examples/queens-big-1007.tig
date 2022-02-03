@@ -100,7 +100,7 @@ let
         )
   )
   
-  var N4 := [[Exp]]
+  var N4 := $Exp
 
   type intArray4 = array of int
 

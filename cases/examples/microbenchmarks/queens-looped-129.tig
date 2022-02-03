@@ -16,7 +16,7 @@ let
         print(if col[i]=j then " O" else " .");
         print("\n")
     );
-    print([[StrConst]])
+    print($StrConst)
   )
 
   function try(c:int) = (

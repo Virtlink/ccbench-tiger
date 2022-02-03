@@ -29,7 +29,7 @@ for i := 0 to 30 do (
           let
             var n1 : int := n - 1
             var n12 : int := n - 1
-            var n13 : [[ID]] := n - 1
+            var n13 : $ID := n - 1
             var n14 : int := n - 1
             var n15 : int := n - 1
           in

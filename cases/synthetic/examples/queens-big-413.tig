@@ -44,7 +44,7 @@ let
   var diag22 := intArray [N+N-1] of 0
 
   function printboard2() = (
-    for i := 0 to N-[[IntConst]] do (
+    for i := 0 to N-$IntConst do (
       for j := 0 to N-1 do
         print(if col[i] = j then " O" else " .");
         print("\n")

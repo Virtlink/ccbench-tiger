@@ -119,7 +119,7 @@ let
   )
 
   function try4(c : int, c2 : int, c3 : int, c4 : int) = (
-    if c = [[Exp]] then
+    if c = $Exp then
       printboard()
     else
       for r := 0 to N-1 do

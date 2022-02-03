@@ -6,6 +6,6 @@ let
 
 in
 
-	[[ID]] := nil
+	$ID := nil
 
 end

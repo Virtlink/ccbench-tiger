@@ -3,7 +3,7 @@ let
 	type a = int
 in
 	let
-		[[Dec]]
+		$Dec
 	in
 		0
 	end

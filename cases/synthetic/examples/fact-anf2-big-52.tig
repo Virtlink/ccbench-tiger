@@ -5,7 +5,7 @@ let
       var c2 := n < 1
       var c3 := n < 1
       var c4 := n < 1
-      var c5 := [[Exp]]
+      var c5 := $Exp
     in
       if c then
         1

@@ -12,7 +12,7 @@ let
 
   function show(n: int, t: tree) =
   let function indent(s: string) =
-        ([[ID]]("\n");
+        ($ID("\n");
          for i := 1 to n
           do write(" ");
          output := concat(output, s))

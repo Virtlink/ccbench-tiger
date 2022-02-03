@@ -12,7 +12,7 @@ let
 
     function printboard() =
        (for i := 0 to N-1
-	 do (for j := 0 to N-[[IntConst]] 
+	 do (for j := 0 to N-$IntConst 
 	      do print(if col[i]=j then " O" else " .");
 	     print("\n"));
          print("\n"))

@@ -2,7 +2,7 @@ let
   var x : int := 1
   function f(y : int) : int =
     x + y
-  var x2 : int := [[IntConst]]
+  var x2 : int := $IntConst
   function f2(y : int, y2 : int) : int =
     x + y
   var x3 : int := 1

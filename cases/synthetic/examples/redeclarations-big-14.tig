@@ -1,7 +1,7 @@
 let
   function f(v : string) =
     let
-      var v := [[Exp]]
+      var v := $Exp
       var v2 := "6"
       var v3 := "6"
       var v4 := "6"

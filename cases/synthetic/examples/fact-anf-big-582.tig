@@ -66,7 +66,7 @@ let
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1
-     in if [[ID]] then
+     in if $ID then
           1
         else
           let

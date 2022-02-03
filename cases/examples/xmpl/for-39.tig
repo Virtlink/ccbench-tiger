@@ -9,7 +9,7 @@ let
 in 
 
   for i := 0 to 4 do
-    [[ID]][i] := i * 2;
+    $ID[i] := i * 2;
 
   v[3]
   

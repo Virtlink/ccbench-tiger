@@ -137,7 +137,7 @@ let
 
   type intArray5 = array of int
 
-  var row5 := intArray [[[ID]]] of 0
+  var row5 := intArray [$ID] of 0
   var col5 := intArray [N] of 0
   var diag15 := intArray [N+N-1] of 0
   var diag25 := intArray [N+N-1] of 0

@@ -203,7 +203,7 @@ let
       var c4 := n < 1
       var c5 := n < 1
     in
-      if [[Exp]] then
+      if $Exp then
         1
       else
         let

@@ -1,1 +1,0 @@
-[TypeDec("intArray",ArrayTy("int")),TypeDec("intArray2",ArrayTy("int")),TypeDec("intArray3",ArrayTy("int")),TypeDec("intArray4",ArrayTy("int")),TypeDec("intArray5",ArrayTy("int"))]

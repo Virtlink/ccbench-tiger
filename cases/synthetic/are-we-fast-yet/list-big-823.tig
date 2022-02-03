@@ -127,7 +127,7 @@ for i := 0 to 30 do (
         
     function makeList3(length : int, length2 : int, length3 : int): Cons =
       if length = 0 then
-        [[Exp]]
+        $Exp
       else
         Cons{ val = length, next = makeList(length - 1) }
     

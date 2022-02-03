@@ -1,6 +1,6 @@
 let
   type myrec = { x : int }
-  [[Dec]]
+  $Dec
 in
   rec1.x := 99;
   rec1.x //  33

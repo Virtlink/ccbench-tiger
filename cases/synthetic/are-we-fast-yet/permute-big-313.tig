@@ -42,7 +42,7 @@ for i := 0 to 30 do (
               var i5 : int := n1
             in
               while i >= 0 do (
-                swap([[ID]], i);
+                swap($ID, i);
                 permute(n1);
                 swap(n1, i);
                 i := i - 1

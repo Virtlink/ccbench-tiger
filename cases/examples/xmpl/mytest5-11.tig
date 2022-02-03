@@ -4,7 +4,7 @@ let
 
   var x := 0
 
-  function fact([[ID]] : int) : int = 
+  function fact($ID : int) : int = 
       if n < 1 then 1 else (n * fact(n - 1))
 
 in 

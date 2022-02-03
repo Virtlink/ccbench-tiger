@@ -6,7 +6,7 @@ let
 	type foo = {
 		foo : string
   }
-  function [[ID]] (foo: foo) = (
+  function $ID (foo: foo) = (
   	let
   		var foo := foo.foo
   	in

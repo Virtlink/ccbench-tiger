@@ -13,7 +13,7 @@ in
 		let
 			var a := 1
 		in
-			a + [[ID]]
+			a + $ID
 		end
 	end
 end

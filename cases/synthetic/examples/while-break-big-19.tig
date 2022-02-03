@@ -3,7 +3,7 @@ let
   var count2 := 0
   var count3 := 0
   var count4 := 0
-  [[Dec]]
+  $Dec
 in
   while count > -1 do
     break

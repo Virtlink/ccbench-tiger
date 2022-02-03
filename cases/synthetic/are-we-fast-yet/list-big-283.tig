@@ -49,7 +49,7 @@ for i := 0 to 30 do (
         isShorter
       end
     
-    function tail(x : Cons, y : Cons, z : [[Type]]) : Cons =
+    function tail(x : Cons, y : Cons, z : $Type) : Cons =
       if isShorterThan(y, x) then
         tail(
           tail(x.next, y, z),

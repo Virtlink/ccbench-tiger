@@ -5,7 +5,7 @@ printnl -> printNewLine
 
 let 
 	function printnl(x : string) = (
-		print([[LValue]]); 
+		print($LValue); 
 		print("\n")
 	)
 in

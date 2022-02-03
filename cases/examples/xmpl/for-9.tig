@@ -1,6 +1,6 @@
 let 
   var i := 1
-  var j := [[Exp]]
+  var j := $Exp
 
   type vec = array of int
 

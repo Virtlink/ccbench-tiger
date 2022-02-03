@@ -2,7 +2,7 @@ let
 
 type tree = {key: string, left : tree, right: tree}
 
-function prettyprint([[FArg]]) : string =
+function prettyprint($FArg) : string =
 let
 
   var output := ""

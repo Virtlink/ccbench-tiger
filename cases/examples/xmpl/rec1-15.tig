@@ -3,7 +3,7 @@ let
     f : int
   } 
   var r : R := nil 
-  [[Dec]]
+  $Dec
   
 in
   r.f;

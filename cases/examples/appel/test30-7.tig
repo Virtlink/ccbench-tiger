@@ -2,7 +2,7 @@
 
 let 
 		type a = array of int
-		[[Dec]]
+		$Dec
 
 		var arr1:a := b [10] of 0
 in

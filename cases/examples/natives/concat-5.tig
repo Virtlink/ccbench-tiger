@@ -1,1 +1,1 @@
-concat([[StrConst]], "b")
+concat($StrConst, "b")

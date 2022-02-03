@@ -1,6 +1,6 @@
 let
   var x : int := 5
-  var f : int := [[Exp]]
+  var f : int := $Exp
 in
   for y := 1 to x do (
     f := f * y

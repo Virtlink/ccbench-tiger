@@ -108,7 +108,7 @@ let
         var v4 := "7"
         var v5 := "7"
       in
-        print([[LValue]])
+        print($LValue)
       end;
       print(v);
       let

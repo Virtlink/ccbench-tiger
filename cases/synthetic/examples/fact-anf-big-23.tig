@@ -2,7 +2,7 @@ let
   function fact(n : int) : int =
     let
       var c := n < 1
-      [[Dec]]
+      $Dec
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1

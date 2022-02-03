@@ -1,7 +1,7 @@
 /* define a recursive function */
 let
 
-function printnl([[FArg]]) =
+function printnl($FArg) =
   (print(x); print("\n"))
 
 function mod(i : int, j : int) : int =

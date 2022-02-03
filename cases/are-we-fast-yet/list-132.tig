@@ -21,7 +21,7 @@ for i := 0 to 30 do (
         var yTail : Cons := y
         var isShorter : int := 0
       in
-        while [[Exp]] do (
+        while $Exp do (
           if xTail = nil then (
             isShorter := 1;
             break

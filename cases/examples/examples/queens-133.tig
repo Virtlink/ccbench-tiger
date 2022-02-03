@@ -19,7 +19,7 @@ let
     print("\n")
   )
 
-  function try([[FArg]]) = (
+  function try($FArg) = (
     if c = N then
       printboard()
     else

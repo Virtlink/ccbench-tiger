@@ -1,6 +1,6 @@
 let
   function fact(n : int) : int = 
-    if n < 1 then [[IntConst]] else (n * fact(n - 1))
+    if n < 1 then $IntConst else (n * fact(n - 1))
   
   function bar() : int = 42
   

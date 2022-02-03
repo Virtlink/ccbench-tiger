@@ -1,5 +1,5 @@
 let
-  function [[ID]](n : int) : int = 
+  function $ID(n : int) : int = 
     if n < 1 then 1 else (n * fact(n - 1))
   
   function bar() : int = 42

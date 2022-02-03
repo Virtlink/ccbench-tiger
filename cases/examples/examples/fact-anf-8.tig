@@ -1,5 +1,5 @@
 let
-  function fact(n : [[Type]]) : int =
+  function fact(n : $Type) : int =
     let
       var c := n < 1
     in

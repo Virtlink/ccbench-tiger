@@ -3,7 +3,7 @@ for i := 0 to 30 do (
     var counter := 0
     var counter2 := 0
   in
-    while [[ID]] < 100 do (
+    while $ID < 100 do (
       counter := counter + 1;
       while counter2 < 1000 do (
         counter2 := counter2 + 1;

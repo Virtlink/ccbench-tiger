@@ -1,5 +1,5 @@
 let
-  function [[ID]](v : string) =
+  function $ID(v : string) =
     let
       var v := "6"
     in

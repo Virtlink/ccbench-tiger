@@ -1,6 +1,6 @@
 let
   var x : int := 5
-  var f : int := [[IntConst]]
+  var f : int := $IntConst
 in
   for y := 1 to x do (
     f := f * y

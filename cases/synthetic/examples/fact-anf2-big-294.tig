@@ -37,7 +37,7 @@ let
             let
               var c : int := n * b
               var c2 : int := n * b
-              var c3 : [[ID]] := n * b
+              var c3 : $ID := n * b
               var c4 : int := n * b
               var c5 : int := n * b
             in

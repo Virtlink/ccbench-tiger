@@ -171,7 +171,7 @@ for i := 0 to 30 do (
               var i5 : int := n1
             in
               while i >= 0 do (
-                [[ID]](n1, i);
+                $ID(n1, i);
                 permute(n1);
                 swap(n1, i);
                 i := i - 1

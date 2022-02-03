@@ -18,7 +18,7 @@ function match_args(xs : alist, ys : alist) : int =
   else if xs = nil & ys = nil then 1
   else 0
 
-function test1() : [[Type]] =
+function test1() : $Type =
   app("Succ", alist{hd = app("Zero", nil), tl = nil})
 
 in

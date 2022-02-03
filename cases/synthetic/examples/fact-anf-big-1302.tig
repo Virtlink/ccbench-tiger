@@ -148,7 +148,7 @@ let
            in c
           end
     end
-  var [[ID]] := fact(10)
+  var $ID := fact(10)
 in
   r
 end

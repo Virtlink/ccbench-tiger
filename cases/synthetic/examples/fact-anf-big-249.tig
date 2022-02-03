@@ -28,7 +28,7 @@ let
            in c
           end
     end
-  [[Dec]]
+  $Dec
   function fact2(n : int, n2 : int) : int =
     let
       var c := n < 1

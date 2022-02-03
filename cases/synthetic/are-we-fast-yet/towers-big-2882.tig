@@ -293,7 +293,7 @@ for i := 0 to 30 do (
          in
            moveDisks(disks - 1, fromPile, otherPile);
            moveTopDisk(fromPile, toPile);
-           moveDisks([[Exp]], otherPile, toPile)
+           moveDisks($Exp, otherPile, toPile)
          end
   in
     buildTowerAt(0, 13);

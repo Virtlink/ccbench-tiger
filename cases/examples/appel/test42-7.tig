@@ -2,7 +2,7 @@
 let 
 
 type arrtype1 = array of int
-[[Dec]]
+$Dec
 type arrtype2 = array of rectype1
 type rectype2 = {name : string, dates: arrtype1}
 

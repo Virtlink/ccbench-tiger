@@ -1,6 +1,6 @@
 let 
   var x := "1"
-  var x := [[Exp]] // shadows previous x
+  var x := $Exp // shadows previous x
 in 
   x + x
 end

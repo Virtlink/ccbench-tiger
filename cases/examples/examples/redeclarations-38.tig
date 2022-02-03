@@ -9,7 +9,7 @@ let
       in
         print(v)
       end;
-      [[Exp]];
+      $Exp;
       let
         var v := "8"
       in

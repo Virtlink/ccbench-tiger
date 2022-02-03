@@ -3,6 +3,6 @@ for k := 0 to 30 do (
     let
       var cumsum := 0
     in
-      cumsum := [[LValue]] + 1
+      cumsum := $LValue + 1
     end
 )

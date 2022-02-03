@@ -30,7 +30,7 @@ let
       print(v)
     end
 
-  function f2(v : string, [[ID]] : string) =
+  function f2(v : string, $ID : string) =
     let
       var v := "6"
       var v2 := "6"

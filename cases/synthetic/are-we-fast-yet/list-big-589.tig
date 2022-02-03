@@ -95,7 +95,7 @@ for i := 0 to 30 do (
         var yTail5 : Cons := y
         var isShorter5 : int := 0
       in
-        while [[LValue]] <> nil do (
+        while $LValue <> nil do (
           if xTail = nil then (
             isShorter := 1;
             break

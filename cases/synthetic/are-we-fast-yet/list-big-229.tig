@@ -38,7 +38,7 @@ for i := 0 to 30 do (
         var isShorter5 : int := 0
       in
         while yTail <> nil do (
-          if [[Exp]] then (
+          if $Exp then (
             isShorter := 1;
             break
           ) else (

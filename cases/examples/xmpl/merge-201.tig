@@ -33,7 +33,7 @@ let
     let var any := any{any=0}
         var i := readint(any)
      in if any.any
-         then list{[[InitField]],rest=readlist()}
+         then list{$InitField,rest=readlist()}
          else nil
     end
 

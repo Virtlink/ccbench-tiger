@@ -10,7 +10,7 @@ let
   	let
   		var foo := foo.foo
   	in
-  		[[ID]](foo)
+  		$ID(foo)
   	end
   )
 in

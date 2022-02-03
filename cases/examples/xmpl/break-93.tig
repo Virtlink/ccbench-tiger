@@ -10,7 +10,7 @@ let
       chr(48 + n)
     else
       concat(inttostring(n / 10), inttostring(mod(n, 10)))
-  var x := [[Exp]]
+  var x := $Exp
  in
   while x < 10 do
     (

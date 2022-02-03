@@ -1,6 +1,6 @@
 let
 
-[[Dec]]
+$Dec
 
 function prettyprint(tree: tree) : string =
 let

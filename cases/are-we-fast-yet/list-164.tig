@@ -26,7 +26,7 @@ for i := 0 to 30 do (
             isShorter := 1;
             break
           ) else (
-            xTail := [[LValue]].next;
+            xTail := $LValue.next;
             yTail := yTail.next
           )
         );

@@ -1,5 +1,5 @@
 let
-  [[Dec]]
+  $Dec
   function f(y : int) : int =
     x + y
 in

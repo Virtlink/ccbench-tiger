@@ -107,7 +107,7 @@ let
   var row4 := intArray [N] of 0
   var col4 := intArray [N] of 0
   var diag14 := intArray [N+N-1] of 0
-  var diag24 := intArray [[[Var]]+N-1] of 0
+  var diag24 := intArray [$Var+N-1] of 0
 
   function printboard4() = (
     for i := 0 to N-1 do (

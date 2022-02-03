@@ -39,7 +39,7 @@ let
 
  function merge(a: list, b: list) : list =
    if a=nil then b
-   else [[Exp]]
+   else $Exp
 
  function printint(i: int) =
   let function f(i:int) = if i>0 

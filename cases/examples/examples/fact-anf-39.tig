@@ -7,7 +7,7 @@ let
          1
       else
         let
-           var a : int := [[LValue]] - 1
+           var a : int := $LValue - 1
            var b : int := fact(a)
            var c : int := n * b
         in

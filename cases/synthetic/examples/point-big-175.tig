@@ -8,7 +8,7 @@ let
   type point4 = { x : int, y : int, x2 : int, y2 : int, x3 : int, y3 : int, x4 : int, y4 : int }
   var origin4 : point := point { x = 1, y = 2 }
   type point5 = { x : int, y : int, x2 : int, y2 : int, x3 : int, y3 : int, x4 : int, y4 : int, x5 : int, y5 : int }
-  var origin5 : [[Type]] := point { x = 1, y = 2 }
+  var origin5 : $Type := point { x = 1, y = 2 }
 in
   origin.x;
   origin := nil

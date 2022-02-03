@@ -82,7 +82,7 @@ let
         print(if col[i] = j then " O" else " .");
         print("\n")
     );
-    print([[StrConst]])
+    print($StrConst)
   )
 
   function try3(c : int, c2 : int, c3 : int) = (

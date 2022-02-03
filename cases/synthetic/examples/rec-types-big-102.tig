@@ -8,7 +8,7 @@ let
   
   type intlist2  = { hd : int, tl : intlist, hd2 : int, tl2 : intlist }
   type tree2     = { key : int, children : treelist, key2 : int, children2 : treelist }
-  type treelist2 = [[Type]]
+  type treelist2 = $Type
   var l2 : intlist   := nil
   var tl2 : treelist := treelist { hd = nil, tl = nil }
   var t2 : tree      := tree { key = 1, children = tl }

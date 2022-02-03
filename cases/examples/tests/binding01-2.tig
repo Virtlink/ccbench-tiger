@@ -1,5 +1,0 @@
-let 
-   // shadows previous x
-in 
-  x + x
-end

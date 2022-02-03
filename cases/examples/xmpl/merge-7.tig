@@ -10,7 +10,7 @@
 
 let 
 
- type any = {[[Field]]}
+ type any = {$Field}
  var buffer := getchar()
 
  function readint(any: any) : int =

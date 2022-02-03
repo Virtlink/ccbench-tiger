@@ -126,7 +126,7 @@ for i := 0 to 30 do (
       
       function sieve5(flags : intArray, size : int, flags2 : intArray, size2 : int, flags3 : intArray, size3 : int, flags4 : intArray, size4 : int, flags5 : intArray, size5 : int): int = (
         let
-          var [[ID]] : int := 0
+          var $ID : int := 0
           var primeCount2 : int := 0
           var primeCount3 : int := 0
           var primeCount4 : int := 0

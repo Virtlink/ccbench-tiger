@@ -1,4 +1,4 @@
-let var x := [[IntConst]]
+let var x := $IntConst
  in let var x := x + 3
      in let function x(x : int, y : int) : int =
               let var i := 3 var z := 0

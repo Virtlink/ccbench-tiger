@@ -42,5 +42,5 @@ in
       tl = treelist { hd = tree { key = 4, children = nil }, tl = nil }
     }
   };
-  [[LValue]].hd.children := t.children
+  $LValue.hd.children := t.children
 end

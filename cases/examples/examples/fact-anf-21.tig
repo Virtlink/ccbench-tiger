@@ -1,7 +1,7 @@
 let
   function fact(n : int) : int =
     let
-      var c := n < [[Exp]]
+      var c := n < $Exp
     in
       if c then
          1

@@ -61,7 +61,7 @@ for i := 0 to 30 do (
         
     type Cons2 = { val : int, next : Cons, val2 : int, next2 : Cons }
     
-    function length2([[FArg]], l2 : Cons): int =
+    function length2($FArg, l2 : Cons): int =
       if l.next = nil then
         1
       else

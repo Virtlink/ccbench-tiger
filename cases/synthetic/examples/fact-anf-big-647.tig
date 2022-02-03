@@ -75,7 +75,7 @@ let
             var c : int := n * b
             var a2 : int := n - 1
             var b2 : int := fact(a)
-            var c2 : [[ID]] := n * b
+            var c2 : $ID := n * b
             var a3 : int := n - 1
             var b3 : int := fact(a)
             var c3 : int := n * b

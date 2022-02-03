@@ -8,5 +8,5 @@ let
 		a + b
 	)
 in
-   	[[Exp]]
+   	$Exp
 end

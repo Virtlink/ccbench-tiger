@@ -176,7 +176,7 @@ let
             var b2 : int := fact(a)
             var a3 : int := l - r
             var b3 : int := fact(a)
-            var a4 : int := l - [[Var]]
+            var a4 : int := l - $Var
             var b4 : int := fact(a)
             var a5 : int := l - r
             var b5 : int := fact(a)

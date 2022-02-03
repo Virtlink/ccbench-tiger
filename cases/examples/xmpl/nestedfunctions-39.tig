@@ -1,7 +1,7 @@
 let var x := 1
  in let var x := x + 3
      in let function x(x : int, y : int) : int =
-              let var i := [[Exp]] var z := 0
+              let var i := $Exp var z := 0
                in for i := 0 to x do z := z + i * y;
                   z
               end

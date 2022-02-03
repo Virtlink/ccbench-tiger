@@ -13,7 +13,7 @@ in for i := 0 to 1 do
      
    for i := 0 to 1 do
      for j := 0 to 2 do
-       [[ID]][i][j] := i + j;
+       $ID[i][j] := i + j;
        
    t[1][2]
 end

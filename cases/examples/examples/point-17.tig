@@ -1,6 +1,6 @@
 let
   type point = { x : int, y : int }
-  var origin : point := [[Exp]]
+  var origin : point := $Exp
 in
   origin.x;
   origin := nil

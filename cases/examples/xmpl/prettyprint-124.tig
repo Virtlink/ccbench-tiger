@@ -17,7 +17,7 @@ let
           do write(" ");
          output := concat(output, s))
    in if t = nil then indent(".")
-      else ([[Exp]];
+      else ($Exp;
             show(n+1, t.left);
             show(n+1, t.right))
   end

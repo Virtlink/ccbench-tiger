@@ -1,6 +1,6 @@
 for i := 0 to 30 do (
   let
-    var counter := [[IntConst]]
+    var counter := $IntConst
     var counter2 := 0
   in
     while counter < 100 do (

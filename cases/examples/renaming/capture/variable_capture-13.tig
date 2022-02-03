@@ -7,7 +7,7 @@ let
 	var bar := 10
 	in
 	  let
-		  var foo := [[IntConst]]
+		  var foo := $IntConst
 	  in 
 		  bar + foo
 		end

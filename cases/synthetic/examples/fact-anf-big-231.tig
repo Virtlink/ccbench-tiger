@@ -24,7 +24,7 @@ let
             var c4 : int := n * b
             var a5 : int := n - 1
             var b5 : int := fact(a)
-            [[Dec]]
+            $Dec
            in c
           end
     end

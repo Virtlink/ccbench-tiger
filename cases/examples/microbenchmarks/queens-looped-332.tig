@@ -33,6 +33,6 @@ let
         )
   )
 in
-  for [[Var]] := 0 to 30 do
+  for $Var := 0 to 30 do
     try(0)
 end

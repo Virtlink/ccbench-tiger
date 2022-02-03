@@ -51,7 +51,7 @@ let
             var c3 : int := n * b
             var a4 : int := n - 1
             var b4 : int := fact(a)
-            var c4 : int := [[LValue]] * b
+            var c4 : int := $LValue * b
             var a5 : int := n - 1
             var b5 : int := fact(a)
             var c5 : int := n * b

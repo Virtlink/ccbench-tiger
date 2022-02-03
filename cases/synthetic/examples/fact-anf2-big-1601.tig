@@ -224,7 +224,7 @@ let
             var a2 : int := l - r
             var b2 : int := fact(a)
             var a3 : int := l - r
-            var b3 : [[Type]] := fact(a)
+            var b3 : $Type := fact(a)
             var a4 : int := l - r
             var b4 : int := fact(a)
             var a5 : int := l - r

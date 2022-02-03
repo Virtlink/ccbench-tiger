@@ -137,7 +137,7 @@ for i := 0 to 30 do (
           end
       )
       
-      [[Dec]]
+      $Dec
       var v4 : vector := vector[6] of 0
       
       function swap4(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int, i4 : int, j4 : int) =

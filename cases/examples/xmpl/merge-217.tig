@@ -37,7 +37,7 @@ let
          else nil
     end
 
- function merge([[ID]]: list, b: list) : list =
+ function merge($ID: list, b: list) : list =
    if a=nil then b
    else if b=nil then a
    else if a.first < b.first 

@@ -8,7 +8,7 @@ function mod(i : int, j : int) : int =
   i - ((i / j) * j)
 
 function inttostring(n : int) : string =
-  if [[Exp]] 
+  if $Exp 
   then chr(48 + n)
   else concat(inttostring(n / 10), inttostring(mod(n, 10)))
 

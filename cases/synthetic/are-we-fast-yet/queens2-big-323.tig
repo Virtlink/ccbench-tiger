@@ -41,7 +41,7 @@ for i := 0 to 30 do (
                     placed := 1;
                     break
                   );
-                  [[ID]](r, c, 1);
+                  $ID(r, c, 1);
                   flush()
                 )
               );

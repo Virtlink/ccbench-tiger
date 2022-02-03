@@ -2,7 +2,7 @@ let
   var x : int := 5
   var f : int := 1
 in
-  for [[ID]] := 1 to x do (
+  for $ID := 1 to x do (
     f := f * y
   );
   print("s");

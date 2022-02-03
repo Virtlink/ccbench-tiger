@@ -23,7 +23,7 @@ arr2[3].name := "kati";
 arr2[1].age := 23;
 arr3[34] := "sfd";
 
-rec1.name := [[Exp]];
+rec1.name := $Exp;
 rec2.dates[0] := 2323;
 rec2.dates[2] := 2323
 

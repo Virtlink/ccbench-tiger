@@ -1,6 +1,6 @@
 let
   function fact(n : int) : int = 
-    if n < 1 then 1 else (n * fact([[Exp]] - 1))
+    if n < 1 then 1 else (n * fact($Exp - 1))
   
   function bar() : int = 42
   

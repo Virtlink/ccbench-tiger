@@ -101,7 +101,7 @@ let
         else
           let
             var a : int := n - 1
-            var b : int := [[ID]](a)
+            var b : int := $ID(a)
             var c : int := n * b
             var a2 : int := n - 1
             var b2 : int := fact(a)

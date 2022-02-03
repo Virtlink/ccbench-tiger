@@ -23,7 +23,7 @@ let
           var r5 : int := 1
         in
           let
-            var a : int := [[Var]] - r
+            var a : int := $Var - r
             var b : int := fact(a)
             var a2 : int := l - r
             var b2 : int := fact(a)

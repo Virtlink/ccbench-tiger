@@ -50,7 +50,7 @@ for i := 0 to 30 do (
       end
     
     function tail(x : Cons, y : Cons, z : Cons) : Cons =
-      if [[ID]](y, x) then
+      if $ID(y, x) then
         tail(
           tail(x.next, y, z),
           tail(y.next, z, x),

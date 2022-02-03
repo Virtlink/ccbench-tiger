@@ -33,7 +33,7 @@ let
   function f2(v : string, v2 : string) =
     let
       var v := "6"
-      [[Dec]]
+      $Dec
       var v3 := "6"
       var v4 := "6"
       var v5 := "6"

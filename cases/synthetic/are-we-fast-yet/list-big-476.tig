@@ -75,7 +75,7 @@ for i := 0 to 30 do (
     
     function isShorterThan2(x : Cons, y : Cons, x2 : Cons, y2 : Cons): int =
       let
-        var [[ID]] : Cons := x
+        var $ID : Cons := x
         var yTail : Cons := y
         var isShorter : int := 0
         

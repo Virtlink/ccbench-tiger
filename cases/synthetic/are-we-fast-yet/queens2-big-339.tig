@@ -45,7 +45,7 @@ for i := 0 to 30 do (
                   flush()
                 )
               );
-              [[LValue]]
+              $LValue
             end
             
             

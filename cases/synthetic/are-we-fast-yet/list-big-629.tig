@@ -101,7 +101,7 @@ for i := 0 to 30 do (
             break
           ) else (
             xTail := xTail.next;
-            yTail := [[LValue]].next
+            yTail := $LValue.next
           )
         );
         isShorter

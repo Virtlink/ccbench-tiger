@@ -11,7 +11,7 @@ let
   type treelist2 = { hd : tree, tl : treelist, hd2 : tree, tl2 : treelist }
   var l2 : intlist   := nil
   var tl2 : treelist := treelist { hd = nil, tl = nil }
-  var t2 : tree      := tree { key = 1, children = [[Var]] }
+  var t2 : tree      := tree { key = 1, children = $Var }
   
   type intlist3  = { hd : int, tl : intlist, hd2 : int, tl2 : intlist, hd3 : int, tl3 : intlist }
   type tree3     = { key : int, children : treelist, key2 : int, children2 : treelist, key3 : int, children3 : treelist }

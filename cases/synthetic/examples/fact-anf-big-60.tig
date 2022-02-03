@@ -6,7 +6,7 @@ let
       var c3 := n < 1
       var c4 := n < 1
       var c5 := n < 1
-     in [[Exp]]
+     in $Exp
     end
   var r := fact(10)
   function fact2(n : int, n2 : int) : int =

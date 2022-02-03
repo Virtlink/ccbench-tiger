@@ -14,5 +14,5 @@ in
     f := f * y
   );
   print("s");
-  print(chr([[Exp]]))
+  print(chr($Exp))
 end

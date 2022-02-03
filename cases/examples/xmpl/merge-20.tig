@@ -13,7 +13,7 @@ let
  type any = {any : int}
  var buffer := getchar()
 
- function readint(any: [[Type]]) : int =
+ function readint(any: $Type) : int =
  let var i := 0
      function isdigit(s : string) : int = 
 		  ord(buffer)>=ord("0") & ord(buffer)<=ord("9")

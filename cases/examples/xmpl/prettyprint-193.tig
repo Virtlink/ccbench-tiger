@@ -26,7 +26,7 @@ let
     output
 end
 
-function node(x : string, l : tree, r : [[ID]]) : tree =
+function node(x : string, l : tree, r : $ID) : tree =
   tree{key = x, left = l, right = r}
 
 function printnl(x : string) =

@@ -1,6 +1,6 @@
 let function f() : int =
     let var x : int := 1
-     in [[Exp]]
+     in $Exp
     end
 in f()
 end

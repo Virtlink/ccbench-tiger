@@ -4,7 +4,7 @@ for i := 0 to 30 do (
     type intArray = array of int
   in
     let
-      function sieve([[ID]] : intArray, size : int): int = (
+      function sieve($ID : intArray, size : int): int = (
         let
           var primeCount : int := 0
         in

@@ -4,7 +4,7 @@ msg -> message
 */
 
 let
-	var msg : [[ID]] := "Hello World"
+	var msg : $ID := "Hello World"
 in 
 	print(msg)
 end

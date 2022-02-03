@@ -11,7 +11,7 @@ let
     3 + x + y
   var y2 : int := 1
   
-  type foo3 = [[ID]]
+  type foo3 = $ID
   var x3 : int := 0
   function f3(y : int, y2 : int, y3 : int) : foo =
     3 + x + y

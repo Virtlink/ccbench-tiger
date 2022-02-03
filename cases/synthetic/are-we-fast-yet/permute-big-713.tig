@@ -97,7 +97,7 @@ for i := 0 to 30 do (
       var count3 : int := 0
       var v3 : vector := vector[6] of 0
       
-      function swap3(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : [[ID]]) =
+      function swap3(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : $ID) =
         let
           var tmp: int := v[i]
           var tmp2: int := v[i]

@@ -1,5 +1,5 @@
 let 
-  [[Dec]]
+  $Dec
   var x := 2 // shadows previous x
 in 
   x + x

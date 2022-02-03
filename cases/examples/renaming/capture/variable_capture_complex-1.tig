@@ -3,4 +3,4 @@ test file for a complex case of capture
 var b -> x (line 10)
 */
 
-[[Exp]]
+$Exp

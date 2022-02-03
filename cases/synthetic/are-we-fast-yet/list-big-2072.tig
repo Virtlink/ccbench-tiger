@@ -289,7 +289,7 @@ for i := 0 to 30 do (
           tail(z.next, x, y)
         )
       else
-        [[ID]]
+        $ID
   in
     let
       var result : Cons := tail(makeList(15), makeList(10), makeList(6))

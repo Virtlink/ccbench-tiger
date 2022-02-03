@@ -1,6 +1,0 @@
-/* locals hide globals */
-let
-	 
-in
- g(2)
-end

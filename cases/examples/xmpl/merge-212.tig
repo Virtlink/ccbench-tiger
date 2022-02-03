@@ -34,7 +34,7 @@ let
         var i := readint(any)
      in if any.any
          then list{first=i,rest=readlist()}
-         else [[Exp]]
+         else $Exp
     end
 
  function merge(a: list, b: list) : list =

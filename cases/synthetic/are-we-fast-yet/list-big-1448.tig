@@ -216,7 +216,7 @@ for i := 0 to 30 do (
             isShorter := 1;
             break
           ) else (
-            [[ID]] := xTail.next;
+            $ID := xTail.next;
             yTail := yTail.next
           )
         );

@@ -159,7 +159,7 @@ for i := 0 to 30 do (
             break
           ) else (
             xTail := xTail.next;
-            yTail := [[ID]].next
+            yTail := $ID.next
           )
         );
         isShorter

@@ -38,7 +38,7 @@ in
   t := tree {
     key = 2,
     children = treelist {
-      [[InitField]],
+      $InitField,
       tl = treelist { hd = tree { key = 4, children = nil }, tl = nil }
     }
   };

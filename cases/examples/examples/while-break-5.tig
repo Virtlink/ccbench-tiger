@@ -1,5 +1,5 @@
 let
-  var count := [[Exp]]
+  var count := $Exp
 in
   while count > -1 do
     break

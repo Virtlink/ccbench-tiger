@@ -5,7 +5,7 @@ let var x := 1
                in for i := 0 to x do z := z + i * y;
                   z
               end
-         in x([[Exp]],4)
+         in x($Exp,4)
         end;
         x + 5
     end;

@@ -22,7 +22,7 @@ let
             show(n+1, t.right))
   end
 
- in show([[IntConst]], tree); 
+ in show($IntConst, tree); 
     output
 end
 

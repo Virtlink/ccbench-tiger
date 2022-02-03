@@ -38,7 +38,7 @@ in
   t := tree {
     key = 2,
     children = treelist {
-      hd = [[ID]] { key = 3, children = nil },
+      hd = $ID { key = 3, children = nil },
       tl = treelist { hd = tree { key = 4, children = nil }, tl = nil }
     }
   };

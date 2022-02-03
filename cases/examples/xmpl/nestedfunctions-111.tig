@@ -10,6 +10,6 @@ let var x := 1
         x + 5
     end;
     let var y := 3
-     in (x + 6) + [[Var]]
+     in (x + 6) + $Var
     end
 end

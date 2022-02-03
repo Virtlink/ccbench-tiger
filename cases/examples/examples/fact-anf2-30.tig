@@ -4,7 +4,7 @@ let
       var c := n < 1
     in
       if c then
-        [[IntConst]]
+        $IntConst
       else
         let
           var l : int := n

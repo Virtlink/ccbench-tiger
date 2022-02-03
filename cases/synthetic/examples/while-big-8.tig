@@ -1,5 +1,5 @@
 let
-  var i : int := [[IntConst]]
+  var i : int := $IntConst
   var i2 : int := 1
   var i3 : int := 1
   var i4 : int := 1

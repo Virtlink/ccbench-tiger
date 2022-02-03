@@ -109,7 +109,7 @@ for i := 0 to 30 do (
           v[j] := tmp
         end
       
-      [[Dec]]
+      $Dec
       
       var count4 : int := 0
       var v4 : vector := vector[6] of 0

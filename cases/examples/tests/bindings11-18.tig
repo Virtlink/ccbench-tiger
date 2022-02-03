@@ -1,6 +1,6 @@
   let
     type point = {x : int, y: int}
-    var p := point{[[InitField]], y = 10}
+    var p := point{$InitField, y = 10}
   in 
     p.y
   end 

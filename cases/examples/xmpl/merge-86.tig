@@ -19,7 +19,7 @@ let
 		  ord(buffer)>=ord("0") & ord(buffer)<=ord("9")
      function skipto() =
        while buffer=" " | buffer="\n"
-         do [[LValue]] := getchar()
+         do $LValue := getchar()
   in skipto();
      any.any := isdigit(buffer);
      while isdigit(buffer)

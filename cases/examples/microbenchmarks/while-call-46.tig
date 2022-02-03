@@ -4,7 +4,7 @@ let
   
   function bar() : int = 42
   
-  [[Dec]]
+  $Dec
   
   function plus() : int = 1 + 2
   

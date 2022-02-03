@@ -4,7 +4,7 @@ in
   let
     var v1 : vector := vector[10] of 1
   in
-    for i:=0 to [[IntConst]]
+    for i:=0 to $IntConst
     do
       printi(v1[i])
   end

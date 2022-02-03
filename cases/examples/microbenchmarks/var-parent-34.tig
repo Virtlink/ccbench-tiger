@@ -6,7 +6,7 @@ for k := 0 to 30  do (
       let
         var foo := -99
       in
-        [[Var]] := cumsum + 1
+        $Var := cumsum + 1
       end
     end
 )

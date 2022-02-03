@@ -14,6 +14,6 @@ let
   type myrec5 = { x : int, x2 : int, x3 : int, x4 : int, x5 : int }
   var rec15 : myrec := myrec { x = 1 }
 in
-  [[ID]].x := 99;
+  $ID.x := 99;
   rec1.x //  33
 end

@@ -2,6 +2,6 @@ let
   var sum := 0 
   var n := 5
  in 
-   [[Exp]];   
+   $Exp;   
    sum
 end

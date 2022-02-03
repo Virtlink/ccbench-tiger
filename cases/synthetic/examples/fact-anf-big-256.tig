@@ -29,7 +29,7 @@ let
           end
     end
   var r := fact(10)
-  [[Dec]]
+  $Dec
   var r2 := fact(10)
   function fact3(n : int, n2 : int, n3 : int) : int =
     let

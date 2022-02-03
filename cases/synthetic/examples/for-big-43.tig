@@ -5,7 +5,7 @@ let
   var f2 : int := 1
   var x3 : int := 5
   var f3 : int := 1
-  var x4 : int := [[Exp]]
+  var x4 : int := $Exp
   var f4 : int := 1
   var x5 : int := 5
   var f5 : int := 1

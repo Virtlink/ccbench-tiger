@@ -1,4 +1,4 @@
-let var x := [[Exp]]
+let var x := $Exp
     var y := "b\n"
     var z := concat(x,y)
  in print(z);

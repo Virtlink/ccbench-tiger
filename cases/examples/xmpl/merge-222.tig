@@ -37,7 +37,7 @@ let
          else nil
     end
 
- function merge(a: list, b: [[Type]]) : list =
+ function merge(a: list, b: $Type) : list =
    if a=nil then b
    else if b=nil then a
    else if a.first < b.first 

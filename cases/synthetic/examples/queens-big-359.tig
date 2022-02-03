@@ -39,7 +39,7 @@ let
   type intArray2 = array of int
 
   var row2 := intArray [N] of 0
-  var col2 := intArray [N] of [[Exp]]
+  var col2 := intArray [N] of $Exp
   var diag12 := intArray [N+N-1] of 0
   var diag22 := intArray [N+N-1] of 0
 

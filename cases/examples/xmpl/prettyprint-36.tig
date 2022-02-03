@@ -7,7 +7,7 @@ let
 
   var output := ""
 
-  function write(s: [[Type]]) =
+  function write(s: $Type) =
     output := concat(output, s)
 
   function show(n: int, t: tree) =

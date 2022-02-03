@@ -204,7 +204,7 @@ for i := 0 to 30 do (
         var isShorter3 : int := 0
         
         var xTail4 : Cons := x
-        var yTail4 : Cons := [[Var]]
+        var yTail4 : Cons := $Var
         var isShorter4 : int := 0
         
         var xTail5 : Cons := x

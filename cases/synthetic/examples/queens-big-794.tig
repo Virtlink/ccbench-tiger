@@ -85,7 +85,7 @@ let
     print("\n")
   )
 
-  [[Dec]]
+  $Dec
   
   var N4 := 8
 

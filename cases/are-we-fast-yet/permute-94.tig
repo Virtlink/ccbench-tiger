@@ -15,7 +15,7 @@ for i := 0 to 30 do (
           v[j] := tmp
         end
       
-      function [[ID]](n: int) = (
+      function $ID(n: int) = (
         count := count + 1;
         if n <> 0 then
           let

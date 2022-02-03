@@ -109,7 +109,7 @@ for i := 0 to 30 do (
       else
         let
           var otherPile : int := (3 - fromPile) - toPile
-          var otherPile2 : [[ID]] := (3 - fromPile) - toPile
+          var otherPile2 : $ID := (3 - fromPile) - toPile
           var otherPile3 : int := (3 - fromPile) - toPile
           var otherPile4 : int := (3 - fromPile) - toPile
           var otherPile5 : int := (3 - fromPile) - toPile

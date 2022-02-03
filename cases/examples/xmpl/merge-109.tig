@@ -22,7 +22,7 @@ let
          do buffer := getchar()
   in skipto();
      any.any := isdigit(buffer);
-     [[Exp]];
+     $Exp;
      i
  end
 

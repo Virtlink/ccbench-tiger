@@ -125,7 +125,7 @@ let
 
   function f5(v : string, v2 : string, v3 : string, v4 : string, v5 : string) =
     let
-      var v := [[StrConst]]
+      var v := $StrConst
       var v2 := "6"
       var v3 := "6"
       var v4 := "6"

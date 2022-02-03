@@ -8,7 +8,7 @@ function app(fun: string, args : alist) : aterm =
 
 function match(x : aterm, y : aterm) : int =
   if x = nil then 0
-  else if y = nil then [[Exp]]
+  else if y = nil then $Exp
   else if x.fun = y.fun then match_args(x.args, y.args)
   else 0
 

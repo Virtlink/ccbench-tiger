@@ -154,7 +154,7 @@ let
       var c4 := n < 1
       var c5 := n < 1
     in
-      [[Exp]]
+      $Exp
     end
   var r4 := fact(10)
   

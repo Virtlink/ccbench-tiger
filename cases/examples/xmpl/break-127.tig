@@ -16,7 +16,7 @@ let
     (
       x := x + 1;
       print(inttostring(x));
-      [[Exp]]
+      $Exp
     );
   print(inttostring(x))
 end

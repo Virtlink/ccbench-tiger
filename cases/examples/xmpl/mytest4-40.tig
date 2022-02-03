@@ -1,6 +1,6 @@
 let function f(x : int, z : int) : int = 
     let function g(y : int) : int = 
-          (x + y) - [[LValue]]
+          (x + y) - $LValue
      in g(x)
     end
  in f(4, 6)

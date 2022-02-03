@@ -1,6 +1,6 @@
 let function f() : int =
     let var x : int := 1
-     in x + [[IntConst]]
+     in x + $IntConst
     end
 in f()
 end

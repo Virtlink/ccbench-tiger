@@ -26,7 +26,7 @@ let
         then (
           row[r]:=1; diag1[r+c]:=1; diag2[r+7-c]:=1;
           col[c]:=r;
-          [[Exp]];
+          $Exp;
           row[r]:=0;
           diag1[r+c]:=0;
           diag2[r+7-c]:=0

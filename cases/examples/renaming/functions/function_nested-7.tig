@@ -4,7 +4,7 @@ plus -> add
 */
 
 let 
-	function plus([[ID]] : int, b:int) : int = (
+	function plus($ID : int, b:int) : int = (
 		a + b;
 	  let
 			function plus(a : int, b:int) : int = 

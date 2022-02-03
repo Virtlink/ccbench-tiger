@@ -2,5 +2,5 @@ let
   var x := "1"
   var x := 2 // shadows previous x
 in 
-  [[ID]] + x
+  $ID + x
 end

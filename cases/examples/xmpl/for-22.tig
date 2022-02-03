@@ -4,7 +4,7 @@ let
 
   type vec = array of int
 
-  var v : vec := [[ID]] [5] of 0
+  var v : vec := $ID [5] of 0
 
 in 
 

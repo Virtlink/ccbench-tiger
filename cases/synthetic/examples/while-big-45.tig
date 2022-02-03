@@ -6,7 +6,7 @@ let
   var i5 : int := 1
 in
   while i < 10 do (
-    [[ID]](chr(i));
+    $ID(chr(i));
     i := i + 1
   )
 end

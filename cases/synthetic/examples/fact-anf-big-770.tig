@@ -88,7 +88,7 @@ let
            in c
           end
     end
-  var r3 := [[ID]](10)
+  var r3 := $ID(10)
   function fact4(n : int, n2 : int, n3 : int, n4 : int) : int =
     let
       var c := n < 1

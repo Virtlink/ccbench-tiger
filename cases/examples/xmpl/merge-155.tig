@@ -27,7 +27,7 @@ let
      i
  end
 
- [[Dec]]
+ $Dec
 
  function readlist() : list =
     let var any := any{any=0}

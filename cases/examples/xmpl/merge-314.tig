@@ -44,7 +44,7 @@ let
       then list{first=a.first,rest=merge(a.rest,b)}
       else list{first=b.first,rest=merge(a,b.rest)}
 
- [[Dec]]
+ $Dec
 
  function printlist(l: list) =
    if l=nil then print("\n")

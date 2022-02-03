@@ -6,7 +6,7 @@ for k := 0 to 30  do (
       let
         var foo := -99
       in
-        cumsum := [[LValue]] + 1
+        cumsum := $LValue + 1
       end
     end
 )

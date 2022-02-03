@@ -2,7 +2,7 @@ let
 
 type vector  = array of int
 
-[[Dec]]
+$Dec
 
 var v : vector := vector[3] of 1
 

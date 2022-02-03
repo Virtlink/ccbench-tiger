@@ -15,7 +15,7 @@ let
         (write("\n");
          for i := 1 to n
           do write(" ");
-         [[LValue]] := concat(output, s))
+         $LValue := concat(output, s))
    in if t = nil then indent(".")
       else (indent(t.key);
             show(n+1, t.left);

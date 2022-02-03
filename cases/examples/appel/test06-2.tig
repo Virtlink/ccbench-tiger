@@ -1,9 +1,0 @@
-/* define valid mutually recursive procedures */
-let
-
-
-
-in
-	do_nothing1(0, "str2")
-end
-

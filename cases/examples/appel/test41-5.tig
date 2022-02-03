@@ -1,6 +1,6 @@
 /* local types hide global */
 let
-	type a = [[Type]]
+	type a = $Type
 in
 	let
 		type a = string

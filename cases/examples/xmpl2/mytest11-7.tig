@@ -1,5 +1,5 @@
 let var x := "a\n"
-    [[Dec]]
+    $Dec
     var z := concat(x,y)
  in print(z);
     exit(0) 

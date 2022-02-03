@@ -2,7 +2,7 @@ let
   var sum := 0 
   var n := 5
  in 
-   for x := 1 to [[Var]] do
+   for x := 1 to $Var do
      sum := sum + x;   
    sum
 end

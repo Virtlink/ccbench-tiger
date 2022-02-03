@@ -1,6 +1,6 @@
 let 
 
-type vector  = array of [[ID]]
+type vector  = array of $ID
 
 type matrix = array of vector
 

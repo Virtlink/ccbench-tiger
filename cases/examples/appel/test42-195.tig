@@ -25,6 +25,6 @@ arr3[34] := "sfd";
 
 rec1.name := "sdf";
 rec2.dates[0] := 2323;
-[[Var]].dates[2] := 2323
+$Var.dates[2] := 2323
 
 end

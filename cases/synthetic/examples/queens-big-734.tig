@@ -76,7 +76,7 @@ let
   var diag13 := intArray [N+N-1] of 0
   var diag23 := intArray [N+N-1] of 0
 
-  function printboard3() = [[Exp]]
+  function printboard3() = $Exp
 
   function try3(c : int, c2 : int, c3 : int) = (
     if c = N then

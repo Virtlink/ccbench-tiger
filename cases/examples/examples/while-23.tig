@@ -2,7 +2,7 @@ let
   var i : int := 1
 in
   while i < 10 do (
-    print([[Exp]]);
+    print($Exp);
     i := i + 1
   )
 end

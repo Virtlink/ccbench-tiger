@@ -85,7 +85,7 @@ let
         var v2 := "8"
         var v3 := "8"
         var v4 := "8"
-        var v5 := [[StrConst]]
+        var v5 := $StrConst
       in
         print(v)
       end;

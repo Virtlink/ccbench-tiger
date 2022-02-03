@@ -1,6 +1,6 @@
 let
   var x : int := 1
-  function f([[FArg]]) : int =
+  function f($FArg) : int =
     x + y
 in
   x

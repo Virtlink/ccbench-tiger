@@ -124,7 +124,7 @@ let
     end
 
   function f5(v : string, v2 : string, v3 : string, v4 : string, v5 : string) =
-    [[Exp]]
+    $Exp
 in
   f("4")
 end

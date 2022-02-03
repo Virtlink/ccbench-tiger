@@ -9,7 +9,7 @@ for i := 0 to 30 do (
       else
         1 + length(l.next)
         
-    function makeList(length: int): [[ID]] =
+    function makeList(length: int): $ID =
       if length = 0 then
         nil
       else

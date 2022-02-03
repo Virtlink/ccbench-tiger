@@ -130,7 +130,7 @@ let
             var a4 : int := l - r
             var b4 : int := fact(a)
             var a5 : int := l - r
-            var b5 : int := fact([[ID]])
+            var b5 : int := fact($ID)
           in
             let
               var c : int := n * b

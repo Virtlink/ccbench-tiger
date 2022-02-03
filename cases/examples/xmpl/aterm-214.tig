@@ -23,6 +23,6 @@ function test1() : aterm =
 
 in
  
-   [[Exp]]
+   $Exp
 
 end

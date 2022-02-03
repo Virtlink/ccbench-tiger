@@ -30,7 +30,7 @@ function node(x : string, l : tree, r : tree) : tree =
   tree{key = x, left = l, right = r}
 
 function printnl(x : string) =
-  (print([[Var]]); print("\n"))
+  (print($Var); print("\n"))
 
 in let var t : tree := node("a",node("b",nil,nil),
                          node("c",nil,node("d",nil,nil)))

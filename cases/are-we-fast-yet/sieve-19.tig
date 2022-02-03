@@ -4,7 +4,7 @@ for i := 0 to 30 do (
     type intArray = array of int
   in
     let
-      [[Dec]]
+      $Dec
     in
       let
         var flags := intArray[5000] of 1

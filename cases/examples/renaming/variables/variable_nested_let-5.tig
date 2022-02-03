@@ -1,5 +1,5 @@
 let
-  var a := [[Exp]]
+  var a := $Exp
 in
   let
     var b := 1

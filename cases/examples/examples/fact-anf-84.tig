@@ -16,5 +16,5 @@ let
     end
   var r := fact(10)
 in
-  [[ID]]
+  $ID
 end

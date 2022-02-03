@@ -81,7 +81,7 @@ let
       end;
       print(v);
       let
-        var v := [[Exp]]
+        var v := $Exp
         var v2 := "8"
         var v3 := "8"
         var v4 := "8"

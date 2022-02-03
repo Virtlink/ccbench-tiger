@@ -8,7 +8,7 @@ type rectype2 = {name : string, dates: arrtype1}
 
 type arrtype3 = array of string
 
-var arr1 := arrtype1 [[[IntConst]]] of 0
+var arr1 := arrtype1 [$IntConst] of 0
 var arr2  := arrtype2 [5] of rectype1 {name="aname", address="somewhere", id=0, age=0}
 var arr3:arrtype3 := arrtype3 [100] of ""
 

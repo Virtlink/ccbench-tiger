@@ -7,7 +7,7 @@ for i := 0 to 30 do (
       var count : int := 0
       var v : vector := vector[6] of 0
       
-      function swap(i : [[Type]], j : int) =
+      function swap(i : $Type, j : int) =
         let
           var tmp: int := v[i]
         in

@@ -170,7 +170,7 @@ for i := 0 to 30 do (
         tail(
           tail(x.next, y, z),
           tail(y.next, z, x),
-          tail([[LValue]], x, y)
+          tail($LValue, x, y)
         )
       else
         z

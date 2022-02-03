@@ -6,6 +6,6 @@ in
   in
     for i:=0 to 9
     do
-      [[ID]](v1[i])
+      $ID(v1[i])
   end
 end

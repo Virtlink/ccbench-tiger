@@ -1,7 +1,7 @@
 /* correct declarations */
 let 
 
-[[Dec]]
+$Dec
 type rectype1 = {name:string, address:string, id: int , age: int}
 type arrtype2 = array of rectype1
 type rectype2 = {name : string, dates: arrtype1}

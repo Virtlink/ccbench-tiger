@@ -298,7 +298,7 @@ for i := 0 to 30 do (
   in
     buildTowerAt(0, 13);
     movesDone := 0;
-    moveDisks(13, 0, [[Exp]]);
+    moveDisks(13, 0, $Exp);
     movesDone; // 8191
     ()
   end

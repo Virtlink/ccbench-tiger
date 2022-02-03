@@ -18,5 +18,5 @@ let
       print(inttostring(x));
       break
     );
-  print(inttostring([[Var]]))
+  print(inttostring($Var))
 end

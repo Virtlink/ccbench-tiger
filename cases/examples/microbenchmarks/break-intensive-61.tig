@@ -6,7 +6,7 @@ for i := 0 to 30 do (
     while counter < 100 do (
       counter := counter + 1;
       while counter2 < 1000 do (
-        counter2 := counter2 + [[Exp]];
+        counter2 := counter2 + $Exp;
         if counter2 > 500 then
           break
       );

@@ -1,6 +1,6 @@
   let
     type x = {x : int}
-    var x : x := x{x = [[Exp]]}
+    var x : x := x{x = $Exp}
   in 
     x.x + 1
   end

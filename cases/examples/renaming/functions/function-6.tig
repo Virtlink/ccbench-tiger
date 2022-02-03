@@ -4,7 +4,7 @@ plus -> add
 */
 
 let 
-	function plus([[FArg]], b:int) : int = (
+	function plus($FArg, b:int) : int = (
 		a + b
 	)
 in

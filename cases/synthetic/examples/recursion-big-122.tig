@@ -7,7 +7,7 @@ let
   function odd2(x : int, x2 : int) : int =
     if x > 0 then even(x - 1) else 0
   function even2(x : int, x2 : int) : int =
-    if x > 0 then odd([[ID]] - 1) else 1
+    if x > 0 then odd($ID - 1) else 1
     
   function odd3(x : int, x2 : int, x3 : int) : int =
     if x > 0 then even(x - 1) else 0

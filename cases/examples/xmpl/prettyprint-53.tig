@@ -10,7 +10,7 @@ let
   function write(s: string) =
     output := concat(output, s)
 
-  [[Dec]]
+  $Dec
 
  in show(0, tree); 
     output

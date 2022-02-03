@@ -6,6 +6,6 @@ let
 
 in
 
-	[[Var]] := nil
+	$Var := nil
 
 end

@@ -1,1 +1,1 @@
-chr([[IntConst]])
+chr($IntConst)

@@ -3,7 +3,7 @@ let
     let
       var v := "6"
     in
-      [[ID]](v);
+      $ID(v);
       let
         var v := "7"
       in

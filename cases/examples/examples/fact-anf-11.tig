@@ -1,5 +1,5 @@
 let
-  function fact(n : int) : [[ID]] =
+  function fact(n : int) : $ID =
     let
       var c := n < 1
     in

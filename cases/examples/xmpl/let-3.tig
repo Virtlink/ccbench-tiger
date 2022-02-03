@@ -1,5 +1,5 @@
 let 
-  [[Dec]]
+  $Dec
   var z := 2
   var y : int := x + 1
 in

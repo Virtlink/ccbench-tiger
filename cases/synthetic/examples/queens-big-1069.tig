@@ -109,7 +109,7 @@ let
   var diag14 := intArray [N+N-1] of 0
   var diag24 := intArray [N+N-1] of 0
 
-  [[Dec]]
+  $Dec
 
   function try4(c : int, c2 : int, c3 : int, c4 : int) = (
     if c = N then

@@ -92,7 +92,7 @@ let
       print(v)
     end
 
-  [[Dec]]
+  $Dec
 
   function f5(v : string, v2 : string, v3 : string, v4 : string, v5 : string) =
     let

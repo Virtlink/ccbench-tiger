@@ -25,7 +25,7 @@ for i := 0 to 30 do (
         top
       end
     
-    function moveTopDisk(fromPile : int, [[ID]] : int) = (
+    function moveTopDisk(fromPile : int, $ID : int) = (
       pushDisk(popDiskFrom(fromPile), toPile);
       movesDone := movesDone + 1
     )

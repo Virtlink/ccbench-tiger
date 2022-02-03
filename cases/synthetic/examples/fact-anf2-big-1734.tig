@@ -242,7 +242,7 @@ let
           end
         end
     end
-  var r5 := [[ID]](10)
+  var r5 := $ID(10)
 in
   r
 end

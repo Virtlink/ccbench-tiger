@@ -1,7 +1,7 @@
 /* A program to solve the 8-queens problem */
 
 let
-    [[Dec]]
+    $Dec
 
     type intArray = array of int
 

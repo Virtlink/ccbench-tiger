@@ -9,7 +9,7 @@ let
 in 
 
   for i := 0 to 4 do
-    v[[[LValue]]] := i * 2;
+    v[$LValue] := i * 2;
 
   v[3]
   

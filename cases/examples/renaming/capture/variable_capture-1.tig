@@ -3,4 +3,4 @@ test file to rename a variable inside a let binding to the same name as the vari
 foo -> bar
 */
 
-[[Exp]]
+$Exp

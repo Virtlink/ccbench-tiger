@@ -1,4 +1,4 @@
-let [[Dec]]
+let $Dec
     var y := "b\n"
     var z := concat(x,y)
  in print(z);

@@ -91,7 +91,7 @@ for i := 0 to 30 do (
         var yTail4 : Cons := y
         var isShorter4 : int := 0
         
-        var xTail5 : [[ID]] := x
+        var xTail5 : $ID := x
         var yTail5 : Cons := y
         var isShorter5 : int := 0
       in

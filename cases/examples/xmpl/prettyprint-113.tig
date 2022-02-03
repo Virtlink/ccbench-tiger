@@ -16,7 +16,7 @@ let
          for i := 1 to n
           do write(" ");
          output := concat(output, s))
-   in if [[LValue]] = nil then indent(".")
+   in if $LValue = nil then indent(".")
       else (indent(t.key);
             show(n+1, t.left);
             show(n+1, t.right))

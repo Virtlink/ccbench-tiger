@@ -35,6 +35,6 @@ let
   var t5 : tree      := tree { key = 1, children = tl }
 in
   l := intlist { hd = 3, tl = l };
-  [[Exp]];
+  $Exp;
   t.children.hd.children := t.children
 end

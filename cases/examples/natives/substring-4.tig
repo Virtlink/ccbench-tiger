@@ -1,1 +1,1 @@
-substring([[Exp]], 2, 2)
+substring($Exp, 2, 2)

@@ -4,7 +4,7 @@ let
  in 
    while n > 0 do (
      sum := sum + n;
-     [[LValue]] := n - 1
+     $LValue := n - 1
    );
    sum
 end

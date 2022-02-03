@@ -1,5 +1,5 @@
 let
-  var sum := [[Exp]] 
+  var sum := $Exp 
   var n := 5
  in 
    for x := 1 to n do

@@ -11,5 +11,5 @@ let
   var origin5 : point := point { x = 1, y = 2 }
 in
   origin.x;
-  [[Exp]]
+  $Exp
 end

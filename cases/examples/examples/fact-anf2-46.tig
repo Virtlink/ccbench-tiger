@@ -8,7 +8,7 @@ let
       else
         let
           var l : int := n
-          var r : int := [[IntConst]]
+          var r : int := $IntConst
         in
           let
             var a : int := l - r

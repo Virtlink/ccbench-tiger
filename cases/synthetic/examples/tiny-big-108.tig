@@ -14,7 +14,7 @@ let
   type foo3 = int
   var x3 : int := 0
   function f3(y : int, y2 : int, y3 : int) : foo =
-    [[Exp]]
+    $Exp
   var y3 : int := 1
   
   type foo4 = int

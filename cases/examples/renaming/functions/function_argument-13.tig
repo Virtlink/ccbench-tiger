@@ -5,7 +5,7 @@ x -> text
 
 let 
 	function printnl(x : string) = (
-		[[ID]](x); 
+		$ID(x); 
 		print("\n")
 	)
 in

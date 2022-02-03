@@ -90,7 +90,7 @@ let
               var c4 : int := n * b
               var c5 : int := n * b
             in
-              [[Exp]]
+              $Exp
             end
           end
         end

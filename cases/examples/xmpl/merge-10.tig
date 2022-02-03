@@ -11,7 +11,7 @@
 let 
 
  type any = {any : int}
- [[Dec]]
+ $Dec
 
  function readint(any: any) : int =
  let var i := 0

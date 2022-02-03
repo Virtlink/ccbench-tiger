@@ -206,7 +206,7 @@ let
       if c then
         1
       else
-        [[Exp]]
+        $Exp
     end
   var r5 := fact(10)
 in

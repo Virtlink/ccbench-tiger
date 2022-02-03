@@ -134,7 +134,7 @@ let
       print(v);
       let
         var v := "7"
-        var v2 := [[StrConst]]
+        var v2 := $StrConst
         var v3 := "7"
         var v4 := "7"
         var v5 := "7"

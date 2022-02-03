@@ -13,7 +13,7 @@ in
 		let
 			var a := 1
 		in
-			[[LValue]] + b
+			$LValue + b
 		end
 	end
 end

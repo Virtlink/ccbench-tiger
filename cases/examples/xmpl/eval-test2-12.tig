@@ -1,4 +1,4 @@
 let function fac(n : int) : int =
-      [[Exp]]
+      $Exp
  in fac(5)
 end

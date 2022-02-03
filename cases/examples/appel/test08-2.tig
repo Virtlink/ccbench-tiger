@@ -1,2 +1,2 @@
 /* correct if */
-if [[Exp]] then 30 else 40	
+if $Exp then 30 else 40	

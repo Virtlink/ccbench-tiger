@@ -1,6 +1,6 @@
 /* factorial function; example from SPIM manual */
 
-let [[Dec]]
+let $Dec
  in fact(10)
 end
    

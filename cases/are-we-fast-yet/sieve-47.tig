@@ -8,7 +8,7 @@ for i := 0 to 30 do (
         let
           var primeCount : int := 0
         in
-          for i := [[IntConst]] to size do (
+          for i := $IntConst to size do (
             if flags[i-1] = 1 then (
               primeCount := primeCount + 1;
               let

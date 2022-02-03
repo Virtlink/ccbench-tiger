@@ -15,7 +15,7 @@ function match(x : aterm, y : aterm) : int =
 function match_args(xs : alist, ys : alist) : int =
   if xs <> nil & ys <> nil then
      match(xs.hd, ys.hd) & match_args(xs.tl,ys.tl)
-  else if xs = nil & ys = nil then [[Exp]]
+  else if xs = nil & ys = nil then $Exp
   else 0
 
 function test1() : aterm =

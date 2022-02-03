@@ -12,7 +12,7 @@ let
   
 in
   for i := 0 to 10000 do (
-    [[Exp]];
+    $Exp;
     bar();
     foo();
     plus();

@@ -1,5 +1,5 @@
 let function f(i : int) : int =
-    let function g(i : int) : [[ID]] = 
+    let function g(i : int) : $ID = 
           i
      in i + g(i)
     end

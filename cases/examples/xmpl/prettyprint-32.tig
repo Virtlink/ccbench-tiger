@@ -7,7 +7,7 @@ let
 
   var output := ""
 
-  function [[ID]](s: string) =
+  function $ID(s: string) =
     output := concat(output, s)
 
   function show(n: int, t: tree) =

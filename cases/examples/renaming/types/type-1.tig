@@ -3,4 +3,4 @@ test file to rename a type
 student -> person
 */
 
-[[Exp]]
+$Exp

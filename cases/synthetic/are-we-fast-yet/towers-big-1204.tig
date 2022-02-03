@@ -140,7 +140,7 @@ for i := 0 to 30 do (
       end
    
     function popDiskFrom3(pile : int, pile2 : int, pile3 : int): TowersDisk =
-      [[Exp]]
+      $Exp
    
     function moveTopDisk3(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int, fromPile3 : int, toPile3 : int) = (
       pushDisk(popDiskFrom(fromPile), toPile);

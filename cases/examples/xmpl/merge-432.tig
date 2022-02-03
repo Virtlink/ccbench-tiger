@@ -53,7 +53,7 @@ let
   end
 
  function printlist(l: list) =
-   if [[Var]]=nil then print("\n")
+   if $Var=nil then print("\n")
    else (printint(l.first); print(" "); printlist(l.rest))
 
    var list1 := readlist()

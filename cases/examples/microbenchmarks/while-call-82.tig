@@ -12,7 +12,7 @@ let
   
 in
   for i := 0 to 10000 do (
-    fact([[Exp]]);
+    fact($Exp);
     bar();
     foo();
     plus();

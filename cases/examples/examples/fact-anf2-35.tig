@@ -7,7 +7,7 @@ let
         1
       else
         let
-          var l : [[Type]] := n
+          var l : $Type := n
           var r : int := 1
         in
           let

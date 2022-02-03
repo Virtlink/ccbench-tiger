@@ -8,7 +8,7 @@ let
       else
         let
            var a : int := n - 1
-           var b : [[Type]] := fact(a)
+           var b : $Type := fact(a)
            var c : int := n * b
         in
            c

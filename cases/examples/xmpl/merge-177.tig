@@ -30,7 +30,7 @@ let
  type list = {first: int, rest: list}
 
  function readlist() : list =
-    let var any := any{[[InitField]]}
+    let var any := any{$InitField}
         var i := readint(any)
      in if any.any
          then list{first=i,rest=readlist()}

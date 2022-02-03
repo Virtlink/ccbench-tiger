@@ -17,7 +17,7 @@ let
 	     print("\n"));
          print("\n"))
 
-    function try(c:[[Type]]) = 
+    function try(c:$Type) = 
 (    if c=N
      then printboard()
      else for r := 0 to N-1

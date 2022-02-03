@@ -174,7 +174,7 @@ for i := 0 to 30 do (
           var otherPile5 : int := (3 - fromPile) - toPile
         in
           moveDisks(disks - 1, fromPile, otherPile);
-          moveTopDisk(fromPile, [[Var]]);
+          moveTopDisk(fromPile, $Var);
           moveDisks(disks - 1, otherPile, toPile)
         end
         

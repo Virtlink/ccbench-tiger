@@ -33,7 +33,7 @@ let
     let var any := any{any=0}
         var i := readint(any)
      in if any.any
-         then list{first=i,[[ID]]=readlist()}
+         then list{first=i,$ID=readlist()}
          else nil
     end
 

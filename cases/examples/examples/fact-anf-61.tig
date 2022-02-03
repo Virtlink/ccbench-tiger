@@ -9,7 +9,7 @@ let
         let
            var a : int := n - 1
            var b : int := fact(a)
-           var c : int := [[LValue]] * b
+           var c : int := $LValue * b
         in
            c
         end

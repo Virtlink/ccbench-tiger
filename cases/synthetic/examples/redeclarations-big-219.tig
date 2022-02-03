@@ -56,7 +56,7 @@ let
         var v4 := "8"
         var v5 := "8"
       in
-        print([[LValue]])
+        print($LValue)
       end;
       print(v)
     end

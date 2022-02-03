@@ -231,7 +231,7 @@ let
             var b5 : int := fact(a)
           in
             let
-              var c : int := n * [[Var]]
+              var c : int := n * $Var
               var c2 : int := n * b
               var c3 : int := n * b
               var c4 : int := n * b

@@ -15,7 +15,7 @@ let
             var b : int := fact(a)
           in
             let
-              [[Dec]]
+              $Dec
             in
               c
             end

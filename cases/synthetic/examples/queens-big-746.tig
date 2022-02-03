@@ -77,7 +77,7 @@ let
   var diag23 := intArray [N+N-1] of 0
 
   function printboard3() = (
-    for i := 0 to N-[[Exp]] do (
+    for i := 0 to N-$Exp do (
       for j := 0 to N-1 do
         print(if col[i] = j then " O" else " .");
         print("\n")

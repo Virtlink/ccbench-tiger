@@ -87,7 +87,7 @@ let
 
   function try3(c : int, c2 : int, c3 : int) = (
     if c = N then
-      [[Exp]]
+      $Exp
     else
       for r := 0 to N-1 do
         if row[r] = 0 & diag1[r+c] = 0 & diag2[r+7-c] = 0 then (

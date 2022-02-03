@@ -1,4 +1,4 @@
-for i := [[Exp]] to 30 do (
+for i := $Exp to 30 do (
   let
     var counter := 0
   in

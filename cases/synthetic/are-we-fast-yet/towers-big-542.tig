@@ -68,7 +68,7 @@ for i := 0 to 30 do (
     var piles2 : arrayOfTowersDisk := arrayOfTowersDisk[3] of nil
     var movesDone2 : int := 0
    
-    function pushDisk2(disk : TowersDisk, pile : [[ID]], disk2 : TowersDisk, pile2 : int) =
+    function pushDisk2(disk : TowersDisk, pile : $ID, disk2 : TowersDisk, pile2 : int) =
       let
         var top : TowersDisk := piles[pile]
         var top2 : TowersDisk := piles[pile]

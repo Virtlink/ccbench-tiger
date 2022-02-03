@@ -110,7 +110,7 @@ for i := 0 to 30 do (
         let
           var otherPile : int := (3 - fromPile) - toPile
           var otherPile2 : int := (3 - fromPile) - toPile
-          var otherPile3 : int := (3 - fromPile) - [[Exp]]
+          var otherPile3 : int := (3 - fromPile) - $Exp
           var otherPile4 : int := (3 - fromPile) - toPile
           var otherPile5 : int := (3 - fromPile) - toPile
         in

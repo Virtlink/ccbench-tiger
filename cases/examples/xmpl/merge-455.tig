@@ -54,7 +54,7 @@ let
 
  function printlist(l: list) =
    if l=nil then print("\n")
-   else (printint(l.first); print([[StrConst]]); printlist(l.rest))
+   else (printint(l.first); print($StrConst); printlist(l.rest))
 
    var list1 := readlist()
    var list2 := (buffer:=getchar(); readlist())

@@ -2,7 +2,7 @@
 let
 	var a := 0
 
-	function g([[FArg]]):int = a 
+	function g($FArg):int = a 
 in
  g(2)
 end

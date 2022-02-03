@@ -35,7 +35,7 @@ for i := 0 to 30 do (
           end
       )
     in
-      [[Exp]];
+      $Exp;
       count; // 8660
       ()
     end

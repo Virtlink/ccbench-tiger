@@ -116,7 +116,7 @@ let
         var v2 := "8"
         var v3 := "8"
         var v4 := "8"
-        var [[ID]] := "8"
+        var $ID := "8"
       in
         print(v)
       end;

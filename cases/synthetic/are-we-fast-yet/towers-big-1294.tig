@@ -149,7 +149,7 @@ for i := 0 to 30 do (
       in
         piles[pile] := top.next;
         top.next := nil;
-        [[Exp]]
+        $Exp
       end
    
     function moveTopDisk3(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int, fromPile3 : int, toPile3 : int) = (

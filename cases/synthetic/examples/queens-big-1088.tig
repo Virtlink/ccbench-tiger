@@ -111,7 +111,7 @@ let
 
   function printboard4() = (
     for i := 0 to N-1 do (
-      [[Exp]];
+      $Exp;
         print("\n")
     );
     print("\n")

@@ -98,7 +98,7 @@ for i := 0 to 30 do (
       function sieve4(flags : intArray, size : int, flags2 : intArray, size2 : int, flags3 : intArray, size3 : int, flags4 : intArray, size4 : int): int = (
         let
           var primeCount : int := 0
-          var primeCount2 : int := [[IntConst]]
+          var primeCount2 : int := $IntConst
           var primeCount3 : int := 0
           var primeCount4 : int := 0
           var primeCount5 : int := 0

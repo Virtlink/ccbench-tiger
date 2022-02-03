@@ -96,7 +96,7 @@ let
     let
       var v := "6"
       var v2 := "6"
-      var v3 := [[StrConst]]
+      var v3 := $StrConst
       var v4 := "6"
       var v5 := "6"
     in

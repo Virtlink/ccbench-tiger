@@ -27,7 +27,7 @@ for i := 0 to 30 do (
                 var k5 : int := i + i
               in
                 while k <= size do (
-                  flags[k-1] := [[Exp]];
+                  flags[k-1] := $Exp;
                   k := k + i
                 )
               end

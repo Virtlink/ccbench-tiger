@@ -27,7 +27,7 @@ let
 end
 
 function node(x : string, l : tree, r : tree) : tree =
-  tree{key = x, left = [[Exp]], right = r}
+  tree{key = x, left = $Exp, right = r}
 
 function printnl(x : string) =
   (print(x); print("\n"))

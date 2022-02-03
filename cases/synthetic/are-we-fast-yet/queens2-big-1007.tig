@@ -120,7 +120,7 @@ for i := 0 to 30 do (
                     break
                   );
                   setRowColumn(r, c, 1);
-                  [[Exp]]
+                  $Exp
                 )
               );
               placed

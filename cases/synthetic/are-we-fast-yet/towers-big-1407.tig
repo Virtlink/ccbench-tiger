@@ -162,7 +162,7 @@ for i := 0 to 30 do (
       for i := 0 to disks do
         pushDisk(TowersDisk{size = i, next = nil}, pile)
    
-    [[Dec]]
+    $Dec
         
         
      type TowersDisk4 = { size: int, next: TowersDisk, size2: int, next2: TowersDisk, size3: int, next3: TowersDisk, size4: int, next4: TowersDisk }

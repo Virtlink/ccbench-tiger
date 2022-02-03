@@ -10,5 +10,5 @@ let
   	}
   	var student1: student := student{name = "Alan Turing", age = 107 }
 in
-  	[[Exp]]
+  	$Exp
 end

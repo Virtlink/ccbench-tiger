@@ -171,7 +171,7 @@ for i := 0 to 30 do (
           var freeMins5  : intArray := intArray[16] of  1
           var queenRows5 : intArray := intArray[ 8] of -1
           
-          function getRowColumn5(r : int, c : int, r2 : int, c2 : int, r3 : int, c3 : int, r4 : int, c4 : int, r5 : int, c5 : int): [[Type]] =
+          function getRowColumn5(r : int, c : int, r2 : int, c2 : int, r3 : int, c3 : int, r4 : int, c4 : int, r5 : int, c5 : int): $Type =
             (freeRows[r] + freeMaxs[c+r] + freeMins[c-r+7]) = 3
           
           function setRowColumn5(r : int, c : int, v : int, r2 : int, c2 : int, v2 : int, r3 : int, c3 : int, v3 : int, r4 : int, c4 : int, v4 : int, r5 : int, c5 : int, v5 : int) = (

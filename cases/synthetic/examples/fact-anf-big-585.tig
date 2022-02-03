@@ -69,7 +69,7 @@ let
      in if c then
           1
         else
-          [[Exp]]
+          $Exp
     end
   var r3 := fact(10)
   function fact4(n : int, n2 : int, n3 : int, n4 : int) : int =

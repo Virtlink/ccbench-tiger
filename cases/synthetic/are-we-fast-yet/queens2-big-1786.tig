@@ -205,7 +205,7 @@ for i := 0 to 30 do (
             end
               
         in
-          placeQueen([[Exp]])
+          placeQueen($Exp)
         end
      in
       queens(); ()

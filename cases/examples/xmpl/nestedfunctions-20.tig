@@ -1,6 +1,6 @@
 let var x := 1
  in let var x := x + 3
-     in [[Exp]];
+     in $Exp;
         x + 5
     end;
     let var y := 3

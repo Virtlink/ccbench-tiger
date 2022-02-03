@@ -109,7 +109,7 @@ let
         1
       else
         let
-          var l : int := [[Exp]]
+          var l : int := $Exp
           var r : int := 1
           var l2 : int := n
           var r2 : int := 1

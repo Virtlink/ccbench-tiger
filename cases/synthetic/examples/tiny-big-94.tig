@@ -13,7 +13,7 @@ let
   
   type foo3 = int
   var x3 : int := 0
-  function f3([[FArg]], y2 : int, y3 : int) : foo =
+  function f3($FArg, y2 : int, y3 : int) : foo =
     3 + x + y
   var y3 : int := 1
   

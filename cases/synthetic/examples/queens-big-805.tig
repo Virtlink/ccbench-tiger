@@ -85,7 +85,7 @@ let
     print("\n")
   )
 
-  function try3(c : int, c2 : int, [[FArg]]) = (
+  function try3(c : int, c2 : int, $FArg) = (
     if c = N then
       printboard()
     else

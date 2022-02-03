@@ -7,7 +7,7 @@ let
   var t : tree      := tree { key = 1, children = tl }
 in
   l := intlist { hd = 3, tl = l };
-  [[Var]] := tree {
+  $Var := tree {
     key = 2,
     children = treelist {
       hd = tree { key = 3, children = nil },

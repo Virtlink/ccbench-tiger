@@ -14,5 +14,5 @@ let
   	end
   )
 in
-  	foo(foo{foo = [[StrConst]]})
+  	foo(foo{foo = $StrConst})
 end

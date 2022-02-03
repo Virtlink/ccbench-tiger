@@ -9,5 +9,5 @@ let var x := 1
         end;
         x + 5
     end;
-    [[Exp]]
+    $Exp
 end

@@ -4,7 +4,7 @@ for i := 0 to 30 do (
     type Cons = { val: int, next : Cons}
     
     function length(l : Cons): int =
-      if l.next = [[Exp]] then
+      if l.next = $Exp then
         1
       else
         1 + length(l.next)

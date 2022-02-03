@@ -11,7 +11,7 @@ let
       end;
       print(v);
       let
-        [[Dec]]
+        $Dec
       in
         print(v)
       end;

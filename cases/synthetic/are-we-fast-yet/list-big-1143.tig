@@ -173,7 +173,7 @@ for i := 0 to 30 do (
           tail(z.next, x, y)
         )
       else
-        [[Var]]
+        $Var
         
     type Cons4 = { val : int, next : Cons, val2 : int, next2 : Cons, val3 : int, next3 : Cons, val4 : int, next4 : Cons }
     

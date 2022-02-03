@@ -60,6 +60,6 @@ let
    var list2 := (buffer:=getchar(); readlist())
 
   /* BODY OF MAIN PROGRAM */
- in [[Exp]]
+ in $Exp
 end
 

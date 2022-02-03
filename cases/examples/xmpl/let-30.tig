@@ -3,5 +3,5 @@ let
   var z := 2
   var y : int := x + 1
 in
-  [[ID]] + y + z
+  $ID + y + z
 end 

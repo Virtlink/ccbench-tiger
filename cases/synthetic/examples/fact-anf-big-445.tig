@@ -50,7 +50,7 @@ let
             var b3 : int := fact(a)
             var c3 : int := n * b
             var a4 : int := n - 1
-            var b4 : [[ID]] := fact(a)
+            var b4 : $ID := fact(a)
             var c4 : int := n * b
             var a5 : int := n - 1
             var b5 : int := fact(a)

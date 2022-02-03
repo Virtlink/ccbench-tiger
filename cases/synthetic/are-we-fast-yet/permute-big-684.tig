@@ -95,7 +95,7 @@ for i := 0 to 30 do (
       )
       
       var count3 : int := 0
-      var v3 : vector := vector[[[IntConst]]] of 0
+      var v3 : vector := vector[$IntConst] of 0
       
       function swap3(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int) =
         let

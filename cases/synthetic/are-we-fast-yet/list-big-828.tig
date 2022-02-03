@@ -129,7 +129,7 @@ for i := 0 to 30 do (
       if length = 0 then
         nil
       else
-        Cons{ [[ID]] = length, next = makeList(length - 1) }
+        Cons{ $ID = length, next = makeList(length - 1) }
     
     function isShorterThan3(x : Cons, y : Cons, x2 : Cons, y2 : Cons, x3 : Cons, y3 : Cons): int =
       let

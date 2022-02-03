@@ -1,5 +1,5 @@
 let
-  type point = [[Type]]
+  type point = $Type
   var origin : point := point { x = 1, y = 2 }
 in
   origin.x;

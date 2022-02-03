@@ -79,7 +79,7 @@ let
   function printboard3() = (
     for i := 0 to N-1 do (
       for j := 0 to N-1 do
-        print(if col[i] = [[LValue]] then " O" else " .");
+        print(if col[i] = $LValue then " O" else " .");
         print("\n")
     );
     print("\n")

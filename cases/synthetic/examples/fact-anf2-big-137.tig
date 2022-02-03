@@ -20,7 +20,7 @@ let
           var l4 : int := n
           var r4 : int := 1
           var l5 : int := n
-          var r5 : int := [[Exp]]
+          var r5 : int := $Exp
         in
           let
             var a : int := l - r

@@ -53,7 +53,7 @@ for i := 0 to 30 do (
       if isShorterThan(y, x) then
         tail(
           tail(x.next, y, z),
-          tail(y.next, z, [[Exp]]),
+          tail(y.next, z, $Exp),
           tail(z.next, x, y)
         )
       else

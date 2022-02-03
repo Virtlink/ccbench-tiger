@@ -14,7 +14,7 @@ let
  in
   while x < 10 do
     (
-      x := [[Var]] + 1;
+      x := $Var + 1;
       print(inttostring(x));
       break
     );

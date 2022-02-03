@@ -144,7 +144,7 @@ let
           end
         end
     end
-  var r3 := fact([[IntConst]])
+  var r3 := fact($IntConst)
   
   function fact4(n : int, n2 : int, n3 : int, n4 : int) : int =
     let

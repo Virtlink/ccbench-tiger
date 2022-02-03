@@ -61,7 +61,7 @@ let
       print(v)
     end
 
-  function f3(v : string, v2 : string, [[FArg]]) =
+  function f3(v : string, v2 : string, $FArg) =
     let
       var v := "6"
       var v2 := "6"

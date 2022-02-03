@@ -1,6 +1,6 @@
 let
   var count := 0
 in
-  [[Exp]]
+  $Exp
 end
 

@@ -29,7 +29,7 @@ let
           end
     end
   var r := fact(10)
-  function fact2(n : int, [[FArg]]) : int =
+  function fact2(n : int, $FArg) : int =
     let
       var c := n < 1
       var c2 := n < 1

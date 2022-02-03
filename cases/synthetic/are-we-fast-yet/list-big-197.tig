@@ -33,7 +33,7 @@ for i := 0 to 30 do (
         var yTail4 : Cons := y
         var isShorter4 : int := 0
         
-        var [[ID]] : Cons := x
+        var $ID : Cons := x
         var yTail5 : Cons := y
         var isShorter5 : int := 0
       in

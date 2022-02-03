@@ -19,7 +19,7 @@ in
 
 arr1[0] := 1; 
 arr1[9] := 3;
-[[LValue]][3].name := "kati";
+$LValue[3].name := "kati";
 arr2[1].age := 23;
 arr3[34] := "sfd";
 

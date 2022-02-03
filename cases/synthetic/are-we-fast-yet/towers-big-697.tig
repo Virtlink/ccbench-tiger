@@ -85,7 +85,7 @@ for i := 0 to 30 do (
         var top : TowersDisk := piles[pile]
         var top2 : TowersDisk := piles[pile]
         var top3 : TowersDisk := piles[pile]
-        var [[ID]] : TowersDisk := piles[pile]
+        var $ID : TowersDisk := piles[pile]
         var top5 : TowersDisk := piles[pile]
       in
         piles[pile] := top.next;

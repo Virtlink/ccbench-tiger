@@ -1,6 +1,6 @@
 let
   function mod(i : int, j : int): int =
-    [[Exp]] - (
+    $Exp - (
       (
         i / j
       ) * j

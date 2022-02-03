@@ -141,7 +141,7 @@ for i := 0 to 30 do (
             freeMins[c - r + 7] := v
           )
           
-          function placeQueen4([[ID]] : int, c2 : int, c3 : int, c4 : int):int =
+          function placeQueen4($ID : int, c2 : int, c3 : int, c4 : int):int =
             let
               var placed : int := 0
             in

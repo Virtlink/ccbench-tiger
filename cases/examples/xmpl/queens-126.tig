@@ -15,7 +15,7 @@ let
 	 do (for j := 0 to N-1 
 	      do print(if col[i]=j then " O" else " .");
 	     print("\n"));
-         [[ID]]("\n"))
+         $ID("\n"))
 
     function try(c:int) = 
 (    if c=N

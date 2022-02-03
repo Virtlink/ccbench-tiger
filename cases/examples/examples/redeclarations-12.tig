@@ -1,7 +1,7 @@
 let
   function f(v : string) =
     let
-      [[Dec]]
+      $Dec
     in
       print(v);
       let

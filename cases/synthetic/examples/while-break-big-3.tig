@@ -1,5 +1,5 @@
 let
-  [[Dec]]
+  $Dec
   var count2 := 0
   var count3 := 0
   var count4 := 0

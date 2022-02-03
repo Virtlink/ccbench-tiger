@@ -189,7 +189,7 @@ for i := 0 to 30 do (
       else
         Cons{ val = length, next = makeList(length - 1) }
     
-    function isShorterThan4(x : Cons, y : Cons, x2 : Cons, y2 : Cons, x3 : [[ID]], y3 : Cons, x4 : Cons, y4 : Cons): int =
+    function isShorterThan4(x : Cons, y : Cons, x2 : Cons, y2 : Cons, x3 : $ID, y3 : Cons, x4 : Cons, y4 : Cons): int =
       let
         var xTail : Cons := x
         var yTail : Cons := y

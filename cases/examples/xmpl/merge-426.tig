@@ -52,7 +52,7 @@ let
       else print("0")
   end
 
- function printlist(l: [[Type]]) =
+ function printlist(l: $Type) =
    if l=nil then print("\n")
    else (printint(l.first); print(" "); printlist(l.rest))
 

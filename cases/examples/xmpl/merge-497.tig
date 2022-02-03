@@ -60,6 +60,6 @@ let
    var list2 := (buffer:=getchar(); readlist())
 
   /* BODY OF MAIN PROGRAM */
- in printlist(merge(list1,[[Var]]))
+ in printlist(merge(list1,$Var))
 end
 

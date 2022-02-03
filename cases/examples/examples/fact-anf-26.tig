@@ -3,7 +3,7 @@ let
     let
       var c := n < 1
     in
-      if [[LValue]] then
+      if $LValue then
          1
       else
         let

@@ -7,7 +7,7 @@ let
 	function plus(a : int, b:int) : int = (
 		a + b;
 	  let
-			function plus(a : int, b:[[Type]]) : int = 
+			function plus(a : int, b:$Type) : int = 
 				a + b
 		in 
 		 plus(1,1)

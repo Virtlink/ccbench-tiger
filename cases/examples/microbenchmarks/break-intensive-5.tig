@@ -1,4 +1,4 @@
-for i := [[IntConst]] to 30 do (
+for i := $IntConst to 30 do (
   let
     var counter := 0
     var counter2 := 0

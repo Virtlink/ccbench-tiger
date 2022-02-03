@@ -138,7 +138,7 @@ for i := 0 to 30 do (
       )
       
       var count4 : int := 0
-      var v4 : [[ID]] := vector[6] of 0
+      var v4 : $ID := vector[6] of 0
       
       function swap4(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int, i4 : int, j4 : int) =
         let

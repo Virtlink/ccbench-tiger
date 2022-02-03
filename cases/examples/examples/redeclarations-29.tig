@@ -5,7 +5,7 @@ let
     in
       print(v);
       let
-        var v := [[StrConst]]
+        var v := $StrConst
       in
         print(v)
       end;

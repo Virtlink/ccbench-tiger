@@ -5,7 +5,7 @@ let
   var i4 : int := 1
   var i5 : int := 1
 in
-  while [[Exp]] < 10 do (
+  while $Exp < 10 do (
     print(chr(i));
     i := i + 1
   )

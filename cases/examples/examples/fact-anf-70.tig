@@ -11,7 +11,7 @@ let
            var b : int := fact(a)
            var c : int := n * b
         in
-           [[LValue]]
+           $LValue
         end
     end
   var r := fact(10)

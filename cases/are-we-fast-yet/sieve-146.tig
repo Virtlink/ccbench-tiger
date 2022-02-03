@@ -26,7 +26,7 @@ for i := 0 to 30 do (
       )
     in
       let
-        var [[ID]] := intArray[5000] of 1
+        var $ID := intArray[5000] of 1
       in
         sieve(flags, 5000); () // 669
       end

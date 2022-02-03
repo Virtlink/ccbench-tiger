@@ -117,7 +117,7 @@ for i := 0 to 30 do (
       else
         z
         
-    type Cons3 = { val : int, next : Cons, val2 : int, next2 : Cons, val3 : int, [[ID]] : Cons }
+    type Cons3 = { val : int, next : Cons, val2 : int, next2 : Cons, val3 : int, $ID : Cons }
     
     function length3(l : Cons, l2 : Cons, l3 : Cons): int =
       if l.next = nil then

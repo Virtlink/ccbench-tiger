@@ -37,7 +37,7 @@ in
   l := intlist { hd = 3, tl = l };
   t := tree {
     key = 2,
-    children = [[Exp]]
+    children = $Exp
   };
   t.children.hd.children := t.children
 end

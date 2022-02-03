@@ -13,7 +13,7 @@ var arr2  := arrtype2 [5] of rectype1 {name="aname", address="somewhere", id=0, 
 var arr3:arrtype3 := arrtype3 [100] of ""
 
 var rec1 := rectype1 {name="Kapoios", address="Kapou", id=02432, age=44}
-var rec2 := rectype2 {[[InitField]], dates= arrtype1 [3] of 1900}
+var rec2 := rectype2 {$InitField, dates= arrtype1 [3] of 1900}
 
 in
 

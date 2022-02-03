@@ -53,7 +53,7 @@ let
   end
 
  function printlist(l: list) =
-   if [[Exp]] then print("\n")
+   if $Exp then print("\n")
    else (printint(l.first); print(" "); printlist(l.rest))
 
    var list1 := readlist()

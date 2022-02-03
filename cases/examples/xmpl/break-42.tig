@@ -5,7 +5,7 @@ let
         i / j
       ) * j
     )
-  function inttostring([[FArg]]): string =
+  function inttostring($FArg): string =
     if n < 10 then
       chr(48 + n)
     else

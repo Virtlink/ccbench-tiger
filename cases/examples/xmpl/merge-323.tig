@@ -45,7 +45,7 @@ let
       else list{first=b.first,rest=merge(a,b.rest)}
 
  function printint(i: int) =
-  let [[Dec]]
+  let $Dec
    in if i<0 then (print("-"); f(-i))
       else if i>0 then f(i)
       else print("0")

@@ -8,7 +8,7 @@ let
 
 in 
 
-  for i := 0 to [[IntConst]] do
+  for i := 0 to $IntConst do
     v[i] := i * 2;
 
   v[3]

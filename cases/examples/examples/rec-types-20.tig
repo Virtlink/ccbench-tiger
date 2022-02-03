@@ -1,6 +1,6 @@
 let
   type intlist  = { hd : int, tl : intlist }
-  type tree     = { key : int, [[Field]] }
+  type tree     = { key : int, $Field }
   type treelist = { hd : tree, tl : treelist }
   var l : intlist   := nil
   var tl : treelist := treelist { hd = nil, tl = nil }

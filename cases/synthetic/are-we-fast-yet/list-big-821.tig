@@ -126,7 +126,7 @@ for i := 0 to 30 do (
         1 + length(l.next)
         
     function makeList3(length : int, length2 : int, length3 : int): Cons =
-      if length = [[Exp]] then
+      if length = $Exp then
         nil
       else
         Cons{ val = length, next = makeList(length - 1) }

@@ -90,7 +90,7 @@ let
       printboard()
     else
       for r := 0 to N-1 do
-        [[Exp]]
+        $Exp
   )
   
   var N4 := 8

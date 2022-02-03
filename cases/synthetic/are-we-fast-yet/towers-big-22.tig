@@ -4,7 +4,7 @@ for i := 0 to 30 do (
   let 
     type TowersDisk = { size: int, next: TowersDisk }
     
-    [[Dec]]
+    $Dec
     
     var piles : arrayOfTowersDisk := arrayOfTowersDisk[3] of nil
     var movesDone : int := 0

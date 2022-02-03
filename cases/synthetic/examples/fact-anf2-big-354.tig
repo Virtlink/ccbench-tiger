@@ -48,7 +48,7 @@ let
     end
   var r := fact(10)
 
-  function fact2(n : int, n2 : int) : [[ID]] =
+  function fact2(n : int, n2 : int) : $ID =
     let
       var c := n < 1
       var c2 := n < 1

@@ -292,7 +292,7 @@ for i := 0 to 30 do (
         z
   in
     let
-      var result : [[ID]] := tail(makeList(15), makeList(10), makeList(6))
+      var result : $ID := tail(makeList(15), makeList(10), makeList(6))
       var result2 : Cons := tail(makeList(15), makeList(10), makeList(6))
       var result3 : Cons := tail(makeList(15), makeList(10), makeList(6))
       var result4 : Cons := tail(makeList(15), makeList(10), makeList(6))

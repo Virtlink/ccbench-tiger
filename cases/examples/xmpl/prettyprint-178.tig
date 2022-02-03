@@ -23,7 +23,7 @@ let
   end
 
  in show(0, tree); 
-    [[ID]]
+    $ID
 end
 
 function node(x : string, l : tree, r : tree) : tree =

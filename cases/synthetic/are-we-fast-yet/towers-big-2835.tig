@@ -289,7 +289,7 @@ for i := 0 to 30 do (
            var otherPile2 : int := (3 - fromPile) - toPile
            var otherPile3 : int := (3 - fromPile) - toPile
            var otherPile4 : int := (3 - fromPile) - toPile
-           var otherPile5 : int := [[Exp]]
+           var otherPile5 : int := $Exp
          in
            moveDisks(disks - 1, fromPile, otherPile);
            moveTopDisk(fromPile, toPile);

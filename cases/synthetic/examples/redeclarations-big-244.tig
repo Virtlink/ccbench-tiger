@@ -62,7 +62,7 @@ let
     end
 
   function f3(v : string, v2 : string, v3 : string) =
-    [[Exp]]
+    $Exp
 
   function f4(v : string, v2 : string, v3 : string, v4 : string) =
     let

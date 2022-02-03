@@ -1,7 +1,7 @@
 /* define a recursive function */
 let
 
-[[Dec]]
+$Dec
 
 function mod(i : int, j : int) : int =
   i - ((i / j) * j)

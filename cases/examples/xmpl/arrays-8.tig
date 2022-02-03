@@ -2,7 +2,7 @@ let
 
 type vector  = array of int
 
-type [[ID]] = array of vector
+type $ID = array of vector
 
 var v : vector := vector[3] of 1
 

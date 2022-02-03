@@ -177,7 +177,7 @@ for i := 0 to 30 do (
           function setRowColumn5(r : int, c : int, v : int, r2 : int, c2 : int, v2 : int, r3 : int, c3 : int, v3 : int, r4 : int, c4 : int, v4 : int, r5 : int, c5 : int, v5 : int) = (
             freeRows[r        ] := v;
             freeMaxs[c + r    ] := v;
-            freeMins[c - [[LValue]] + 7] := v
+            freeMins[c - $LValue + 7] := v
           )
           
           function placeQueen5(c : int, c2 : int, c3 : int, c4 : int, c5 : int):int =

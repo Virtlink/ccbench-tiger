@@ -1,5 +1,5 @@
 let
-  type myrec = { [[Field]] }
+  type myrec = { $Field }
   var rec1 : myrec := myrec { x = 1 }
 in
   rec1.x := 99;

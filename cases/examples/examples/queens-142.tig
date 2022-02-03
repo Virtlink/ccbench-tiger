@@ -20,7 +20,7 @@ let
   )
 
   function try(c : int) = (
-    if [[LValue]] = N then
+    if $LValue = N then
       printboard()
     else
       for r := 0 to N-1 do

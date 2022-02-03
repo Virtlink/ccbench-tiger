@@ -9,7 +9,7 @@ let
     if n < 10 then
       chr(48 + n)
     else
-      concat(inttostring(n / [[IntConst]]), inttostring(mod(n, 10)))
+      concat(inttostring(n / $IntConst), inttostring(mod(n, 10)))
   var x := 1
  in
   while x < 10 do

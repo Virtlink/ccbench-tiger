@@ -18,7 +18,7 @@ for i := 0 to 30 do (
         var top5 : TowersDisk := piles[pile]
       in
         disk.next := top;
-        piles[[[Var]]] := disk
+        piles[$Var] := disk
       end
     
     function popDiskFrom(pile : int): TowersDisk =

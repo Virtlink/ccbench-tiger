@@ -127,7 +127,7 @@ for i := 0 to 30 do (
             end
             
             
-          var freeRows4  : [[Type]] := intArray[ 8] of  1
+          var freeRows4  : $Type := intArray[ 8] of  1
           var freeMaxs4  : intArray := intArray[16] of  1
           var freeMins4  : intArray := intArray[16] of  1
           var queenRows4 : intArray := intArray[ 8] of -1

@@ -21,7 +21,7 @@ for i := 0 to 30 do (
           function setRowColumn(r : int, c : int, v : int) = (
             freeRows[r        ] := v;
             freeMaxs[c + r    ] := v;
-            freeMins[c - [[Var]] + 7] := v
+            freeMins[c - $Var + 7] := v
           )
           
           function placeQueen(c : int):int =

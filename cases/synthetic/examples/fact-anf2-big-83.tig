@@ -13,7 +13,7 @@ let
         let
           var l : int := n
           var r : int := 1
-          [[Dec]]
+          $Dec
           var r2 : int := 1
           var l3 : int := n
           var r3 : int := 1

@@ -57,7 +57,7 @@ let
    else (printint(l.first); print(" "); printlist(l.rest))
 
    var list1 := readlist()
-   var list2 := ([[LValue]]:=getchar(); readlist())
+   var list2 := ($LValue:=getchar(); readlist())
 
   /* BODY OF MAIN PROGRAM */
  in printlist(merge(list1,list2))

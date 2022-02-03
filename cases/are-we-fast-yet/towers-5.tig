@@ -1,5 +1,5 @@
 //https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/Towers.java
-for i := [[IntConst]] to 30 do (
+for i := $IntConst to 30 do (
   let 
     type TowersDisk = { size: int, next: TowersDisk }
     

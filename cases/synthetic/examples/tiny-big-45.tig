@@ -6,7 +6,7 @@ let
   var y : int := 1
   
   type foo2 = int
-  var [[ID]] : int := 0
+  var $ID : int := 0
   function f2(y : int, y2 : int) : foo =
     3 + x + y
   var y2 : int := 1

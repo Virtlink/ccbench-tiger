@@ -6,7 +6,7 @@ let
       ) * j
     )
   function inttostring(n : int): string =
-    [[Exp]]
+    $Exp
   var x := 1
  in
   while x < 10 do

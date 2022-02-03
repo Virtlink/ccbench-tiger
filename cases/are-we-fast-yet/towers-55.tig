@@ -10,7 +10,7 @@ for i := 0 to 30 do (
     
     function pushDisk(disk : TowersDisk, pile : int) =
       let
-        var [[ID]] : TowersDisk := piles[pile]
+        var $ID : TowersDisk := piles[pile]
       in
         disk.next := top;
         piles[pile] := disk

@@ -6,7 +6,7 @@ let
       if c then
          1
       else
-        [[Exp]]
+        $Exp
     end
   var r := fact(10)
 in

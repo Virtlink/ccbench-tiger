@@ -9,7 +9,7 @@ for i := 0 to 30 do (
     var movesDone : int := 0
     
     function pushDisk(disk : TowersDisk, pile : int) =
-      [[Exp]]
+      $Exp
     
     function popDiskFrom(pile : int): TowersDisk =
       let

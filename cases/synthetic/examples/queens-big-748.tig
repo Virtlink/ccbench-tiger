@@ -77,7 +77,7 @@ let
   var diag23 := intArray [N+N-1] of 0
 
   function printboard3() = (
-    for i := 0 to N-1 do [[Exp]];
+    for i := 0 to N-1 do $Exp;
     print("\n")
   )
 

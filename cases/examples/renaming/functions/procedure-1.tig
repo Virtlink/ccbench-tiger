@@ -3,4 +3,4 @@ test file to rename a procedure (function with no return type)
 printnl -> printNewLine
 */
 
-[[Exp]]
+$Exp

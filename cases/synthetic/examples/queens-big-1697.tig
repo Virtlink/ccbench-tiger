@@ -166,6 +166,6 @@ let
         )
   )
 in
-  try([[Exp]])
+  try($Exp)
 end
 

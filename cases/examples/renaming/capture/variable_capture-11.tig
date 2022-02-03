@@ -7,7 +7,7 @@ let
 	var bar := 10
 	in
 	  let
-		  var [[ID]] := 100
+		  var $ID := 100
 	  in 
 		  bar + foo
 		end

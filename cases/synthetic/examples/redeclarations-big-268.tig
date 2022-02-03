@@ -69,7 +69,7 @@ let
       var v4 := "6"
       var v5 := "6"
     in
-      [[ID]](v);
+      $ID(v);
       let
         var v := "7"
         var v2 := "7"

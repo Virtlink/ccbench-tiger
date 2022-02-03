@@ -1,6 +1,6 @@
 let
   var sum := 0 
-  var n := [[IntConst]]
+  var n := $IntConst
  in 
    for x := 1 to n do
      sum := sum + x;   

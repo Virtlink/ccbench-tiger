@@ -69,7 +69,7 @@ for i := 0 to 30 do (
             in
               for r := 0 to 7 do (
                 if getRowColumn(r, c) = 1 then (
-                  queenRows[r] := [[ID]];
+                  queenRows[r] := $ID;
                   setRowColumn(r, c, 0);
                   if c = 7 then (
                     placed := 1;

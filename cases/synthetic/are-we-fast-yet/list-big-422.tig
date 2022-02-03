@@ -68,7 +68,7 @@ for i := 0 to 30 do (
         1 + length(l.next)
         
     function makeList2(length : int, length2 : int): Cons =
-      [[Exp]]
+      $Exp
     
     function isShorterThan2(x : Cons, y : Cons, x2 : Cons, y2 : Cons): int =
       let

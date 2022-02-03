@@ -63,7 +63,7 @@ for i := 0 to 30 do (
             freeMins[c - r + 7] := v
           )
           
-          [[Dec]]
+          $Dec
             
             
           var freeRows3  : intArray := intArray[ 8] of  1

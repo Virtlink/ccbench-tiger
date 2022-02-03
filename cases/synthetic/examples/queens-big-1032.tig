@@ -105,7 +105,7 @@ let
   type intArray4 = array of int
 
   var row4 := intArray [N] of 0
-  var col4 := intArray [N] of [[IntConst]]
+  var col4 := intArray [N] of $IntConst
   var diag14 := intArray [N+N-1] of 0
   var diag24 := intArray [N+N-1] of 0
 

@@ -49,7 +49,7 @@ let
         print(if col[i] = j then " O" else " .");
         print("\n")
     );
-    [[ID]]("\n")
+    $ID("\n")
   )
 
   function try2(c : int, c2 : int) = (

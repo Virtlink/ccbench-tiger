@@ -220,7 +220,7 @@ let
         in
           let
             var a : int := l - r
-            var b : int := [[Exp]]
+            var b : int := $Exp
             var a2 : int := l - r
             var b2 : int := fact(a)
             var a3 : int := l - r

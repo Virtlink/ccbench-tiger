@@ -27,7 +27,7 @@ let
      i
  end
 
- type list = {first: int, [[Field]]}
+ type list = {first: int, $Field}
 
  function readlist() : list =
     let var any := any{any=0}

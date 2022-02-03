@@ -35,7 +35,7 @@ for i := 0 to 30 do (
         
         var xTail5 : Cons := x
         var yTail5 : Cons := y
-        var [[ID]] : int := 0
+        var $ID : int := 0
       in
         while yTail <> nil do (
           if xTail = nil then (

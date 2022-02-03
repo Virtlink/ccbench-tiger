@@ -118,7 +118,7 @@ let
            in c
           end
     end
-  var r4 := [[Exp]]
+  var r4 := $Exp
   function fact5(n : int, n2 : int, n3 : int, n4 : int, n5 : int) : int =
     let
       var c := n < 1

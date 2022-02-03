@@ -1,7 +1,7 @@
 /* A program to solve the 8-queens problem */
 
 let
-  var N := [[IntConst]]
+  var N := $IntConst
 
   type intArray = array of int
 

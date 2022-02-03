@@ -44,7 +44,7 @@ let
             var b : int := fact(a)
             var c : int := n * b
             var a2 : int := n - 1
-            var b2 : int := fact([[ID]])
+            var b2 : int := fact($ID)
             var c2 : int := n * b
             var a3 : int := n - 1
             var b3 : int := fact(a)

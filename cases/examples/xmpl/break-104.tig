@@ -13,6 +13,6 @@ let
   var x := 1
  in
   while x < 10 do
-    [[Exp]];
+    $Exp;
   print(inttostring(x))
 end

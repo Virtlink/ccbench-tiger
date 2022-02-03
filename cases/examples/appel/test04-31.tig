@@ -4,7 +4,7 @@ let
 function printnl(x : string) =
   (print(x); print("\n"))
 
-function mod(i : int, [[FArg]]) : int =
+function mod(i : int, $FArg) : int =
   i - ((i / j) * j)
 
 function inttostring(n : int) : string =

@@ -54,7 +54,7 @@ let
 
  function printlist(l: list) =
    if l=nil then print("\n")
-   else [[Exp]]
+   else $Exp
 
    var list1 := readlist()
    var list2 := (buffer:=getchar(); readlist())

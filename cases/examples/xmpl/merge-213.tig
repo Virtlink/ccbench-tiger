@@ -37,7 +37,7 @@ let
          else nil
     end
 
- [[Dec]]
+ $Dec
 
  function printint(i: int) =
   let function f(i:int) = if i>0 

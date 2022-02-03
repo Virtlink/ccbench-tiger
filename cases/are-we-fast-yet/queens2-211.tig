@@ -22,7 +22,7 @@ for i := 0 to 30 do (
           
           function placeQueen(c : int):int =
             let
-              var placed : int := [[Exp]]
+              var placed : int := $Exp
             in
               for r := 0 to 7 do (
                 if getRowColumn(r, c) = 1 then (

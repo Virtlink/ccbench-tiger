@@ -25,6 +25,6 @@ arr3[34] := "sfd";
 
 rec1.name := "sdf";
 rec2.dates[0] := 2323;
-[[LValue]] := 2323
+$LValue := 2323
 
 end

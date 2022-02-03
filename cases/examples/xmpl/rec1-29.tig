@@ -6,6 +6,6 @@ let
   var q     := R{f = 1}
   
 in
-  [[ID]].f;
+  $ID.f;
   q.f
 end

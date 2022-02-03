@@ -4,7 +4,7 @@ printnl -> printNewLine
 */
 
 let 
-	function printnl(x : [[ID]]) = (
+	function printnl(x : $ID) = (
 		print(x); 
 		print("\n")
 	)

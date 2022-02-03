@@ -136,7 +136,7 @@ for i := 0 to 30 do (
         var top5 : TowersDisk := piles[pile]
       in
         disk.next := top;
-        [[Exp]]
+        $Exp
       end
    
     function popDiskFrom3(pile : int, pile2 : int, pile3 : int): TowersDisk =

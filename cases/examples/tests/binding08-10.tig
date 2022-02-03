@@ -1,5 +1,5 @@
 let
-  type list = {hd : int, [[Field]]}
+  type list = {hd : int, $Field}
   function size(xs : list) : int = 
     if xs = nil then 0
     else 

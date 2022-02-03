@@ -11,7 +11,7 @@ let
           var r : int := 1
         in
           let
-            var a : int := l - [[LValue]]
+            var a : int := l - $LValue
             var b : int := fact(a)
           in
             let

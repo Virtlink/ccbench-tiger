@@ -57,7 +57,7 @@ for i := 0 to 30 do (
         in
           moveDisks(disks - 1, fromPile, otherPile);
           moveTopDisk(fromPile, toPile);
-          moveDisks([[ID]] - 1, otherPile, toPile)
+          moveDisks($ID - 1, otherPile, toPile)
         end
         
         

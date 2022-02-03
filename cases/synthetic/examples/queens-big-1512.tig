@@ -155,7 +155,7 @@ let
     if c = N then
       printboard()
     else
-      [[Exp]]
+      $Exp
   )
 in
   try(0)

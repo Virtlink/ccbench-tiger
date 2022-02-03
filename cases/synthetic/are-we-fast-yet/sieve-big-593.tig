@@ -81,7 +81,7 @@ for i := 0 to 30 do (
                 var k : int := i + i
                 var k2 : int := i + i
                 var k3 : int := i + i
-                var k4 : int := [[Var]] + i
+                var k4 : int := $Var + i
                 var k5 : int := i + i
               in
                 while k <= size do (

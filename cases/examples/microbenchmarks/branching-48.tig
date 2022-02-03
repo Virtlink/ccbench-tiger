@@ -6,7 +6,7 @@ in
       if i < 500 then
         cumsum := cumsum + 1
       else
-        [[ID]] := cumsum - 1
+        $ID := cumsum - 1
     )
   )
 end

@@ -159,7 +159,7 @@ let
       else
         let
           var l : int := n
-          var r : [[Type]] := 1
+          var r : $Type := 1
           var l2 : int := n
           var r2 : int := 1
           var l3 : int := n

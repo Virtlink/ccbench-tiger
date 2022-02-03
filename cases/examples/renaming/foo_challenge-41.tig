@@ -14,5 +14,5 @@ let
   	end
   )
 in
-  	foo([[Exp]])
+  	foo($Exp)
 end

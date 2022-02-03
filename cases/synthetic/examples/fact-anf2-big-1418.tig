@@ -197,7 +197,7 @@ let
   
   function fact5(n : int, n2 : int, n3 : int, n4 : int, n5 : int) : int =
     let
-      var c := n < [[IntConst]]
+      var c := n < $IntConst
       var c2 := n < 1
       var c3 := n < 1
       var c4 := n < 1

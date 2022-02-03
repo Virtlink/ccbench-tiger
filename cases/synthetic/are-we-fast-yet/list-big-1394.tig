@@ -205,7 +205,7 @@ for i := 0 to 30 do (
         
         var xTail4 : Cons := x
         var yTail4 : Cons := y
-        var isShorter4 : int := [[IntConst]]
+        var isShorter4 : int := $IntConst
         
         var xTail5 : Cons := x
         var yTail5 : Cons := y

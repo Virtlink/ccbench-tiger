@@ -12,6 +12,6 @@ let
       concat(inttostring(n / 10), inttostring(mod(n, 10)))
   var x := 1
  in
-  [[Exp]];
+  $Exp;
   print(inttostring(x))
 end

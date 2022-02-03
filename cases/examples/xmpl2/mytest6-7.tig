@@ -1,4 +1,4 @@
-let function f([[ID]] : int) : int =
+let function f($ID : int) : int =
     let function g(i : int) : int = 
           i
      in i + g(i)

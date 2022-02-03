@@ -7,7 +7,7 @@ let
         1
       else
         let
-          var l : int := [[Exp]]
+          var l : int := $Exp
           var r : int := 1
         in
           let

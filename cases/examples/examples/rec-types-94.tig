@@ -8,7 +8,7 @@ let
 in
   l := intlist { hd = 3, tl = l };
   t := tree {
-    [[ID]] = 2,
+    $ID = 2,
     children = treelist {
       hd = tree { key = 3, children = nil },
       tl = treelist { hd = tree { key = 4, children = nil }, tl = nil }

@@ -14,5 +14,5 @@ in
     f := f * y
   );
   print("s");
-  print(chr([[ID]]))
+  print(chr($ID))
 end

@@ -2,7 +2,7 @@
 let 
 
 	type rectype = {name:string, id:int}
-	var b:[[Type]] := nil
+	var b:$Type := nil
 
 in
 

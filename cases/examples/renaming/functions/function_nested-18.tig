@@ -5,7 +5,7 @@ plus -> add
 
 let 
 	function plus(a : int, b:int) : int = (
-		[[Exp]];
+		$Exp;
 	  let
 			function plus(a : int, b:int) : int = 
 				a + b

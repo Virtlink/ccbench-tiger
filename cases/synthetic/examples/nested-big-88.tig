@@ -8,7 +8,7 @@ let
   var x3 : int := 1
   function f3(y : int, y2 : int, y3 : int) : int =
     x + y
-  var [[ID]] : int := 1
+  var $ID : int := 1
   function f4(y : int, y2 : int, y3 : int, y4 : int) : int =
     x + y
   var x5 : int := 1

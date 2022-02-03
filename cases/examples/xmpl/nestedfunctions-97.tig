@@ -9,7 +9,7 @@ let var x := 1
         end;
         x + 5
     end;
-    let var y := [[IntConst]]
+    let var y := $IntConst
      in (x + 6) + y
     end
 end

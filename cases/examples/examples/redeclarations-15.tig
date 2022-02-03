@@ -1,7 +1,7 @@
 let
   function f(v : string) =
     let
-      var v := [[StrConst]]
+      var v := $StrConst
     in
       print(v);
       let

@@ -2,7 +2,7 @@ let
 
 type vector  = array of int
 
-type matrix = [[Type]]
+type matrix = $Type
 
 var v : vector := vector[3] of 1
 

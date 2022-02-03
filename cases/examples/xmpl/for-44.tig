@@ -9,7 +9,7 @@ let
 in 
 
   for i := 0 to 4 do
-    v[i] := [[Exp]];
+    v[i] := $Exp;
 
   v[3]
   

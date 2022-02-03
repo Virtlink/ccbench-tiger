@@ -1,5 +1,5 @@
 let
-  function [[ID]](i : int, j : int): int =
+  function $ID(i : int, j : int): int =
     i - (
       (
         i / j

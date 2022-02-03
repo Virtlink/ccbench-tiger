@@ -1,5 +1,5 @@
 let
-  var count := [[IntConst]]
+  var count := $IntConst
 in
   while count > -1 do
     break

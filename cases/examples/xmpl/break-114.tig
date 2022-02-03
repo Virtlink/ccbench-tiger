@@ -14,7 +14,7 @@ let
  in
   while x < 10 do
     (
-      x := [[ID]] + 1;
+      x := $ID + 1;
       print(inttostring(x));
       break
     );

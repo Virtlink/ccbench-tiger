@@ -21,7 +21,7 @@ let
 (    if c=N
      then printboard()
      else for r := 0 to N-1
-	   do [[Exp]]
+	   do $Exp
 )
  in try(0)
 end

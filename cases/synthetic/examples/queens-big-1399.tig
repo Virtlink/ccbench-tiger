@@ -140,7 +140,7 @@ let
   var row5 := intArray [N] of 0
   var col5 := intArray [N] of 0
   var diag15 := intArray [N+N-1] of 0
-  var diag25 := intArray [[[Exp]]+N-1] of 0
+  var diag25 := intArray [$Exp+N-1] of 0
 
   function printboard5() = (
     for i := 0 to N-1 do (

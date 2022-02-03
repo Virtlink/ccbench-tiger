@@ -37,7 +37,7 @@ for i := 0 to 30 do (
         end
       )
       
-      function sieve2(flags : intArray, size : int, flags2 : intArray, size2 : [[ID]]): int = (
+      function sieve2(flags : intArray, size : int, flags2 : intArray, size2 : $ID): int = (
         let
           var primeCount : int := 0
           var primeCount2 : int := 0

@@ -4,7 +4,7 @@ msg -> message
 */
 
 let
-	[[Dec]]
+	$Dec
 in 
 	print(msg)
 end

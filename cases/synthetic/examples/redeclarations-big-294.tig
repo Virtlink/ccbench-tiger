@@ -75,7 +75,7 @@ let
         var v2 := "7"
         var v3 := "7"
         var v4 := "7"
-        var v5 := [[Exp]]
+        var v5 := $Exp
       in
         print(v)
       end;

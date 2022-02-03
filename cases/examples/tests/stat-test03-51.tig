@@ -6,5 +6,5 @@ let
      sum := sum + n;
      n := n - 1
    );
-   [[LValue]]
+   $LValue
 end

@@ -6,7 +6,7 @@ x -> text
 let 
 	function printnl(x : string) = (
 		print(x); 
-		[[Exp]]
+		$Exp
 	)
 in
    	printnl("Hello World")

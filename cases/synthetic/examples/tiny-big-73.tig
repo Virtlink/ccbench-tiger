@@ -8,7 +8,7 @@ let
   type foo2 = int
   var x2 : int := 0
   function f2(y : int, y2 : int) : foo =
-    3 + x + [[Var]]
+    3 + x + $Var
   var y2 : int := 1
   
   type foo3 = int

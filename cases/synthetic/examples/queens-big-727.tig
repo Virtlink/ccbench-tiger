@@ -74,7 +74,7 @@ let
   var row3 := intArray [N] of 0
   var col3 := intArray [N] of 0
   var diag13 := intArray [N+N-1] of 0
-  var diag23 := intArray [N+N-[[Exp]]] of 0
+  var diag23 := intArray [N+N-$Exp] of 0
 
   function printboard3() = (
     for i := 0 to N-1 do (

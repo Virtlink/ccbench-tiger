@@ -142,7 +142,7 @@ let
   var diag15 := intArray [N+N-1] of 0
   var diag25 := intArray [N+N-1] of 0
 
-  function printboard5() = [[Exp]]
+  function printboard5() = $Exp
 
   function try5(c : int, c2 : int, c3 : int, c4 : int, c5 : int) = (
     if c = N then

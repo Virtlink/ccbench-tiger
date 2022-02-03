@@ -16,7 +16,7 @@ for i := 0 to 30 do (
           var primeCount4 : int := 0
           var primeCount5 : int := 0
         in
-          for [[Var]] := 2 to size do (
+          for $Var := 2 to size do (
             if flags[i-1] = 1 then (
               primeCount := primeCount + 1;
               let

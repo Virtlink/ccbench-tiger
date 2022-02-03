@@ -1,6 +1,6 @@
 let function f(i : int) : int =
     let function g(i : int) : int = 
-          [[Var]]
+          $Var
      in i + g(i)
     end
  in f(10)

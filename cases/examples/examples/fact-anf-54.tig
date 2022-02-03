@@ -8,7 +8,7 @@ let
       else
         let
            var a : int := n - 1
-           var b : int := fact([[ID]])
+           var b : int := fact($ID)
            var c : int := n * b
         in
            c

@@ -24,7 +24,7 @@ arr2[1].age := 23;
 arr3[34] := "sfd";
 
 rec1.name := "sdf";
-[[LValue]].dates[0] := 2323;
+$LValue.dates[0] := 2323;
 rec2.dates[2] := 2323
 
 end

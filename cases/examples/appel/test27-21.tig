@@ -4,5 +4,5 @@ let
 
 	function g(a:int):int = a 
 in
- [[Exp]]
+ $Exp
 end

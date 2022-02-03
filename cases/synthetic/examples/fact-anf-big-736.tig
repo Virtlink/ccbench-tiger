@@ -82,7 +82,7 @@ let
             var a4 : int := n - 1
             var b4 : int := fact(a)
             var c4 : int := n * b
-            var a5 : int := n - [[Exp]]
+            var a5 : int := n - $Exp
             var b5 : int := fact(a)
             var c5 : int := n * b
            in c

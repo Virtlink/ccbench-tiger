@@ -9,7 +9,7 @@ let var x := 1
         end;
         x + 5
     end;
-    let [[Dec]]
+    let $Dec
      in (x + 6) + y
     end
 end

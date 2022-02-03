@@ -4,7 +4,7 @@ let
 
   type vec = array of int
 
-  var v : vec := vec [[[IntConst]]] of 0
+  var v : vec := vec [$IntConst] of 0
 
 in 
 

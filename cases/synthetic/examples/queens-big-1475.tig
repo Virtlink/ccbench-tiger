@@ -151,7 +151,7 @@ let
     print("\n")
   )
 
-  function [[ID]](c : int, c2 : int, c3 : int, c4 : int, c5 : int) = (
+  function $ID(c : int, c2 : int, c3 : int, c4 : int, c5 : int) = (
     if c = N then
       printboard()
     else

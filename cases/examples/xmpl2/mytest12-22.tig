@@ -4,6 +4,6 @@ let
 function f(x : int) : int = 0
 
 in
-   f(f([[IntConst]])) 
+   f(f($IntConst)) 
 end
 

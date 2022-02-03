@@ -33,7 +33,7 @@ function printnl(x : string) =
   (print(x); print("\n"))
 
 in let var t : tree := node("a",node("b",nil,nil),
-                         node("c",nil,node([[Exp]],nil,nil)))
+                         node("c",nil,node($Exp,nil,nil)))
     in //printnl("start");
        //printnl(prettyprint(t));
        //printnl("end")

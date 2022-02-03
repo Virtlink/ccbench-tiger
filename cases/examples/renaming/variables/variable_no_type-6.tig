@@ -4,7 +4,7 @@ msg -> message
 */
 
 let
-	var msg := [[StrConst]]
+	var msg := $StrConst
 in 
 	print(msg)
 end

@@ -19,7 +19,7 @@ let
    in if t = nil then indent(".")
       else (indent(t.key);
             show(n+1, t.left);
-            show(n+1, [[LValue]]))
+            show(n+1, $LValue))
   end
 
  in show(0, tree); 

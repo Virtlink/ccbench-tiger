@@ -1,1 +1,0 @@
-[VarDec("xTail",Tid("Cons"),LValue2Exp(Var2LValue(Var("x")))),VarDec("yTail",Tid("Cons"),LValue2Exp(Var2LValue(Var("y")))),VarDec("isShorter",Tid("int"),Int("0"))]

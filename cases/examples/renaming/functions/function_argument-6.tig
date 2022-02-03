@@ -4,7 +4,7 @@ x -> text
 */
 
 let 
-	function printnl([[FArg]]) = (
+	function printnl($FArg) = (
 		print(x); 
 		print("\n")
 	)

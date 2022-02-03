@@ -12,7 +12,7 @@ let
         in
           let
             var a : int := l - r
-            var b : int := fact([[Var]])
+            var b : int := fact($Var)
           in
             let
               var c : int := n * b

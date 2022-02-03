@@ -14,7 +14,7 @@ let
   let function indent(s: string) =
         (write("\n");
          for i := 1 to n
-          do [[Exp]];
+          do $Exp;
          output := concat(output, s))
    in if t = nil then indent(".")
       else (indent(t.key);

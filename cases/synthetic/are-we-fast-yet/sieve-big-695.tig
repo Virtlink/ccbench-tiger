@@ -96,7 +96,7 @@ for i := 0 to 30 do (
       )
       
       function sieve4(flags : intArray, size : int, flags2 : intArray, size2 : int, flags3 : intArray, size3 : int, flags4 : intArray, size4 : int): int = (
-        [[Exp]]
+        $Exp
       )
       
       function sieve5(flags : intArray, size : int, flags2 : intArray, size2 : int, flags3 : intArray, size3 : int, flags4 : intArray, size4 : int, flags5 : intArray, size5 : int): int = (

@@ -2,7 +2,7 @@ let
   type foo = int
   var x : int := 0
   function f(y : int) : foo =
-    3 + [[LValue]] + y
+    3 + $LValue + y
   var y : int := 1
   
   type foo2 = int

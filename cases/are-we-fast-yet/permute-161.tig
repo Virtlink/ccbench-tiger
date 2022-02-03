@@ -25,7 +25,7 @@ for i := 0 to 30 do (
             let
               var i : int := n1
             in
-              while i >= 0 do [[Exp]]
+              while i >= 0 do $Exp
             end
           end
       )

@@ -25,7 +25,7 @@ for i := 0 to 30 do (
             let
               var i : int := n1
             in
-              [[Exp]]
+              $Exp
             end
           end
       )

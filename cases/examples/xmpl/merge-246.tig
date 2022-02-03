@@ -39,7 +39,7 @@ let
 
  function merge(a: list, b: list) : list =
    if a=nil then b
-   else if b=nil then [[Var]]
+   else if b=nil then $Var
    else if a.first < b.first 
       then list{first=a.first,rest=merge(a.rest,b)}
       else list{first=b.first,rest=merge(a,b.rest)}

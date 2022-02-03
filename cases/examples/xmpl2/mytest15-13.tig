@@ -2,7 +2,7 @@
 let
 
 function inttostring(n : int) : string =
-  if [[Exp]] 
+  if $Exp 
   then chr(48 + n)
   else concat(inttostring(n / 10), inttostring((n / 10)))
 

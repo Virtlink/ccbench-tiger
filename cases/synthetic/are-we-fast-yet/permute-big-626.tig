@@ -84,7 +84,7 @@ for i := 0 to 30 do (
               var i4 : int := n1
               var i5 : int := n1
             in
-              while [[ID]] >= 0 do (
+              while $ID >= 0 do (
                 swap(n1, i);
                 permute(n1);
                 swap(n1, i);

@@ -3,6 +3,6 @@ let
   function f(y : int) : int =
     x + y
 in
-  [[ID]]
+  $ID
 end
 

@@ -95,7 +95,7 @@ for i := 0 to 30 do (
    
     function moveTopDisk2(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int) = (
       pushDisk(popDiskFrom(fromPile), toPile);
-      movesDone := [[Exp]] + 1
+      movesDone := $Exp + 1
     )
    
     function buildTowerAt2(pile : int, disks : int, pile2 : int, disks2 : int) =

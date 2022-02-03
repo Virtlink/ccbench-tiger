@@ -7,6 +7,6 @@ function inttostring(n : int) : string =
   else concat(inttostring(n / 10), inttostring((n / 10)))
 
 in
-   inttostring([[IntConst]])
+   inttostring($IntConst)
 end
 

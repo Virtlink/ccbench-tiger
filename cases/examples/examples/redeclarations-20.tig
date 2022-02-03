@@ -3,7 +3,7 @@ let
     let
       var v := "6"
     in
-      print([[Exp]]);
+      print($Exp);
       let
         var v := "7"
       in

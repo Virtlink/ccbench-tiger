@@ -54,7 +54,7 @@ let
             var c4 : int := n * b
             var a5 : int := n - 1
             var b5 : int := fact(a)
-            var c5 : [[Type]] := n * b
+            var c5 : $Type := n * b
            in c
           end
     end

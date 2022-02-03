@@ -1,7 +1,7 @@
 let var x := "a\n"
     var y := "b\n"
     var z := concat(x,y)
- in print([[ID]]);
+ in print($ID);
     exit(0) 
 end
   

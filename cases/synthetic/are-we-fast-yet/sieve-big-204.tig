@@ -27,7 +27,7 @@ for i := 0 to 30 do (
                 var k5 : int := i + i
               in
                 while k <= size do (
-                  [[LValue]] := 0;
+                  $LValue := 0;
                   k := k + i
                 )
               end

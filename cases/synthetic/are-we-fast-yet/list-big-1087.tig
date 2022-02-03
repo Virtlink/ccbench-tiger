@@ -167,7 +167,7 @@ for i := 0 to 30 do (
     
     function tail3(x : Cons, y : Cons, z : Cons, x2 : Cons, y2 : Cons, z2 : Cons, x3 : Cons, y3 : Cons) : Cons =
       if isShorterThan(y, x) then
-        [[Exp]]
+        $Exp
       else
         z
         

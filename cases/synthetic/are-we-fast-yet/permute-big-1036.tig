@@ -140,7 +140,7 @@ for i := 0 to 30 do (
       var count4 : int := 0
       var v4 : vector := vector[6] of 0
       
-      function swap4(i : int, j : int, i2 : [[Type]], j2 : int, i3 : int, j3 : int, i4 : int, j4 : int) =
+      function swap4(i : int, j : int, i2 : $Type, j2 : int, i3 : int, j3 : int, i4 : int, j4 : int) =
         let
           var tmp: int := v[i]
           var tmp2: int := v[i]

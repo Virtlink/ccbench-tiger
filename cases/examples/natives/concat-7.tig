@@ -1,1 +1,1 @@
-concat("a", [[StrConst]])
+concat("a", $StrConst)

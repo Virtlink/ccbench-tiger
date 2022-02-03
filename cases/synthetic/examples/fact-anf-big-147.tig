@@ -16,7 +16,7 @@ let
             var a2 : int := n - 1
             var b2 : int := fact(a)
             var c2 : int := n * b
-            var a3 : int := [[ID]] - 1
+            var a3 : int := $ID - 1
             var b3 : int := fact(a)
             var c3 : int := n * b
             var a4 : int := n - 1

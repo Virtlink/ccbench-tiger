@@ -55,7 +55,7 @@ let
             var a5 : int := n - 1
             var b5 : int := fact(a)
             var c5 : int := n * b
-           in [[Var]]
+           in $Var
           end
     end
   var r2 := fact(10)

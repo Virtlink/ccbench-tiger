@@ -8,7 +8,7 @@ let
   var output := ""
 
   function write(s: string) =
-    [[Var]] := concat(output, s)
+    $Var := concat(output, s)
 
   function show(n: int, t: tree) =
   let function indent(s: string) =

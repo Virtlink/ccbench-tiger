@@ -1,5 +1,5 @@
 let
-  type myrec = { [[ID]] : int }
+  type myrec = { $ID : int }
   var rec1 : myrec := myrec { x = 1 }
   
   type myrec2 = { x : int, x2 : int }

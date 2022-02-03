@@ -137,7 +137,7 @@ let
               var c2 : int := n * b
               var c3 : int := n * b
               var c4 : int := n * b
-              var c5 : int := [[ID]] * b
+              var c5 : int := $ID * b
             in
               c
             end

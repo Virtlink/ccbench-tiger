@@ -104,7 +104,7 @@ for i := 0 to 30 do (
             yTail := yTail.next
           )
         );
-        [[Exp]]
+        $Exp
       end
     
     function tail2(x : Cons, y : Cons, z : Cons, x2 : Cons, y2 : Cons, z2 : Cons) : Cons =

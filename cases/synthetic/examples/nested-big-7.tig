@@ -1,5 +1,5 @@
 let
-  var x : int := [[Exp]]
+  var x : int := $Exp
   function f(y : int) : int =
     x + y
   var x2 : int := 1

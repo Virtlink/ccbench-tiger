@@ -154,7 +154,7 @@ for i := 0 to 30 do (
                     break
                   );
                   
-                  if placeQueen(c + 1) = [[Exp]] then (
+                  if placeQueen(c + 1) = $Exp then (
                     placed := 1;
                     break
                   );

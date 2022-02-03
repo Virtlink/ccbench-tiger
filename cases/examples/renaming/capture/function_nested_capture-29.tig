@@ -7,7 +7,7 @@ let
 	function plus(a : int, b:int) : int = (
 		a + b;
 	  let
-			[[Dec]]
+			$Dec
 		in 
 		 plus(1)
 		end

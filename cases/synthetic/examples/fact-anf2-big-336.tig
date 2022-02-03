@@ -46,7 +46,7 @@ let
           end
         end
     end
-  var [[ID]] := fact(10)
+  var $ID := fact(10)
 
   function fact2(n : int, n2 : int) : int =
     let

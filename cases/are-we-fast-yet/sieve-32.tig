@@ -4,7 +4,7 @@ for i := 0 to 30 do (
     type intArray = array of int
   in
     let
-      function sieve(flags : intArray, size : int): int = [[Exp]]
+      function sieve(flags : intArray, size : int): int = $Exp
     in
       let
         var flags := intArray[5000] of 1

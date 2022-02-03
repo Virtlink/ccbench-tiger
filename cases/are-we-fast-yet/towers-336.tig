@@ -49,7 +49,7 @@ for i := 0 to 30 do (
   in
     buildTowerAt(0, 13);
     movesDone := 0;
-    [[ID]](13, 0, 1);
+    $ID(13, 0, 1);
     movesDone; // 8191
     ()
   end

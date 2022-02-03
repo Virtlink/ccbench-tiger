@@ -40,7 +40,7 @@ for i := 0 to 30 do (
         moveTopDisk(fromPile, toPile)
       else
         let
-          var otherPile : int := (3 - [[Var]]) - toPile
+          var otherPile : int := (3 - $Var) - toPile
         in
           moveDisks(disks - 1, fromPile, otherPile);
           moveTopDisk(fromPile, toPile);

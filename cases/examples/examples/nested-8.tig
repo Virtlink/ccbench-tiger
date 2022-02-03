@@ -1,5 +1,5 @@
 let
-  var x : int := [[IntConst]]
+  var x : int := $IntConst
   function f(y : int) : int =
     x + y
 in

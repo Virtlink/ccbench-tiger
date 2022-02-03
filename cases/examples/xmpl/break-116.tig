@@ -14,7 +14,7 @@ let
  in
   while x < 10 do
     (
-      x := x + [[IntConst]];
+      x := x + $IntConst;
       print(inttostring(x));
       break
     );

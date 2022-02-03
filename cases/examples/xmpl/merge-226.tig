@@ -38,7 +38,7 @@ let
     end
 
  function merge(a: list, b: list) : list =
-   [[Exp]]
+   $Exp
 
  function printint(i: int) =
   let function f(i:int) = if i>0 

@@ -102,7 +102,7 @@ let
   
   var N4 := 8
 
-  type intArray4 = [[Type]]
+  type intArray4 = $Type
 
   var row4 := intArray [N] of 0
   var col4 := intArray [N] of 0

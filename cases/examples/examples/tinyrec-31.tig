@@ -3,5 +3,5 @@ let
   var rec1 : myrec := myrec { x = 1 }
 in
   rec1.x := 99;
-  [[LValue]] //  33
+  $LValue //  33
 end

@@ -36,7 +36,7 @@ for i := 0 to 30 do (
       )
     in
       permute(6);
-      [[Exp]]; // 8660
+      $Exp; // 8660
       ()
     end
   end

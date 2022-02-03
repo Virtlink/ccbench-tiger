@@ -40,7 +40,7 @@ let
           1
         else
           let
-            var a : int := [[Exp]]
+            var a : int := $Exp
             var b : int := fact(a)
             var c : int := n * b
             var a2 : int := n - 1

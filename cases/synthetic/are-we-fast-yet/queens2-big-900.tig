@@ -104,7 +104,7 @@ for i := 0 to 30 do (
           
           function placeQueen3(c : int, c2 : int, c3 : int):int =
             let
-              var placed : int := [[IntConst]]
+              var placed : int := $IntConst
             in
               for r := 0 to 7 do (
                 if getRowColumn(r, c) = 1 then (

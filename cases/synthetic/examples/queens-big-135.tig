@@ -19,7 +19,7 @@ let
     print("\n")
   )
 
-  function try(c : [[Type]]) = (
+  function try(c : $Type) = (
     if c = N then
       printboard()
     else

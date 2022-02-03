@@ -85,7 +85,7 @@ let
     print("\n")
   )
 
-  function try3(c : int, c2 : int, c3 : [[ID]]) = (
+  function try3(c : int, c2 : int, c3 : $ID) = (
     if c = N then
       printboard()
     else

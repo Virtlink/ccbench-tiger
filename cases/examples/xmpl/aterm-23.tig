@@ -3,7 +3,7 @@ let
 type aterm = {fun : string, args : alist}
 type alist = {hd : aterm, tl : alist}
 
-[[Dec]]
+$Dec
 
 function match(x : aterm, y : aterm) : int =
   if x = nil then 0

@@ -243,7 +243,7 @@ for i := 0 to 30 do (
      type arrayOfTowersDisk5 = array of TowersDisk
     
      var piles5 : arrayOfTowersDisk := arrayOfTowersDisk[3] of nil
-     var movesDone5 : int := [[IntConst]]
+     var movesDone5 : int := $IntConst
     
      function pushDisk5(disk : TowersDisk, pile : int, disk2 : TowersDisk, pile2 : int, disk3 : TowersDisk, pile3 : int, disk4 : TowersDisk, pile4 : int, disk5 : TowersDisk, pile5 : int) =
        let

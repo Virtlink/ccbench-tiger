@@ -1,6 +1,6 @@
 let
   var x : int := 1
-  [[Dec]]
+  $Dec
 in
   x
 end

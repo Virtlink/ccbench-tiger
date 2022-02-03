@@ -1,5 +1,5 @@
 let 
-  type i = [[ID]]
+  type i = $ID
   var y : i := 4
   type r = {x : i, y : i}
   var x : int := 1

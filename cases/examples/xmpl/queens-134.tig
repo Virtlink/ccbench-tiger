@@ -17,7 +17,7 @@ let
 	     print("\n"));
          print("\n"))
 
-    function try([[ID]]:int) = 
+    function try($ID:int) = 
 (    if c=N
      then printboard()
      else for r := 0 to N-1

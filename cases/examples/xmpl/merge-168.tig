@@ -29,7 +29,7 @@ let
 
  type list = {first: int, rest: list}
 
- function readlist() : [[Type]] =
+ function readlist() : $Type =
     let var any := any{any=0}
         var i := readint(any)
      in if any.any

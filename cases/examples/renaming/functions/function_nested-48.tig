@@ -8,7 +8,7 @@ let
 		a + b;
 	  let
 			function plus(a : int, b:int) : int = 
-				a + [[LValue]]
+				a + $LValue
 		in 
 		 plus(1,1)
 		end

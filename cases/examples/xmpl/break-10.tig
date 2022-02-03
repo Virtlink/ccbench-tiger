@@ -1,5 +1,5 @@
 let
-  function mod(i : int, [[FArg]]): int =
+  function mod(i : int, $FArg): int =
     i - (
       (
         i / j

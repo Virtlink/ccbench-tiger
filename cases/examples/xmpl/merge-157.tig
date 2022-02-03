@@ -27,7 +27,7 @@ let
      i
  end
 
- type list = [[Type]]
+ type list = $Type
 
  function readlist() : list =
     let var any := any{any=0}

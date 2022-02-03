@@ -232,7 +232,7 @@ let
           in
             let
               var c : int := n * b
-              var c2 : [[ID]] := n * b
+              var c2 : $ID := n * b
               var c3 : int := n * b
               var c4 : int := n * b
               var c5 : int := n * b

@@ -1,5 +1,5 @@
 let
-  var [[ID]] : int := 1
+  var $ID : int := 1
 in
   while i < 10 do (
     print(chr(i));

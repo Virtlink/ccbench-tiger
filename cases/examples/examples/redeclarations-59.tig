@@ -15,7 +15,7 @@ let
       in
         print(v)
       end;
-      [[Exp]]
+      $Exp
     end
 in
   f("4")

@@ -2,7 +2,7 @@
 let
 	var a := 0
 
-	function g(a:[[ID]]):int = a 
+	function g(a:$ID):int = a 
 in
  g(2)
 end

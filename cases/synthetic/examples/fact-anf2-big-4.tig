@@ -1,5 +1,5 @@
 let
-  function [[ID]](n : int) : int =
+  function $ID(n : int) : int =
     let
       var c := n < 1
       var c2 := n < 1

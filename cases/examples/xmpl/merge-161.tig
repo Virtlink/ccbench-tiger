@@ -27,7 +27,7 @@ let
      i
  end
 
- type list = {first: [[ID]], rest: list}
+ type list = {first: $ID, rest: list}
 
  function readlist() : list =
     let var any := any{any=0}

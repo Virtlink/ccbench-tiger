@@ -86,7 +86,7 @@ let
   )
 
   function try3(c : int, c2 : int, c3 : int) = (
-    [[Exp]]
+    $Exp
   )
   
   var N4 := 8

@@ -1,4 +1,4 @@
-let [[Dec]]
+let $Dec
  in while x < 5 do (
       x := x + 1
     )

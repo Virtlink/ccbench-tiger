@@ -10,7 +10,7 @@ let
 			function plus(a : int, b:int) : int = 
 				a + b
 		in 
-		 plus(1,[[Exp]])
+		 plus(1,$Exp)
 		end
 	)
 in

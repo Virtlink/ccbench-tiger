@@ -4,7 +4,7 @@ let
   
   function bar() : int = 42
   
-  function foo() : string = [[Exp]]
+  function foo() : string = $Exp
   
   function plus() : int = 1 + 2
   

@@ -15,5 +15,5 @@ in for i := 0 to 1 do
      for j := 0 to 2 do
        t[i][j] := i + j;
        
-   [[LValue]][1][2]
+   $LValue[1][2]
 end

@@ -1,6 +1,6 @@
 let
 
-type aterm = {fun : [[ID]], args : alist}
+type aterm = {fun : $ID, args : alist}
 type alist = {hd : aterm, tl : alist}
 
 function app(fun: string, args : alist) : aterm =

@@ -2,7 +2,7 @@
 let
   type rectype = {
      name : string, 
-     [[ID]] : int
+     $ID : int
   }
   var rec1: rectype := rectype{ name = "Nobody", age = 1000 }
  in

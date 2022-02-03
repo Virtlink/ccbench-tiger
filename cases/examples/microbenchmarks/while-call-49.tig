@@ -4,7 +4,7 @@ let
   
   function bar() : int = 42
   
-  function foo() : [[Type]] = ""
+  function foo() : $Type = ""
   
   function plus() : int = 1 + 2
   

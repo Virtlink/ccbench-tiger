@@ -249,7 +249,7 @@ for i := 0 to 30 do (
        let
          var top : TowersDisk := piles[pile]
          var top2 : TowersDisk := piles[pile]
-         var top3 : TowersDisk := piles[[[Var]]]
+         var top3 : TowersDisk := piles[$Var]
          var top4 : TowersDisk := piles[pile]
          var top5 : TowersDisk := piles[pile]
        in

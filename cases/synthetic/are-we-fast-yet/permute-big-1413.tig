@@ -183,7 +183,7 @@ for i := 0 to 30 do (
       var count5 : int := 0
       var v5 : vector := vector[6] of 0
       
-      function swap5(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int, i4 : int, j4 : int, i5 : int, j5 : [[ID]]) =
+      function swap5(i : int, j : int, i2 : int, j2 : int, i3 : int, j3 : int, i4 : int, j4 : int, i5 : int, j5 : $ID) =
         let
           var tmp: int := v[i]
           var tmp2: int := v[i]

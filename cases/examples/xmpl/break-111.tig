@@ -14,7 +14,7 @@ let
  in
   while x < 10 do
     (
-      x := [[Exp]] + 1;
+      x := $Exp + 1;
       print(inttostring(x));
       break
     );

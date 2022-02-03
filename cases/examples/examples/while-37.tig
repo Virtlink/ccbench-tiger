@@ -3,7 +3,7 @@ let
 in
   while i < 10 do (
     print(chr(i));
-    i := [[Var]] + 1
+    i := $Var + 1
   )
 end
 

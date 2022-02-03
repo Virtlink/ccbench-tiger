@@ -270,7 +270,7 @@ for i := 0 to 30 do (
          top
        end
     
-     function moveTopDisk5(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int, fromPile3 : int, [[FArg]], fromPile4 : int, toPile4 : int, fromPile5 : int, toPile5 : int) = (
+     function moveTopDisk5(fromPile : int, toPile : int, fromPile2 : int, toPile2 : int, fromPile3 : int, $FArg, fromPile4 : int, toPile4 : int, fromPile5 : int, toPile5 : int) = (
        pushDisk(popDiskFrom(fromPile), toPile);
        movesDone := movesDone + 1
      )

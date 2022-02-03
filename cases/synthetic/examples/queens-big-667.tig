@@ -67,7 +67,7 @@ let
         )
   )
   
-  [[Dec]]
+  $Dec
 
   type intArray3 = array of int
 

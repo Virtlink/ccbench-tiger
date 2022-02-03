@@ -37,7 +37,7 @@ for i := 0 to 30 do (
                     placed := 1;
                     break
                   );
-                  setRowColumn([[ID]], c, 1);
+                  setRowColumn($ID, c, 1);
                   flush()
                 )
               );

@@ -6,7 +6,7 @@ x -> text
 let 
 	function printnl(x : string) = (
 		print(x); 
-		print([[StrConst]])
+		print($StrConst)
 	)
 in
    	printnl("Hello World")

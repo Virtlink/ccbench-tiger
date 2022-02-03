@@ -82,7 +82,7 @@ let
       print(v);
       let
         var v := "8"
-        var [[ID]] := "8"
+        var $ID := "8"
         var v3 := "8"
         var v4 := "8"
         var v5 := "8"

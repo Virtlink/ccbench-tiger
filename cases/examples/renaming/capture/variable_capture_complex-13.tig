@@ -7,7 +7,7 @@ let
 	var a := 1
 in
 	let
-		var b := [[IntConst]]
+		var b := $IntConst
 	in
 		a := 2;
 		let

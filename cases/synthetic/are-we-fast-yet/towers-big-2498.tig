@@ -263,7 +263,7 @@ for i := 0 to 30 do (
          var top2 : TowersDisk := piles[pile]
          var top3 : TowersDisk := piles[pile]
          var top4 : TowersDisk := piles[pile]
-         var top5 : TowersDisk := [[Exp]]
+         var top5 : TowersDisk := $Exp
        in
          piles[pile] := top.next;
          top.next := nil;

@@ -1,6 +1,6 @@
 let
   type myrec = { x : int }
-  var rec1 : myrec := myrec { [[InitField]] }
+  var rec1 : myrec := myrec { $InitField }
 in
   rec1.x := 99;
   rec1.x //  33

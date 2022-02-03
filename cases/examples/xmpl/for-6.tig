@@ -1,5 +1,5 @@
 let 
-  var i := [[IntConst]]
+  var i := $IntConst
   var j := i
 
   type vec = array of int

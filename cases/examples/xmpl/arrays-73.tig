@@ -12,7 +12,7 @@ in for i := 0 to 1 do
      t[i] := vector[3] of i;
      
    for i := 0 to 1 do
-     for j := 0 to [[IntConst]] do
+     for j := 0 to $IntConst do
        t[i][j] := i + j;
        
    t[1][2]

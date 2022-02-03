@@ -108,7 +108,7 @@ let
         var v4 := "7"
         var v5 := "7"
       in
-        [[Exp]]
+        $Exp
       end;
       print(v);
       let

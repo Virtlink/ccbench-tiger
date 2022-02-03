@@ -1,6 +1,6 @@
 let
   function f(v : string) =
-    [[Exp]]
+    $Exp
 in
   f("4")
 end

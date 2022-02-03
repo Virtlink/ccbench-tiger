@@ -7,7 +7,7 @@ let
 		foo : string
   }
   function foo (foo: foo) = (
-  	[[Exp]]
+  	$Exp
   )
 in
   	foo(foo{foo = "foo"})

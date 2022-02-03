@@ -23,7 +23,7 @@ for i := 0 to 30 do (
           v[j] := tmp
         end
       
-      function permute([[ID]]: int) = (
+      function permute($ID: int) = (
         count := count + 1;
         if n <> 0 then
           let

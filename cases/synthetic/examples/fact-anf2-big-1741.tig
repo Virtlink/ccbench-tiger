@@ -244,5 +244,5 @@ let
     end
   var r5 := fact(10)
 in
-  [[Var]]
+  $Var
 end

@@ -148,7 +148,7 @@ for i := 0 to 30 do (
           var tmp4: int := v[i]
           var tmp5: int := v[i]
         in
-          [[ID]][i] := v[j];
+          $ID[i] := v[j];
           v[j] := tmp
         end
       

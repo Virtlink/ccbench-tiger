@@ -14,5 +14,5 @@ let
   	end
   )
 in
-  	foo(foo{foo = [[Exp]]})
+  	foo(foo{foo = $Exp})
 end

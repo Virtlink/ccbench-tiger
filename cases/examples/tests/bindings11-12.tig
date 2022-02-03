@@ -1,5 +1,5 @@
   let
-    type point = {x : int, y: [[ID]]}
+    type point = {x : int, y: $ID}
     var p := point{x = 1, y = 10}
   in 
     p.y

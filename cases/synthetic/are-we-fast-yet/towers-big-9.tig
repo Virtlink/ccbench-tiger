@@ -1,5 +1,0 @@
-// WARNING: This file trips up the JSGLR1 parser
-//https://github.com/smarr/are-we-fast-yet/blob/master/benchmarks/Java/src/Towers.java
-for i := 0 to 30 do (
-  
-)

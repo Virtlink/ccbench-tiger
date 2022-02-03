@@ -52,7 +52,7 @@ let
     print("\n")
   )
 
-  function try2(c : int, c2 : [[Type]]) = (
+  function try2(c : int, c2 : $Type) = (
     if c = N then
       printboard()
     else

@@ -123,7 +123,7 @@ for i := 0 to 30 do (
       if l.next = nil then
         1
       else
-        1 + length([[ID]].next)
+        1 + length($ID.next)
         
     function makeList3(length : int, length2 : int, length3 : int): Cons =
       if length = 0 then

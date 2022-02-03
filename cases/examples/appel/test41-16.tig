@@ -5,6 +5,6 @@ in
 	let
 		type a = string
 	in
-		[[IntConst]]
+		$IntConst
 	end
 end

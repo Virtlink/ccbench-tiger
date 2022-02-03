@@ -9,7 +9,7 @@ let
       in
         print(v)
       end;
-      print([[Var]]);
+      print($Var);
       let
         var v := "8"
       in

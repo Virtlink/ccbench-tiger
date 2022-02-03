@@ -16,7 +16,7 @@ for i := 0 to 30 do (
         piles[pile] := disk
       end
     
-    function popDiskFrom(pile : int): [[ID]] =
+    function popDiskFrom(pile : int): $ID =
       let
         var top : TowersDisk := piles[pile]
       in

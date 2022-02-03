@@ -52,7 +52,7 @@ let
       else print("0")
   end
 
- function [[ID]](l: list) =
+ function $ID(l: list) =
    if l=nil then print("\n")
    else (printint(l.first); print(" "); printlist(l.rest))
 

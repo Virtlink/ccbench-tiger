@@ -2,7 +2,7 @@ let
   var sum := 0 
   var n := 5
  in 
-   for [[ID]] := 1 to n do
+   for $ID := 1 to n do
      sum := sum + x;   
    sum
 end

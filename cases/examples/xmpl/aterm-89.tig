@@ -9,7 +9,7 @@ function app(fun: string, args : alist) : aterm =
 function match(x : aterm, y : aterm) : int =
   if x = nil then 0
   else if y = nil then 0
-  else if x.[[ID]] = y.fun then match_args(x.args, y.args)
+  else if x.$ID = y.fun then match_args(x.args, y.args)
   else 0
 
 function match_args(xs : alist, ys : alist) : int =

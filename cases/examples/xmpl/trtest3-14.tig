@@ -1,5 +1,5 @@
 let var x := 3
- in while x < [[Exp]] do (
+ in while x < $Exp do (
       x := x + 1
     )
 end

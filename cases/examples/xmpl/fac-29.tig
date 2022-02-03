@@ -1,7 +1,7 @@
 /* factorial function; example from SPIM manual */
 
 let function fact(n : int) : int = 
-      if n < 1 then 1 else (n * [[Exp]])
+      if n < 1 then 1 else (n * $Exp)
  in fact(10)
 end
    

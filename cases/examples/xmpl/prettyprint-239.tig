@@ -32,5 +32,5 @@ function node(x : string, l : tree, r : tree) : tree =
 function printnl(x : string) =
   (print(x); print("\n"))
 
-in [[Exp]]
+in $Exp
 end
